@@ -24,17 +24,17 @@
   <text x="44" y="122" fill="#526173" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">SCIENTIFIC</text>
   <text x="44" y="137" fill="#526173" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">ML</text>
 
-  <text x="178" y="60" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700">SST_FTM</text>
-  <text x="178" y="86" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700">Reconstruction Project</text>
-  <text x="178" y="108" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">field recovery with priors and operator learning</text>
+  <text x="178" y="60" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700">SST_FTM</text>
+  <text x="178" y="85" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700">Reconstruction Project</text>
+  <text x="178" y="106" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5">reconstruction with priors and operators</text>
 
-  <rect x="178" y="120" width="88" height="20" rx="10" fill="#EEF6F3"/>
-  <rect x="274" y="120" width="92" height="20" rx="10" fill="#EDF2FB"/>
-  <text x="196" y="133" fill="#4D8378" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">ocean fields</text>
-  <text x="296" y="133" fill="#5776B7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">hybrid priors</text>
+  <rect x="178" y="118" width="88" height="20" rx="10" fill="#EEF6F3"/>
+  <rect x="274" y="118" width="92" height="20" rx="10" fill="#EDF2FB"/>
+  <text x="196" y="131" fill="#4D8378" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">ocean fields</text>
+  <text x="296" y="131" fill="#5776B7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">hybrid priors</text>
 
-  <text x="178" y="154" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">Recovers sparse or corrupted geophysical fields with priors</text>
-  <text x="178" y="170" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">and operator-style learning for structured reconstruction.</text>
+  <text x="178" y="150" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5">Recovers sparse geophysical fields</text>
+  <text x="178" y="165" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5">with priors and operator learning.</text>
 
   <rect x="392" y="38" width="128" height="114" rx="22" fill="#FFFFFF" fill-opacity="0.66"/>
   <rect x="392" y="38" width="128" height="114" rx="22" stroke="#E2E8EE"/>
