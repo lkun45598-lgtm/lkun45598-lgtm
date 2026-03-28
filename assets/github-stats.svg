@@ -31,24 +31,24 @@
 
   <rect x="42" y="92" width="184" height="72" rx="16" fill="#FFFFFF" fill-opacity="0.72" stroke="#D9E2EC"/>
   <text x="62" y="119" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1.6">PUBLIC REPOS</text>
-  <text x="62" y="150" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">12</text>
+  <text x="62" y="150" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">11</text>
 
   <rect x="250" y="92" width="184" height="72" rx="16" fill="#FFFFFF" fill-opacity="0.72" stroke="#D9E2EC"/>
   <text x="270" y="119" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1.6">TOTAL STARS</text>
-  <text x="270" y="150" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">41</text>
+  <text x="270" y="150" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">53</text>
 
   <rect x="458" y="92" width="184" height="72" rx="16" fill="#FFFFFF" fill-opacity="0.72" stroke="#D9E2EC"/>
   <text x="478" y="119" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1.6">FOLLOWERS</text>
-  <text x="478" y="150" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">18</text>
+  <text x="478" y="150" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">5</text>
 
   <rect x="666" y="92" width="184" height="72" rx="16" fill="#FFFFFF" fill-opacity="0.72" stroke="#D9E2EC"/>
   <text x="686" y="119" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1.6">CONTRIBUTIONS (1Y)</text>
-  <text x="686" y="150" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">286</text>
+  <text x="686" y="150" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">263</text>
 
   <rect x="874" y="92" width="184" height="72" rx="16" fill="#FFFFFF" fill-opacity="0.72" stroke="#D9E2EC"/>
   <text x="894" y="119" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1.6">COMMITS (1Y)</text>
-  <text x="894" y="150" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">214</text>
+  <text x="894" y="150" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">187</text>
 
 
-  <text x="44" y="184" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">UPDATED demo mode</text>
+  <text x="44" y="184" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">UPDATED 2026-03-28 09:15 UTC</text>
 </svg>
