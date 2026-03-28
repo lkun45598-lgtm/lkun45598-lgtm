@@ -7,7 +7,7 @@
       <stop stop-color="#FBF8F3"/>
       <stop offset="1" stop-color="#EEF7F4"/>
     </linearGradient>
-    <linearGradient id="accent" x1="68" y1="34" x2="312" y2="144" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="398" y1="126" x2="516" y2="78" gradientUnits="userSpaceOnUse">
       <stop stop-color="#EA580C"/>
       <stop offset="0.55" stop-color="#2563EB"/>
       <stop offset="1" stop-color="#0F766E"/>
@@ -17,40 +17,38 @@
   <rect x="12" y="12" width="536" height="166" rx="28" fill="url(#bg)"/>
   <rect x="12" y="12" width="536" height="166" rx="28" stroke="#D8E2EC"/>
 
-  <rect x="32" y="32" width="84" height="22" rx="11" fill="#FFF0E5"/>
-  <text x="47" y="47" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">LAYER 01</text>
+  <rect x="28" y="28" width="124" height="134" rx="24" fill="#FFFFFF" fill-opacity="0.78"/>
+  <rect x="28" y="28" width="124" height="134" rx="24" stroke="#E2E8F0"/>
+  <rect x="44" y="44" width="60" height="20" rx="10" fill="#FFF0E5"/>
+  <text x="54" y="58" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">PROJECT</text>
+  <text x="44" y="98" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="700">01</text>
+  <text x="44" y="122" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">AGENT</text>
+  <text x="44" y="137" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">SYSTEMS</text>
 
-  <text x="32" y="79" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Private Ocean Agent</text>
-  <text x="32" y="105" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Infrastructure</text>
+  <text x="178" y="62" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Private Ocean Agent</text>
+  <text x="178" y="89" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Infrastructure</text>
 
-  <rect x="32" y="119" width="86" height="20" rx="10" fill="#E7F0FF"/>
-  <rect x="126" y="119" width="74" height="20" rx="10" fill="#E5F7F1"/>
-  <rect x="208" y="119" width="126" height="20" rx="10" fill="#FFF0E5"/>
-  <text x="49" y="132" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">sse streams</text>
-  <text x="145" y="132" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">tool safety</text>
-  <text x="226" y="132" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">training orchestration</text>
+  <rect x="178" y="104" width="86" height="20" rx="10" fill="#E7F0FF"/>
+  <rect x="272" y="104" width="74" height="20" rx="10" fill="#E5F7F1"/>
+  <text x="195" y="117" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">sse streams</text>
+  <text x="291" y="117" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">tool safety</text>
 
-  <text x="32" y="156" fill="#475569" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">Turns scientific tasks into controlled, inspectable execution loops.</text>
+  <text x="178" y="144" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">Multi-provider service for ocean preprocessing, training orchestration,</text>
+  <text x="178" y="160" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">and inspectable execution around long-running scientific jobs.</text>
 
+  <rect x="392" y="38" width="128" height="114" rx="22" fill="#FFFFFF" fill-opacity="0.72"/>
+  <rect x="392" y="38" width="128" height="114" rx="22" stroke="#D8E2EC"/>
   <g opacity="0.22">
-    <path d="M370 42H506" stroke="#0F172A"/>
-    <path d="M370 72H506" stroke="#0F172A"/>
-    <path d="M370 102H506" stroke="#0F172A"/>
-    <path d="M370 132H506" stroke="#0F172A"/>
-    <path d="M396 34V154" stroke="#0F172A"/>
-    <path d="M432 34V154" stroke="#0F172A"/>
-    <path d="M468 34V154" stroke="#0F172A"/>
+    <path d="M408 54H504" stroke="#0F172A"/>
+    <path d="M408 80H504" stroke="#0F172A"/>
+    <path d="M408 106H504" stroke="#0F172A"/>
+    <path d="M408 132H504" stroke="#0F172A"/>
+    <path d="M432 46V144" stroke="#0F172A"/>
+    <path d="M464 46V144" stroke="#0F172A"/>
+    <path d="M496 46V144" stroke="#0F172A"/>
   </g>
-
-  <path d="M392 130C418 118 432 92 454 92C476 92 485 121 504 121" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="392" cy="130" r="8" fill="#EA580C"/>
-  <circle cx="454" cy="92" r="8" fill="#2563EB"/>
-  <circle cx="504" cy="121" r="8" fill="#0F766E"/>
-
-  <rect x="372" y="48" width="82" height="22" rx="11" fill="#FFF0E5"/>
-  <rect x="420" y="144" width="64" height="22" rx="11" fill="#E7F0FF"/>
-  <rect x="462" y="60" width="56" height="22" rx="11" fill="#E5F7F1"/>
-  <text x="387" y="63" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">data intake</text>
-  <text x="437" y="159" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">agents</text>
-  <text x="476" y="75" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">training</text>
+  <path d="M416 122C434 112 446 88 460 88C474 88 482 116 494 116C503 116 509 106 516 98" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="416" cy="122" r="7" fill="#EA580C"/>
+  <circle cx="460" cy="88" r="7" fill="#2563EB"/>
+  <circle cx="494" cy="116" r="7" fill="#0F766E"/>
 </svg>

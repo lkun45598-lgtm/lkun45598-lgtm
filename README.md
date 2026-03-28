@@ -30,9 +30,9 @@
 
 I am an undergraduate in Artificial Intelligence building AI-for-Science systems from infrastructure to modeling.
 
-The main thread across this profile is turning scientific questions into reproducible engineering loops: inspect data, call tools, run controlled workflows, train models, and keep the process understandable.
+My work spans several adjacent directions in AI for Science, including agent systems, scientific workflows, reconstruction, and forecasting.
 
-My recent work spans private ocean-oriented agent infrastructure, public paper-to-code workflow systems, and public scientific ML repositories for reconstruction and forecasting. That is the core logic of this page.
+These projects are not one single pipeline. They are independent but representative pieces of how I approach research engineering and scientific ML.
 
 ---
 
@@ -61,9 +61,9 @@ My recent work spans private ocean-oriented agent infrastructure, public paper-t
 
 ---
 
-## AI for Science Stack
+## Selected Projects
 
-Read this profile from top to bottom as one connected stack: infrastructure, workflow, reconstruction, and forecasting.
+Four projects that represent different parts of my current work in AI for Science.
 
 <table>
   <tr>
@@ -91,7 +91,7 @@ Read this profile from top to bottom as one connected stack: infrastructure, wor
 </table>
 
 <p align="center">
-  <sub>Infrastructure makes workflows reliable; workflows support reconstruction and forecasting in physical systems.</sub>
+  <sub>These are independent projects rather than one fixed pipeline.</sub>
 </p>
 
 ---

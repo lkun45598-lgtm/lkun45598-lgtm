@@ -7,7 +7,7 @@
       <stop stop-color="#FFF9F4"/>
       <stop offset="1" stop-color="#F3F7FF"/>
     </linearGradient>
-    <linearGradient id="accent" x1="360" y1="128" x2="514" y2="72" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="398" y1="126" x2="516" y2="78" gradientUnits="userSpaceOnUse">
       <stop stop-color="#EA580C"/>
       <stop offset="0.55" stop-color="#2563EB"/>
       <stop offset="1" stop-color="#0F766E"/>
@@ -17,32 +17,36 @@
   <rect x="12" y="12" width="536" height="166" rx="28" fill="url(#bg)"/>
   <rect x="12" y="12" width="536" height="166" rx="28" stroke="#D8E2EC"/>
 
-  <rect x="32" y="32" width="84" height="22" rx="11" fill="#FFF0E5"/>
-  <text x="47" y="47" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">LAYER 04</text>
+  <rect x="28" y="28" width="124" height="134" rx="24" fill="#FFFFFF" fill-opacity="0.78"/>
+  <rect x="28" y="28" width="124" height="134" rx="24" stroke="#E2E8F0"/>
+  <rect x="44" y="44" width="60" height="20" rx="10" fill="#FFF0E5"/>
+  <text x="54" y="58" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">PROJECT</text>
+  <text x="44" y="98" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="36" font-weight="700">04</text>
+  <text x="44" y="122" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">PHYSICAL</text>
+  <text x="44" y="137" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">FORECAST</text>
 
-  <text x="32" y="77" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Ifactformer</text>
-  <text x="32" y="103" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Earthquake Prediction</text>
+  <text x="178" y="62" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Ifactformer</text>
+  <text x="178" y="89" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">Earthquake Prediction</text>
 
-  <rect x="32" y="118" width="74" height="20" rx="10" fill="#FFF0E5"/>
-  <rect x="114" y="118" width="88" height="20" rx="10" fill="#E7F0FF"/>
-  <rect x="210" y="118" width="92" height="20" rx="10" fill="#E5F7F1"/>
-  <text x="49" y="131" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">wavefield</text>
-  <text x="138" y="131" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">forecasting</text>
-  <text x="233" y="131" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">long horizon</text>
+  <rect x="178" y="104" width="74" height="20" rx="10" fill="#FFF0E5"/>
+  <rect x="260" y="104" width="88" height="20" rx="10" fill="#E7F0FF"/>
+  <text x="195" y="117" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">wavefield</text>
+  <text x="284" y="117" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">forecasting</text>
 
-  <text x="32" y="156" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">Stable rollout for long-range physical prediction in spatiotemporal systems.</text>
+  <text x="178" y="144" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">Stable rollout for long-range physical prediction in spatiotemporal</text>
+  <text x="178" y="160" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">systems with staged training and autoregressive forecasting.</text>
 
-  <rect x="356" y="42" width="152" height="104" rx="20" fill="#FFFFFF" fill-opacity="0.74" stroke="#D8E2EC"/>
+  <rect x="392" y="38" width="128" height="114" rx="22" fill="#FFFFFF" fill-opacity="0.72"/>
+  <rect x="392" y="38" width="128" height="114" rx="22" stroke="#D8E2EC"/>
   <g opacity="0.24">
-    <path d="M372 58H492" stroke="#0F172A"/>
-    <path d="M372 82H492" stroke="#0F172A"/>
-    <path d="M372 106H492" stroke="#0F172A"/>
-    <path d="M372 130H492" stroke="#0F172A"/>
+    <path d="M408 56H504" stroke="#0F172A"/>
+    <path d="M408 80H504" stroke="#0F172A"/>
+    <path d="M408 104H504" stroke="#0F172A"/>
+    <path d="M408 128H504" stroke="#0F172A"/>
   </g>
-  <path d="M372 118C384 112 395 86 408 86C421 86 428 126 440 126C452 126 458 72 471 72C482 72 489 96 500 96" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
-  <path d="M372 132C384 127 395 108 408 108C421 108 428 141 440 141C452 141 458 96 471 96C482 96 489 114 500 114" stroke="#2563EB" stroke-opacity="0.18" stroke-width="3" stroke-linecap="round"/>
-
-  <circle cx="408" cy="86" r="6" fill="#2563EB"/>
-  <circle cx="440" cy="126" r="6" fill="#EA580C"/>
-  <circle cx="471" cy="72" r="6" fill="#0F766E"/>
+  <path d="M408 118C418 112 428 86 440 86C452 86 458 124 470 124C482 124 488 72 500 72" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M408 132C418 128 428 108 440 108C452 108 458 140 470 140C482 140 488 94 500 94" stroke="#2563EB" stroke-opacity="0.18" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="440" cy="86" r="6" fill="#2563EB"/>
+  <circle cx="470" cy="124" r="6" fill="#EA580C"/>
+  <circle cx="500" cy="72" r="6" fill="#0F766E"/>
 </svg>
