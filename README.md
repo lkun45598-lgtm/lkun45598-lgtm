@@ -81,27 +81,25 @@ What connects these areas is the same goal: turning ideas into reproducible syst
 
 ## Featured Projects
 
-<table>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/lkun45598-lgtm/RL_for_Agent">
-        <img src="./assets/card-agent-workflow.svg" alt="RL_for_Agent project card" width="100%" />
-      </a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/lkun45598-lgtm/SST_FTM">
-        <img src="./assets/card-scientific-ml.svg" alt="SST_FTM project card" width="100%" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center" valign="top">
-      <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">
-        <img src="./assets/card-wavefield-forecasting.svg" alt="Ifactformer-Earthquake-Prediction project card" width="100%" />
-      </a>
-    </td>
-  </tr>
-</table>
+A few projects that best represent how I work.
+
+<p align="center">
+  <a href="https://github.com/lkun45598-lgtm/RL_for_Agent">
+    <img src="./assets/card-agent-workflow.svg" alt="RL_for_Agent project card" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/lkun45598-lgtm/SST_FTM">
+    <img src="./assets/card-scientific-ml.svg" alt="SST_FTM project card" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">
+    <img src="./assets/card-wavefield-forecasting.svg" alt="Ifactformer-Earthquake-Prediction project card" width="100%" />
+  </a>
+</p>
 
 ---
 

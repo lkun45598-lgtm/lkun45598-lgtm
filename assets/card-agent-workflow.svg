@@ -1,42 +1,50 @@
-<svg width="560" height="240" viewBox="0 0 560 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1120" height="220" viewBox="0 0 1120 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">RL_for_Agent card</title>
   <desc id="desc">A featured project card for RL_for_Agent and its paper to code experimentation loop.</desc>
 
   <defs>
-    <linearGradient id="bg" x1="22" y1="18" x2="534" y2="222" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#F7FCFB"/>
-      <stop offset="1" stop-color="#EEF4FF"/>
+    <linearGradient id="bg" x1="18" y1="18" x2="1096" y2="202" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FAF7F1"/>
+      <stop offset="0.52" stop-color="#F4FBF8"/>
+      <stop offset="1" stop-color="#F2F6FF"/>
     </linearGradient>
-    <linearGradient id="accent" x1="84" y1="88" x2="454" y2="188" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="760" y1="72" x2="1044" y2="156" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0F766E"/>
       <stop offset="1" stop-color="#2563EB"/>
     </linearGradient>
+    <filter id="shadow" x="-10" y="-10" width="1140" height="240" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
   </defs>
 
-  <rect x="10" y="10" width="540" height="220" rx="24" fill="url(#bg)"/>
-  <rect x="10" y="10" width="540" height="220" rx="24" stroke="#D7E3EE"/>
+  <g filter="url(#shadow)">
+    <rect x="10" y="10" width="1100" height="200" rx="26" fill="url(#bg)"/>
+    <rect x="10" y="10" width="1100" height="200" rx="26" stroke="#D7E3EE"/>
+  </g>
 
-  <text x="36" y="48" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="2">FEATURED 01</text>
-  <text x="36" y="84" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">RL_for_Agent</text>
-  <text x="36" y="113" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">An agent service for paper reading, code editing, tool use, and iterative experimentation.</text>
+  <text x="42" y="52" fill="#0F766E" fill-opacity="0.88" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2.2">AGENT SYSTEMS</text>
+  <text x="42" y="88" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">RL_for_Agent</text>
+  <text x="42" y="116" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">An agent service for paper reading, code editing, tool use,</text>
+  <text x="42" y="140" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">and iterative experimentation.</text>
 
-  <rect x="36" y="134" width="152" height="30" rx="15" fill="#D1FAE5"/>
-  <text x="57" y="154" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">Track: Agents</text>
+  <rect x="42" y="164" width="88" height="24" rx="12" fill="#E5F7F1"/>
+  <rect x="140" y="164" width="106" height="24" rx="12" fill="#E7F0FF"/>
+  <rect x="256" y="164" width="142" height="24" rx="12" fill="#F3EDFF"/>
+  <text x="61" y="180" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">agents</text>
+  <text x="165" y="180" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">tool use</text>
+  <text x="281" y="180" fill="#6D28D9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">code editing</text>
 
-  <rect x="36" y="178" width="96" height="26" rx="13" fill="#DBEAFE"/>
-  <rect x="142" y="178" width="82" height="26" rx="13" fill="#E0F2FE"/>
-  <rect x="234" y="178" width="96" height="26" rx="13" fill="#EDE9FE"/>
-  <rect x="340" y="178" width="82" height="26" rx="13" fill="#FFEDD5"/>
-  <text x="58" y="196" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">REST</text>
-  <text x="170" y="196" fill="#0369A1" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">SSE</text>
-  <text x="256" y="196" fill="#6D28D9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">Sandbox</text>
-  <text x="359" y="196" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">KODE SDK</text>
+  <text x="42" y="204" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">REST API · SSE streaming · sandboxed execution</text>
 
-  <path d="M344 141H505" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
-  <circle cx="366" cy="141" r="7" fill="#0F766E"/>
-  <circle cx="421" cy="141" r="7" fill="#2563EB"/>
-  <circle cx="476" cy="141" r="7" fill="#0F766E"/>
-  <text x="350" y="171" fill="#475569" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14">task</text>
-  <text x="408" y="171" fill="#475569" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14">tools</text>
-  <text x="458" y="171" fill="#475569" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14">learn</text>
+  <rect x="720" y="46" width="344" height="128" rx="22" fill="#FFFFFF" fill-opacity="0.74"/>
+  <rect x="720" y="46" width="344" height="128" rx="22" stroke="#D7E3EE"/>
+  <path d="M772 108H1010" stroke="url(#accent)" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="804" cy="108" r="8" fill="#0F766E"/>
+  <circle cx="890" cy="108" r="8" fill="#2563EB"/>
+  <circle cx="976" cy="108" r="8" fill="#0F766E"/>
+  <text x="780" y="87" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">papers</text>
+  <text x="870" y="87" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">edits</text>
+  <text x="956" y="87" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">runs</text>
+  <text x="764" y="145" fill="#0F172A" fill-opacity="0.86" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15">Paper-to-code loop with explicit tool boundaries</text>
+  <text x="764" y="166" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">KODE SDK / planning / sandbox / feedback</text>
 </svg>

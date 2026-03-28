@@ -1,35 +1,58 @@
-<svg width="560" height="240" viewBox="0 0 560 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1120" height="220" viewBox="0 0 1120 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">SST_FTM card</title>
   <desc id="desc">A featured project card for SST_FTM and its structured SST reconstruction pipeline.</desc>
 
   <defs>
-    <linearGradient id="bg" x1="20" y1="16" x2="538" y2="226" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFF8F1"/>
-      <stop offset="1" stop-color="#EEF7FF"/>
+    <linearGradient id="bg" x1="18" y1="18" x2="1096" y2="202" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCF8F2"/>
+      <stop offset="0.5" stop-color="#F9FCFF"/>
+      <stop offset="1" stop-color="#F3FBF8"/>
     </linearGradient>
-    <linearGradient id="curve" x1="88" y1="170" x2="506" y2="108" gradientUnits="userSpaceOnUse">
+    <linearGradient id="curve" x1="744" y1="176" x2="1048" y2="104" gradientUnits="userSpaceOnUse">
       <stop stop-color="#EA580C"/>
       <stop offset="1" stop-color="#2563EB"/>
     </linearGradient>
+    <filter id="shadow" x="-10" y="-10" width="1140" height="240" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
   </defs>
 
-  <rect x="10" y="10" width="540" height="220" rx="24" fill="url(#bg)"/>
-  <rect x="10" y="10" width="540" height="220" rx="24" stroke="#D7E3EE"/>
+  <g filter="url(#shadow)">
+    <rect x="10" y="10" width="1100" height="200" rx="26" fill="url(#bg)"/>
+    <rect x="10" y="10" width="1100" height="200" rx="26" stroke="#D7E3EE"/>
+  </g>
 
-  <text x="36" y="48" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="2">FEATURED 02</text>
-  <text x="36" y="84" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">SST_FTM</text>
-  <text x="36" y="113" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">A structured SST reconstruction project combining FTM priors, FNO residual learning, and attention.</text>
+  <text x="42" y="52" fill="#C2410C" fill-opacity="0.9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2.2">SCIENTIFIC ML</text>
+  <text x="42" y="88" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">SST_FTM</text>
+  <text x="42" y="116" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">Structured SST reconstruction combining FTM priors, operator learning,</text>
+  <text x="42" y="140" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">and attention-based residual refinement.</text>
 
-  <rect x="36" y="136" width="100" height="28" rx="14" fill="#FFEDD5"/>
-  <rect x="146" y="136" width="110" height="28" rx="14" fill="#DBEAFE"/>
-  <rect x="266" y="136" width="98" height="28" rx="14" fill="#D1FAE5"/>
-  <rect x="374" y="136" width="116" height="28" rx="14" fill="#EDE9FE"/>
-  <text x="60" y="155" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">SST</text>
-  <text x="176" y="155" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">FTM prior</text>
-  <text x="293" y="155" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">FNO</text>
-  <text x="401" y="155" fill="#6D28D9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">CBAM</text>
+  <rect x="42" y="164" width="70" height="24" rx="12" fill="#FFF0E4"/>
+  <rect x="122" y="164" width="88" height="24" rx="12" fill="#E7F0FF"/>
+  <rect x="220" y="164" width="72" height="24" rx="12" fill="#E5F7F1"/>
+  <rect x="302" y="164" width="82" height="24" rx="12" fill="#F3EDFF"/>
+  <text x="66" y="180" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">SST</text>
+  <text x="146" y="180" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">FTM</text>
+  <text x="244" y="180" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">FNO</text>
+  <text x="326" y="180" fill="#6D28D9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">CBAM</text>
 
-  <path d="M36 193C79 177 112 158 147 160C192 162 220 202 264 201C314 199 338 149 388 138C425 130 458 137 506 168" stroke="url(#curve)" stroke-width="5" stroke-linecap="round"/>
+  <text x="42" y="204" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">Track: Scientific ML / SST reconstruction</text>
 
-  <text x="36" y="208" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">Track: Scientific ML / SST reconstruction</text>
+  <rect x="720" y="46" width="344" height="128" rx="22" fill="#FFFFFF" fill-opacity="0.74"/>
+  <rect x="720" y="46" width="344" height="128" rx="22" stroke="#D7E3EE"/>
+  <g opacity="0.92">
+    <rect x="756" y="74" width="34" height="34" rx="8" fill="#FFE5D0"/>
+    <rect x="798" y="74" width="34" height="34" rx="8" fill="#F6E6D8"/>
+    <rect x="840" y="74" width="34" height="34" rx="8" fill="#E7F0FF"/>
+    <rect x="882" y="74" width="34" height="34" rx="8" fill="#D8EEFF"/>
+    <rect x="924" y="74" width="34" height="34" rx="8" fill="#D8F5EF"/>
+    <rect x="966" y="74" width="34" height="34" rx="8" fill="#EAE7FF"/>
+    <rect x="756" y="116" width="34" height="34" rx="8" fill="#FFF2E8"/>
+    <rect x="798" y="116" width="34" height="34" rx="8" fill="#E7F0FF"/>
+    <rect x="840" y="116" width="34" height="34" rx="8" fill="#CFE9FF"/>
+    <rect x="882" y="116" width="34" height="34" rx="8" fill="#D8F5EF"/>
+    <rect x="924" y="116" width="34" height="34" rx="8" fill="#E8FFF9"/>
+    <rect x="966" y="116" width="34" height="34" rx="8" fill="#F3EDFF"/>
+  </g>
+  <path d="M748 154C789 135 827 124 867 126C906 128 936 152 974 151C1010 150 1034 132 1052 118" stroke="url(#curve)" stroke-width="4" stroke-linecap="round"/>
 </svg>

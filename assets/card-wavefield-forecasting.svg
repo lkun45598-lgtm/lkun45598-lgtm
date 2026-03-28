@@ -4,33 +4,43 @@
 
   <defs>
     <linearGradient id="bg" x1="18" y1="18" x2="1096" y2="202" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FFF8F3"/>
+      <stop stop-color="#FBF7F1"/>
       <stop offset="0.48" stop-color="#F5F9FF"/>
-      <stop offset="1" stop-color="#EEF8F7"/>
+      <stop offset="1" stop-color="#F2FBF7"/>
     </linearGradient>
     <linearGradient id="wave" x1="72" y1="164" x2="1040" y2="118" gradientUnits="userSpaceOnUse">
       <stop stop-color="#EA580C"/>
       <stop offset="0.45" stop-color="#2563EB"/>
       <stop offset="1" stop-color="#0F766E"/>
     </linearGradient>
+    <filter id="shadow" x="-10" y="-10" width="1140" height="240" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0F172A" flood-opacity="0.06"/>
+    </filter>
   </defs>
 
-  <rect x="10" y="10" width="1100" height="200" rx="24" fill="url(#bg)"/>
-  <rect x="10" y="10" width="1100" height="200" rx="24" stroke="#D7E3EE"/>
+  <g filter="url(#shadow)">
+    <rect x="10" y="10" width="1100" height="200" rx="26" fill="url(#bg)"/>
+    <rect x="10" y="10" width="1100" height="200" rx="26" stroke="#D7E3EE"/>
+  </g>
 
-  <text x="36" y="48" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="2">FEATURED 03</text>
-  <text x="36" y="84" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">Ifactformer-Earthquake-Prediction</text>
-  <text x="36" y="114" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Long-horizon seismic wavefield forecasting with staged training and multi-step autoregressive rollout.</text>
+  <text x="42" y="52" fill="#C2410C" fill-opacity="0.9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2.2">WAVEFIELD FORECASTING</text>
+  <text x="42" y="88" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">Ifactformer-Earthquake-Prediction</text>
+  <text x="42" y="116" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">Long-horizon seismic wavefield forecasting with staged training</text>
+  <text x="42" y="140" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">and multi-step autoregressive rollout.</text>
 
-  <rect x="36" y="136" width="132" height="28" rx="14" fill="#FFEDD5"/>
-  <rect x="180" y="136" width="150" height="28" rx="14" fill="#DBEAFE"/>
-  <rect x="342" y="136" width="140" height="28" rx="14" fill="#D1FAE5"/>
-  <rect x="494" y="136" width="126" height="28" rx="14" fill="#EDE9FE"/>
-  <text x="64" y="155" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">wavefields</text>
-  <text x="211" y="155" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">autoregressive</text>
-  <text x="378" y="155" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">multi-step</text>
-  <text x="529" y="155" fill="#6D28D9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">forecasting</text>
+  <rect x="42" y="164" width="108" height="24" rx="12" fill="#FFF0E4"/>
+  <rect x="160" y="164" width="132" height="24" rx="12" fill="#E7F0FF"/>
+  <rect x="302" y="164" width="114" height="24" rx="12" fill="#E5F7F1"/>
+  <text x="62" y="180" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">wavefields</text>
+  <text x="185" y="180" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">autoregressive</text>
+  <text x="332" y="180" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">multi-step</text>
 
-  <path d="M38 186C96 171 139 150 184 151C243 153 284 189 344 188C415 186 462 135 532 125C588 118 641 130 699 147C763 166 810 182 869 180C924 179 977 153 1042 120" stroke="url(#wave)" stroke-width="5" stroke-linecap="round"/>
-  <text x="790" y="82" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">Track: Scientific ML / Wavefield Forecasting</text>
+  <text x="42" y="204" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">Track: Scientific ML / Wavefield forecasting</text>
+
+  <rect x="720" y="46" width="344" height="128" rx="22" fill="#FFFFFF" fill-opacity="0.74"/>
+  <rect x="720" y="46" width="344" height="128" rx="22" stroke="#D7E3EE"/>
+  <path d="M748 151C786 129 826 117 864 119C909 121 941 153 987 154C1020 155 1044 142 1062 128" stroke="url(#wave)" stroke-width="4.2" stroke-linecap="round"/>
+  <path d="M748 130C786 108 826 96 864 98C909 100 941 132 987 133C1020 134 1044 121 1062 107" stroke="#2563EB" stroke-opacity="0.28" stroke-width="3" stroke-linecap="round"/>
+  <path d="M748 172C786 150 826 138 864 140C909 142 941 174 987 175C1020 176 1044 163 1062 149" stroke="#EA580C" stroke-opacity="0.24" stroke-width="3" stroke-linecap="round"/>
+  <text x="760" y="84" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">staged training / rollout stability / long horizon</text>
 </svg>
