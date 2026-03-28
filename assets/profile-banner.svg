@@ -1,0 +1,112 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">ZhengLei profile banner</title>
+  <desc id="desc">A banner combining agent systems, scientific machine learning, and research engineering motifs.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="64" y1="44" x2="1218" y2="332" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F5EE"/>
+      <stop offset="0.55" stop-color="#EDF6F8"/>
+      <stop offset="1" stop-color="#EAF0FF"/>
+    </linearGradient>
+    <linearGradient id="accentA" x1="132" y1="78" x2="560" y2="298" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="accentB" x1="760" y1="58" x2="1146" y2="312" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EA580C"/>
+      <stop offset="1" stop-color="#C2410C"/>
+    </linearGradient>
+    <linearGradient id="lineA" x1="146" y1="268" x2="604" y2="268" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E" stop-opacity="0.04"/>
+      <stop offset="0.5" stop-color="#0F766E" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#2563EB" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="shadow" x="-20" y="-20" width="1320" height="400" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect x="20" y="20" width="1240" height="320" rx="28" fill="url(#bg)"/>
+  <rect x="20" y="20" width="1240" height="320" rx="28" stroke="#CBD5E1"/>
+
+  <g opacity="0.45">
+    <circle cx="1072" cy="92" r="126" fill="#D9F3F1"/>
+    <circle cx="1126" cy="76" r="56" fill="#FFF1E8"/>
+    <circle cx="184" cy="282" r="82" fill="#E0EEFF"/>
+  </g>
+
+  <g opacity="0.18">
+    <path d="M690 44H1210" stroke="#0F172A" stroke-width="1"/>
+    <path d="M690 72H1210" stroke="#0F172A" stroke-width="1"/>
+    <path d="M690 100H1210" stroke="#0F172A" stroke-width="1"/>
+    <path d="M690 128H1210" stroke="#0F172A" stroke-width="1"/>
+    <path d="M690 156H1210" stroke="#0F172A" stroke-width="1"/>
+    <path d="M690 184H1210" stroke="#0F172A" stroke-width="1"/>
+    <path d="M690 212H1210" stroke="#0F172A" stroke-width="1"/>
+    <path d="M690 240H1210" stroke="#0F172A" stroke-width="1"/>
+    <path d="M690 268H1210" stroke="#0F172A" stroke-width="1"/>
+    <path d="M690 296H1210" stroke="#0F172A" stroke-width="1"/>
+    <path d="M734 44V316" stroke="#0F172A" stroke-width="1"/>
+    <path d="M798 44V316" stroke="#0F172A" stroke-width="1"/>
+    <path d="M862 44V316" stroke="#0F172A" stroke-width="1"/>
+    <path d="M926 44V316" stroke="#0F172A" stroke-width="1"/>
+    <path d="M990 44V316" stroke="#0F172A" stroke-width="1"/>
+    <path d="M1054 44V316" stroke="#0F172A" stroke-width="1"/>
+    <path d="M1118 44V316" stroke="#0F172A" stroke-width="1"/>
+    <path d="M1182 44V316" stroke="#0F172A" stroke-width="1"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="58" width="560" height="244" rx="24" fill="#FFFCF8" fill-opacity="0.95"/>
+    <rect x="72" y="58" width="560" height="244" rx="24" stroke="#D6DEE8"/>
+
+    <text x="110" y="102" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="2.8">AGENT LOOP x SCIENTIFIC ML</text>
+    <text x="110" y="162" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700">ZhengLei</text>
+    <text x="110" y="204" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24">AI Agent Systems / Scientific Machine Learning</text>
+    <text x="110" y="235" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24">Research Engineering / AI + PDE</text>
+
+    <rect x="110" y="258" width="178" height="26" rx="13" fill="#DBEAFE"/>
+    <rect x="302" y="258" width="136" height="26" rx="13" fill="#D1FAE5"/>
+    <rect x="450" y="258" width="128" height="26" rx="13" fill="#FFEDD5"/>
+    <text x="125" y="276" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">paper -> code</text>
+    <text x="322" y="276" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">experiments</text>
+    <text x="474" y="276" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">iteration</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="694" y="58" width="514" height="110" rx="22" fill="#FFFFFF" fill-opacity="0.92"/>
+    <rect x="694" y="58" width="514" height="110" rx="22" stroke="#D6DEE8"/>
+
+    <text x="726" y="96" fill="#0F172A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">Agent Loop</text>
+    <path d="M726 119H1178" stroke="url(#accentA)" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="770" cy="119" r="7" fill="#0F766E"/>
+    <circle cx="901" cy="119" r="7" fill="#2563EB"/>
+    <circle cx="1032" cy="119" r="7" fill="#0F766E"/>
+    <circle cx="1147" cy="119" r="7" fill="#2563EB"/>
+    <text x="739" y="146" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">papers</text>
+    <text x="870" y="146" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">code edits</text>
+    <text x="987" y="146" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">experiments</text>
+    <text x="1099" y="146" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="18">feedback</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="694" y="184" width="514" height="118" rx="22" fill="#FFFFFF" fill-opacity="0.92"/>
+    <rect x="694" y="184" width="514" height="118" rx="22" stroke="#D6DEE8"/>
+
+    <text x="726" y="222" fill="#0F172A" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="17">Scientific ML</text>
+    <rect x="726" y="238" width="124" height="32" rx="16" fill="#DBEAFE"/>
+    <rect x="864" y="238" width="100" height="32" rx="16" fill="#D1FAE5"/>
+    <rect x="978" y="238" width="88" height="32" rx="16" fill="#FFEDD5"/>
+    <rect x="1080" y="238" width="100" height="32" rx="16" fill="#E9D5FF"/>
+    <text x="751" y="259" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">wavefields</text>
+    <text x="898" y="259" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">SST</text>
+    <text x="1007" y="259" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">PDE</text>
+    <text x="1096" y="259" fill="#6D28D9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">forecasting</text>
+    <path d="M726 286C763 265 799 258 836 260C878 262 912 288 956 289C1011 290 1048 253 1101 247C1131 244 1157 251 1180 266" stroke="url(#accentB)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.9">
+    <path d="M98 316C149 286 192 276 235 278C285 281 320 309 378 310C448 312 494 264 563 255C599 250 629 257 657 274" stroke="url(#lineA)" stroke-width="10" stroke-linecap="round"/>
+    <path d="M94 316C144 292 185 284 224 286C271 288 307 313 362 315C429 317 475 274 542 268C583 264 620 271 657 287" stroke="#2563EB" stroke-opacity="0.18" stroke-width="4" stroke-linecap="round"/>
+  </g>
+</svg>
