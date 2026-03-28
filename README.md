@@ -23,6 +23,15 @@
   <img src="https://img.shields.io/badge/Linux-Workflow-1F2937?style=for-the-badge&logo=linux&logoColor=white" alt="Linux badge" />
 </p>
 
+<p align="center">
+  <a href="#about-me">About</a> ·
+  <a href="#profile-map">Profile Map</a> ·
+  <a href="#featured-projects">Featured Projects</a> ·
+  <a href="#repository-map">Repository Map</a> ·
+  <a href="#current-interests">Current Interests</a> ·
+  <a href="#contact">Contact</a>
+</p>
+
 ---
 
 ## About Me
@@ -59,6 +68,33 @@ It reflects a path that moves from `numerical analysis foundations`, to `systems
       <h3>Agents</h3>
       <p>Agent loops that can read context, use tools, modify code, run experiments, and iterate on the result.</p>
       <p><code>tool use</code> <code>code editing</code> <code>sandbox</code> <code>paper-to-code</code> <code>iteration</code></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## Featured Projects
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/lkun45598-lgtm/RL_for_Agent">RL_for_Agent</a></h3>
+      <p><strong>Track:</strong> Agent Workflow</p>
+      <p>An AI agent service built on KODE SDK with REST and SSE interfaces, sandboxed tools, and a paper-to-code training workflow.</p>
+      <p><code>agents</code> <code>tool use</code> <code>code editing</code> <code>experimentation</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/lkun45598-lgtm/SST_FTM">SST_FTM</a></h3>
+      <p><strong>Track:</strong> Scientific ML</p>
+      <p>A structured SST reconstruction project that combines FTM priors, FNO residual learning, and CBAM-style attention.</p>
+      <p><code>SST</code> <code>FNO</code> <code>hybrid modeling</code> <code>spatiotemporal data</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3><a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">Ifactformer-Earthquake-Prediction</a></h3>
+      <p><strong>Track:</strong> Wavefield Forecasting</p>
+      <p>A long-horizon seismic wavefield prediction project focused on staged training, autoregressive rollout, and multi-step stability.</p>
+      <p><code>wavefields</code> <code>forecasting</code> <code>autoregressive</code> <code>scientific ML</code></p>
     </td>
   </tr>
 </table>
@@ -123,7 +159,7 @@ It is about building a bridge from mathematical foundations and engineering prac
 
 ---
 
-## GitHub Overview
+## Visual Highlights
 
 <table>
   <tr>
