@@ -39,16 +39,16 @@ What I care about most is turning papers into reproducible systems: something th
 <!-- stats:start -->
 <table>
   <tr>
-    <td align="center"><strong>12</strong><br /><sub>Public Repos</sub></td>
-    <td align="center"><strong>41</strong><br /><sub>Total Stars</sub></td>
-    <td align="center"><strong>18</strong><br /><sub>Followers</sub></td>
-    <td align="center"><strong>286</strong><br /><sub>Contributions (1y)</sub></td>
-    <td align="center"><strong>214</strong><br /><sub>Commits (1y)</sub></td>
+    <td align="center"><strong>11</strong><br /><sub>Public Repos</sub></td>
+    <td align="center"><strong>53</strong><br /><sub>Total Stars</sub></td>
+    <td align="center"><strong>5</strong><br /><sub>Followers</sub></td>
+    <td align="center"><strong>264</strong><br /><sub>Contributions (1y)</sub></td>
+    <td align="center"><strong>188</strong><br /><sub>Commits (1y)</sub></td>
   </tr>
 </table>
 
 <p align="center">
-  <sub>Updated demo mode. This section is refreshed automatically with GitHub Actions.</sub>
+  <sub>Updated 2026-03-28 09:25 UTC. This section is refreshed automatically with GitHub Actions.</sub>
 </p>
 <!-- stats:end -->
 
