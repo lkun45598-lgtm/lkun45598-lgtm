@@ -1,9 +1,15 @@
 {
-  "commits_last_year": 188,
-  "contributions_last_year": 264,
+  "active_days_last_year": 30,
+  "commits_last_year": 191,
+  "contributions_last_year": 267,
+  "current_streak_days": 1,
   "followers": 5,
   "login": "lkun45598-lgtm",
+  "longest_streak_days": 7,
   "public_repos": 11,
-  "stars": 53,
-  "updated_at": "2026-03-28 09:25 UTC"
+  "stars": 55,
+  "top_repo_name": "SST_Data_Imputation",
+  "top_repo_stars": 8,
+  "top_repo_url": "https://github.com/lkun45598-lgtm/SST_Data_Imputation",
+  "updated_at": "2026-03-28 09:54 UTC"
 }

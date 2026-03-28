@@ -42,15 +42,20 @@ My recent work spans private ocean-oriented agent infrastructure, public paper-t
 <table>
   <tr>
     <td align="center"><strong>11</strong><br /><sub>Public Repos</sub></td>
-    <td align="center"><strong>53</strong><br /><sub>Total Stars</sub></td>
+    <td align="center"><strong>55</strong><br /><sub>Total Stars</sub></td>
     <td align="center"><strong>5</strong><br /><sub>Followers</sub></td>
-    <td align="center"><strong>264</strong><br /><sub>Contributions (1y)</sub></td>
-    <td align="center"><strong>188</strong><br /><sub>Commits (1y)</sub></td>
+    <td align="center"><strong>267</strong><br /><sub>Contributions (1y)</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>191</strong><br /><sub>Commits (1y)</sub></td>
+    <td align="center"><strong>30</strong><br /><sub>Active Days (1y)</sub></td>
+    <td align="center"><strong>1</strong><br /><sub>Current Streak</sub></td>
+    <td align="center"><strong>7</strong><br /><sub>Best Streak</sub></td>
   </tr>
 </table>
 
 <p align="center">
-  <sub>Updated 2026-03-28 09:25 UTC. This section is refreshed automatically with GitHub Actions.</sub>
+  <sub>Most-starred public repo: <a href="https://github.com/lkun45598-lgtm/SST_Data_Imputation">SST_Data_Imputation</a> (8 stars) · Updated 2026-03-28 09:54 UTC. This section is refreshed automatically with GitHub Actions.</sub>
 </p>
 <!-- stats:end -->
 
