@@ -67,5 +67,5 @@
   <rect x="708" y="50" width="448" height="120" rx="24" stroke="#D8E2EC"/>
   <path d="M746 124C790 98 832 84 874 86C922 89 956 123 1008 124C1056 126 1094 104 1142 76" stroke="url(#accentB)" stroke-width="4.5" stroke-linecap="round"/>
   <path d="M746 144C790 118 832 104 874 106C922 109 956 143 1008 144C1056 146 1094 124 1142 96" stroke="#2563EB" stroke-opacity="0.16" stroke-width="3" stroke-linecap="round"/>
-  <text x="748" y="76" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">physical systems / long-horizon forecasting / reproducible workflows</text>
+  <text x="748" y="76" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">paper-to-code workflows / reconstruction / forecasting / physical systems</text>
 </svg>

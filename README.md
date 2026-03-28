@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  I work on tool-using agents for code and experiment automation, and on scientific ML for reconstruction and long-horizon forecasting in physical systems.
+  I work on the agent and modeling side of AI for Science: building systems that read papers, modify code, run experiments, and support scientific ML for reconstruction and forecasting in physical systems.
 </p>
 
 <p align="center">
@@ -28,9 +28,11 @@
 
 ## About
 
-I am an undergraduate in Artificial Intelligence working on AI agents for code and experiment automation, and on scientific ML for reconstruction and long-horizon forecasting.
+I am an undergraduate in Artificial Intelligence working on AI for Science from two connected directions: agent workflows for paper-to-code experimentation, and scientific ML for modeling physical systems.
 
 What I care about most is turning papers into reproducible systems: something that can be read, implemented, tested, and improved through real experimental loops.
+
+In my current work, agents are the workflow layer, while reconstruction and forecasting projects are the modeling layer. That is the main thread connecting this profile.
 
 ---
 
@@ -56,14 +58,14 @@ What I care about most is turning papers into reproducible systems: something th
 
 ## Featured Work
 
-The projects below are the clearest entry points into how I work.
+The projects below are the clearest entry points into that workflow-to-modeling pipeline.
 
 <table>
   <tr>
     <td>
       <strong><a href="https://github.com/lkun45598-lgtm/RL_for_Agent">RL_for_Agent</a></strong> · Agent Systems<br />
       Agent framework for paper reading, code editing, sandbox execution, and iterative experimentation.<br />
-      <sub>Built around explicit tool boundaries, REST and SSE services, and paper-to-code workflows.</sub>
+      <sub>This is the workflow layer: explicit tool boundaries, REST and SSE services, and paper-to-code execution loops.</sub>
     </td>
   </tr>
 </table>
@@ -73,7 +75,7 @@ The projects below are the clearest entry points into how I work.
     <td>
       <strong><a href="https://github.com/lkun45598-lgtm/SST_FTM">SST_FTM</a></strong> · Scientific ML<br />
       Structured SST reconstruction that combines FTM priors, FNO residual learning, and attention-based refinement.<br />
-      <sub>Represents my work on scientific ML for spatiotemporal and geophysical data.</sub>
+      <sub>This is the reconstruction track: recovering structured geophysical fields with hybrid scientific ML.</sub>
     </td>
   </tr>
 </table>
@@ -83,7 +85,7 @@ The projects below are the clearest entry points into how I work.
     <td>
       <strong><a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">Ifactformer-Earthquake-Prediction</a></strong> · Wavefield Forecasting<br />
       Long-horizon seismic wavefield forecasting with staged training and multi-step autoregressive rollout.<br />
-      <sub>Focused on stability and long-range prediction in physical field modeling.</sub>
+      <sub>This is the forecasting track: long-range physical prediction with autoregressive stability in mind.</sub>
     </td>
   </tr>
 </table>
@@ -92,9 +94,9 @@ The projects below are the clearest entry points into how I work.
 
 ## Focus
 
-- AI agents for code editing, tool use, and experiment automation
-- Scientific ML for reconstruction, forecasting, and physical field modeling
-- Reproducible research systems from mathematical foundations to implementation
+- Agent workflows for paper-to-code execution and experiment automation
+- Scientific ML for reconstruction of sparse or corrupted physical fields
+- Long-horizon forecasting for wavefield and spatiotemporal systems
 
 ---
 
@@ -102,10 +104,10 @@ The projects below are the clearest entry points into how I work.
 
 | Repository | Why it matters |
 | --- | --- |
-| [RL_for_Agent](https://github.com/lkun45598-lgtm/RL_for_Agent) | My main agent systems project for tool use, code modification, planning, and experimental iteration. |
-| [SST_FTM](https://github.com/lkun45598-lgtm/SST_FTM) | A hybrid scientific ML project for SST reconstruction that combines priors, operator learning, and attention. |
-| [Ifactformer-Earthquake-Prediction](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction) | A wavefield forecasting project centered on long-horizon prediction and autoregressive stability. |
-| [The-homework-of-Numerical-Analysis](https://github.com/lkun45598-lgtm/The-homework-of-Numerical-Analysis) | The mathematical foundation behind how I think about approximation, stability, and PDE-related modeling. |
+| [RL_for_Agent](https://github.com/lkun45598-lgtm/RL_for_Agent) | The workflow layer of my AI-for-Science work: tool use, code modification, planning, and experimental iteration. |
+| [SST_FTM](https://github.com/lkun45598-lgtm/SST_FTM) | The reconstruction layer: hybrid scientific ML for recovering SST fields with priors and operator learning. |
+| [Ifactformer-Earthquake-Prediction](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction) | The forecasting layer: long-horizon wavefield prediction with staged training and rollout stability. |
+| [The-homework-of-Numerical-Analysis](https://github.com/lkun45598-lgtm/The-homework-of-Numerical-Analysis) | The mathematical foundation behind how I think about approximation, stability, and physical modeling. |
 
 ---
 
