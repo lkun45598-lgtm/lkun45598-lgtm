@@ -13,6 +13,10 @@
 </p>
 
 <p align="center">
+  <em>Building research systems from mathematical foundations to agent-driven experimentation.</em>
+</p>
+
+<p align="center">
   <a href="https://github.com/lkun45598-lgtm">
     <img src="https://img.shields.io/badge/GitHub-lkun45598--lgtm-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub badge" />
   </a>
@@ -36,12 +40,13 @@
 
 ## About Me
 
-I am interested in building end-to-end research systems rather than isolated demos.
+I build end-to-end research systems rather than isolated demos.
 
-A good project, for me, is not just a model that runs once. It should have a clear problem setting, a defensible method, an implementation that can actually be reproduced, and a structure that supports the next iteration.
+A strong project, for me, is not just a model that runs once. It should have a clear problem setting, a defensible method, an implementation that can actually be reproduced, and a structure that supports the next iteration.
 
-This profile is therefore not only about one direction.  
-It reflects a path that moves from `numerical analysis foundations`, to `systems implementation`, to `scientific ML for physical / spatiotemporal problems`, and further to `agentic workflows for research and code generation`.
+My work sits on a continuous path: `numerical analysis foundations` -> `systems implementation` -> `scientific ML for physical and spatiotemporal problems` -> `agentic workflows for research and code generation`.
+
+What connects these areas is the same goal: turning ideas into reproducible systems that can be understood, extended, and improved over time.
 
 ---
 
@@ -78,23 +83,22 @@ It reflects a path that moves from `numerical analysis foundations`, to `systems
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/lkun45598-lgtm/RL_for_Agent">RL_for_Agent</a></h3>
-      <p><strong>Track:</strong> Agent Workflow</p>
-      <p>An AI agent service built on KODE SDK with REST and SSE interfaces, sandboxed tools, and a paper-to-code training workflow.</p>
-      <p><code>agents</code> <code>tool use</code> <code>code editing</code> <code>experimentation</code></p>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/lkun45598-lgtm/RL_for_Agent">
+        <img src="./assets/card-agent-workflow.svg" alt="RL_for_Agent project card" width="100%" />
+      </a>
     </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/lkun45598-lgtm/SST_FTM">SST_FTM</a></h3>
-      <p><strong>Track:</strong> Scientific ML</p>
-      <p>A structured SST reconstruction project that combines FTM priors, FNO residual learning, and CBAM-style attention.</p>
-      <p><code>SST</code> <code>FNO</code> <code>hybrid modeling</code> <code>spatiotemporal data</code></p>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/lkun45598-lgtm/SST_FTM">
+        <img src="./assets/card-scientific-ml.svg" alt="SST_FTM project card" width="100%" />
+      </a>
     </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">Ifactformer-Earthquake-Prediction</a></h3>
-      <p><strong>Track:</strong> Wavefield Forecasting</p>
-      <p>A long-horizon seismic wavefield prediction project focused on staged training, autoregressive rollout, and multi-step stability.</p>
-      <p><code>wavefields</code> <code>forecasting</code> <code>autoregressive</code> <code>scientific ML</code></p>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" valign="top">
+      <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">
+        <img src="./assets/card-wavefield-forecasting.svg" alt="Ifactformer-Earthquake-Prediction project card" width="100%" />
+      </a>
     </td>
   </tr>
 </table>
@@ -156,32 +160,6 @@ It is about building a bridge from mathematical foundations and engineering prac
   <img src="https://img.shields.io/badge/Git-DC2626?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Linux-111827?style=for-the-badge&logo=linux&logoColor=white" alt="Linux" />
 </p>
-
----
-
-## Visual Highlights
-
-<table>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/lkun45598-lgtm/RL_for_Agent">
-        <img src="./assets/card-agent-workflow.svg" alt="Agent workflow overview card" width="100%" />
-      </a>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/lkun45598-lgtm/SST_FTM">
-        <img src="./assets/card-scientific-ml.svg" alt="Scientific machine learning overview card" width="100%" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center" valign="top">
-      <a href="https://github.com/lkun45598-lgtm?tab=repositories">
-        <img src="./assets/card-profile-map.svg" alt="Profile map overview card" width="100%" />
-      </a>
-    </td>
-  </tr>
-</table>
 
 ---
 

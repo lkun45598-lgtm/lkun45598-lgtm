@@ -1,0 +1,36 @@
+<svg width="1120" height="220" viewBox="0 0 1120 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Wavefield forecasting card</title>
+  <desc id="desc">A featured project card for Ifactformer-Earthquake-Prediction and long-horizon seismic wavefield forecasting.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="18" y1="18" x2="1096" y2="202" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF8F3"/>
+      <stop offset="0.48" stop-color="#F5F9FF"/>
+      <stop offset="1" stop-color="#EEF8F7"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="72" y1="164" x2="1040" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EA580C"/>
+      <stop offset="0.45" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="10" y="10" width="1100" height="200" rx="24" fill="url(#bg)"/>
+  <rect x="10" y="10" width="1100" height="200" rx="24" stroke="#D7E3EE"/>
+
+  <text x="36" y="48" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" letter-spacing="2">FEATURED 03</text>
+  <text x="36" y="84" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">Ifactformer-Earthquake-Prediction</text>
+  <text x="36" y="114" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="17">Long-horizon seismic wavefield forecasting with staged training and multi-step autoregressive rollout.</text>
+
+  <rect x="36" y="136" width="132" height="28" rx="14" fill="#FFEDD5"/>
+  <rect x="180" y="136" width="150" height="28" rx="14" fill="#DBEAFE"/>
+  <rect x="342" y="136" width="140" height="28" rx="14" fill="#D1FAE5"/>
+  <rect x="494" y="136" width="126" height="28" rx="14" fill="#EDE9FE"/>
+  <text x="64" y="155" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">wavefields</text>
+  <text x="211" y="155" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">autoregressive</text>
+  <text x="378" y="155" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">multi-step</text>
+  <text x="529" y="155" fill="#6D28D9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">forecasting</text>
+
+  <path d="M38 186C96 171 139 150 184 151C243 153 284 189 344 188C415 186 462 135 532 125C588 118 641 130 699 147C763 166 810 182 869 180C924 179 977 153 1042 120" stroke="url(#wave)" stroke-width="5" stroke-linecap="round"/>
+  <text x="790" y="82" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">Track: Scientific ML / Wavefield Forecasting</text>
+</svg>
