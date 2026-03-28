@@ -1,0 +1,47 @@
+<svg width="560" height="190" viewBox="0 0 560 190" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">RL for Agent card</title>
+  <desc id="desc">A profile card describing the RL for Agent workflow layer.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="16" y1="16" x2="544" y2="174" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4F8FF"/>
+      <stop offset="1" stop-color="#F7FBFE"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="352" y1="126" x2="510" y2="70" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="12" y="12" width="536" height="166" rx="28" fill="url(#bg)"/>
+  <rect x="12" y="12" width="536" height="166" rx="28" stroke="#D8E2EC"/>
+
+  <rect x="32" y="32" width="84" height="22" rx="11" fill="#E7F0FF"/>
+  <text x="47" y="47" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">LAYER 02</text>
+
+  <text x="32" y="83" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">RL_for_Agent</text>
+
+  <rect x="32" y="102" width="90" height="20" rx="10" fill="#E7F0FF"/>
+  <rect x="130" y="102" width="84" height="20" rx="10" fill="#EEF7F4"/>
+  <rect x="222" y="102" width="96" height="20" rx="10" fill="#FFF0E5"/>
+  <text x="47" y="115" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">paper to code</text>
+  <text x="154" y="115" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">tool use</text>
+  <text x="242" y="115" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">sandbox loops</text>
+
+  <text x="32" y="145" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">Public workflow system for reading papers, editing code, and iterating on experiments.</text>
+
+  <rect x="352" y="42" width="148" height="104" rx="20" fill="#FFFFFF" fill-opacity="0.74" stroke="#D8E2EC"/>
+  <rect x="370" y="58" width="56" height="12" rx="6" fill="#DBEAFE"/>
+  <rect x="370" y="80" width="90" height="10" rx="5" fill="#E2E8F0"/>
+  <rect x="370" y="97" width="74" height="10" rx="5" fill="#E2E8F0"/>
+  <rect x="370" y="114" width="82" height="10" rx="5" fill="#E2E8F0"/>
+
+  <path d="M464 74H494" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
+  <path d="M464 105H494" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
+  <path d="M468 90C474 82 482 82 488 90C482 98 474 98 468 90Z" fill="url(#accent)"/>
+  <path d="M495 90L510 90" stroke="url(#accent)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="517" cy="90" r="8" fill="#0F766E"/>
+
+  <rect x="392" y="147" width="78" height="22" rx="11" fill="#EEF7F4"/>
+  <text x="409" y="162" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">workflow layer</text>
+</svg>

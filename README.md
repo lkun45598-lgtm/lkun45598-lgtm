@@ -67,63 +67,32 @@ Read this profile from top to bottom as one connected stack: infrastructure, wor
 
 <table>
   <tr>
-    <td>
-      <strong>01</strong><br />
-      <sub>INFRASTRUCTURE</sub>
+    <td width="50%" valign="top">
+      <img src="./assets/card-infrastructure.svg" alt="Private Ocean Agent Infrastructure card" width="100%" />
     </td>
-    <td>
-      <strong>Private Ocean Agent Infrastructure</strong><br />
-      <sub><code>private work</code> <code>agent systems</code> <code>ocean workflows</code></sub><br /><br />
-      Multi-provider agent service for ocean data preprocessing, training orchestration, SSE event streaming, and workflow-safe tool execution around long-running scientific jobs.<br /><br />
-      <sub>Role in the stack: the infrastructure layer that turns scientific tasks into controllable, inspectable execution loops.</sub>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lkun45598-lgtm/RL_for_Agent">
+        <img src="./assets/card-workflow.svg" alt="RL_for_Agent workflow card" width="100%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lkun45598-lgtm/SST_FTM">
+        <img src="./assets/card-reconstruction.svg" alt="SST_FTM reconstruction card" width="100%" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">
+        <img src="./assets/card-forecasting.svg" alt="Ifactformer forecasting card" width="100%" />
+      </a>
     </td>
   </tr>
 </table>
 
-<table>
-  <tr>
-    <td>
-      <strong>02</strong><br />
-      <sub>WORKFLOW</sub>
-    </td>
-    <td>
-      <strong><a href="https://github.com/lkun45598-lgtm/RL_for_Agent">RL_for_Agent</a></strong><br />
-      <sub><code>public repo</code> <code>paper-to-code</code> <code>experimentation</code></sub><br /><br />
-      Agent framework for paper reading, code editing, sandbox execution, and iterative experimentation with explicit tool boundaries.<br /><br />
-      <sub>Role in the stack: the public workflow layer for turning ideas from papers into runnable research loops.</sub>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td>
-      <strong>03</strong><br />
-      <sub>RECONSTRUCTION</sub>
-    </td>
-    <td>
-      <strong><a href="https://github.com/lkun45598-lgtm/SST_FTM">SST_FTM</a></strong><br />
-      <sub><code>public repo</code> <code>scientific ml</code> <code>ocean fields</code></sub><br /><br />
-      Structured SST reconstruction that combines FTM priors, FNO residual learning, and attention-based refinement for geophysical fields.<br /><br />
-      <sub>Role in the stack: the reconstruction layer for recovering sparse, corrupted, or partially observed physical fields.</sub>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td>
-      <strong>04</strong><br />
-      <sub>FORECASTING</sub>
-    </td>
-    <td>
-      <strong><a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">Ifactformer-Earthquake-Prediction</a></strong><br />
-      <sub><code>public repo</code> <code>wavefield</code> <code>long-horizon prediction</code></sub><br /><br />
-      Long-horizon seismic wavefield forecasting with staged training and multi-step autoregressive rollout.<br /><br />
-      <sub>Role in the stack: the forecasting layer for stable long-range prediction in physical spatiotemporal systems.</sub>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <sub>Infrastructure makes workflows reliable; workflows support reconstruction and forecasting in physical systems.</sub>
+</p>
 
 ---
 
