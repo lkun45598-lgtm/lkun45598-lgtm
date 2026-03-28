@@ -1,157 +1,311 @@
-<p align="center">
-  <img src="./assets/profile-banner.svg" alt="lkun profile banner" width="100%" />
-</p>
+<div align="center">
 
-<h1 align="center">lkun</h1>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=32&duration=3500&pause=800&color=0891b2&center=true&vCenter=true&multiline=true&width=700&height=110&lines=lkun;AI+for+Science+%7C+Agent+%2B+Scientific+ML" alt="Typing SVG" />
 
-<p align="center">
-  <strong>Research engineer building AI agents for scientific ML.</strong>
-</p>
+[![Email](https://img.shields.io/badge/lkun45598@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:lkun45598@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-lkun45598--lgtm-333333?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm)
+[![SCAU](https://img.shields.io/badge/South_China_Agricultural_University-0891b2?style=flat-square)](https://www.scau.edu.cn)
 
-<p align="center">
-  <strong>AI for Science</strong> · Artificial Intelligence undergraduate at South China Agricultural University
-</p>
+</div>
 
-<p align="center">
-  I build AI-for-Science systems across both workflow and modeling: agent infrastructure for scientific tasks, public paper-to-code experimentation systems, and scientific ML projects for reconstruction and forecasting in physical domains.
-</p>
+---
 
-<p align="center">
-  <a href="mailto:lkun45598@gmail.com">lkun45598@gmail.com</a> ·
-  <a href="https://github.com/lkun45598-lgtm">GitHub</a> ·
-  <a href="https://github.com/lkun45598-lgtm/RL_for_Agent">RL_for_Agent</a> ·
-  <a href="https://github.com/lkun45598-lgtm/SST_FTM">SST_FTM</a> ·
-  <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">Ifactformer-Earthquake-Prediction</a>
-</p>
+<div align="center">
+
+## Quick Navigation
+
+</div>
+
+<div align="center">
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+<a href="#-about">
+<img src="https://img.shields.io/badge/01_About-0891b2?style=for-the-badge" alt="About">
+</a>
+
+</td>
+<td width="33%" align="center">
+
+<a href="#-research-focus">
+<img src="https://img.shields.io/badge/02_Research_Focus-0e7490?style=for-the-badge" alt="Research Focus">
+</a>
+
+</td>
+<td width="33%" align="center">
+
+<a href="#-projects">
+<img src="https://img.shields.io/badge/03_Projects-155e75?style=for-the-badge" alt="Projects">
+</a>
+
+</td>
+</tr>
+<tr>
+<td width="33%" align="center">
+
+<a href="#-github-stats">
+<img src="https://img.shields.io/badge/04_GitHub_Stats-164e63?style=for-the-badge" alt="GitHub Stats">
+</a>
+
+</td>
+<td width="33%" align="center">
+
+<a href="#-open-repositories">
+<img src="https://img.shields.io/badge/05_Open_Repos-1e3a8a?style=for-the-badge" alt="Open Repositories">
+</a>
+
+</td>
+<td width="33%" align="center">
+
+<a href="#-contact">
+<img src="https://img.shields.io/badge/06_Contact-1e40af?style=for-the-badge" alt="Contact">
+</a>
+
+</td>
+</tr>
+</table>
+
+</div>
 
 ---
 
 ## About
 
-I am an undergraduate in Artificial Intelligence building AI-for-Science systems from infrastructure to modeling.
+*[关于我]*
 
-My work spans several adjacent directions in AI for Science, including agent systems, scientific workflows, reconstruction, and forecasting.
+I am an **Artificial Intelligence** undergraduate at South China Agricultural University, building AI-for-Science systems from infrastructure to modeling.
 
-These projects are not one single pipeline. They are independent but representative pieces of how I approach research engineering and scientific ML.
+My work spans agent infrastructure for scientific tasks, paper-to-code experimentation workflows, and scientific ML models for field reconstruction and physical dynamics forecasting. These are independent projects rather than one fixed pipeline — each represents a distinct piece of how I approach research engineering and scientific ML.
 
 ---
 
-## GitHub Pulse
+## Research Focus
+
+*[研究方向]*
+
+<div align="center">
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+<div align="center">
+
+[![Agent Infrastructure](https://img.shields.io/badge/Agent_Infrastructure-0891b2?style=flat-square)](https://github.com/lkun45598-lgtm/RL_for_Agent)
+
+**Scientific agent systems**
+
+SSE services · Tool control
+Experiment automation · Orchestration
+
+</div>
+
+</td>
+<td width="33%" valign="top">
+
+<div align="center">
+
+[![Field Reconstruction](https://img.shields.io/badge/Field_Reconstruction-0891b2?style=flat-square)](https://github.com/lkun45598-lgtm/SST_FTM)
+
+**Sparse observation recovery**
+
+Ocean fields · Geophysical data
+Operator-style learning · Priors
+
+</div>
+
+</td>
+<td width="33%" valign="top">
+
+<div align="center">
+
+[![Physical Forecasting](https://img.shields.io/badge/Physical_Forecasting-0891b2?style=flat-square)](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction)
+
+**Long-horizon dynamics**
+
+Spatiotemporal systems
+Autoregressive rollout · Stability
+
+</div>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## Projects
+
+*[精选项目]*
+
+<div align="center">
+
+[![RL_for_Agent](https://img.shields.io/badge/RL__for__Agent-0891b2?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/RL_for_Agent)
+[![SST_FTM](https://img.shields.io/badge/SST__FTM-0891b2?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/SST_FTM)
+[![Ifactformer](https://img.shields.io/badge/Ifactformer--Earthquake-0891b2?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction)
+[![Ocean Agent Infra](https://img.shields.io/badge/Ocean_Agent_Infra-lightgrey?style=flat-square&logo=lock&logoColor=white)](https://github.com/lkun45598-lgtm)
+
+</div>
+
+<br>
+
+<details>
+<summary><b>RL_for_Agent — Agent Workflow System</b></summary>
+<br>
+
+![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
+![Stars](https://img.shields.io/github/stars/lkun45598-lgtm/RL_for_Agent?style=flat-square)
+
+A public workflow system for reading papers, editing code, and iterating on experiments. The clearest public entry into my agent engineering work.
+
+| Component | Description |
+|:---|:---|
+| Paper Reader | Automated ingestion and summarization of scientific papers |
+| Code Editor | Structured code editing with agent-driven iteration |
+| Tool Use | Controlled tool invocation for scientific tasks |
+| Experiment Loop | Iterative hypothesis → code → evaluation pipeline |
+
+- **Stack**: Python · Agent SDK · LLM tooling
+- **[View Repository →](https://github.com/lkun45598-lgtm/RL_for_Agent)**
+
+</details>
+
+<details>
+<summary><b>SST_FTM — Sea Surface Temperature Reconstruction</b></summary>
+<br>
+
+![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
+![Stars](https://img.shields.io/github/stars/lkun45598-lgtm/SST_FTM?style=flat-square)
+
+Scientific ML for SST field reconstruction with ocean priors and operator-style modeling. Targets corrupted or sparse observation scenarios.
+
+| Component | Description |
+|:---|:---|
+| Operator Learning | FNO-based field reconstruction |
+| Ocean Priors | Physical constraint integration |
+| Data Pipeline | JAXA / OSTIA dataset processing |
+| Evaluation | Spatial error metrics over masked regions |
+
+- **Stack**: Python · PyTorch · FNO · Scientific data pipelines
+- **[View Repository →](https://github.com/lkun45598-lgtm/SST_FTM)**
+
+</details>
+
+<details>
+<summary><b>Ifactformer-Earthquake-Prediction — Seismic Wavefield Forecasting</b></summary>
+<br>
+
+![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
+![Stars](https://img.shields.io/github/stars/lkun45598-lgtm/Ifactformer-Earthquake-Prediction?style=flat-square)
+
+Long-horizon seismic wavefield prediction using staged training and autoregressive rollout for stability.
+
+| Component | Description |
+|:---|:---|
+| Model | iFactormer — factored attention for spatiotemporal data |
+| Training | Staged curriculum for rollout stability |
+| Rollout | Autoregressive long-horizon inference |
+| Domain | Seismic wavefield dynamics |
+
+- **Stack**: Python · PyTorch · Spatiotemporal Transformers
+- **[View Repository →](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction)**
+
+</details>
+
+<details>
+<summary><b>Ocean Agent Infrastructure — Private</b></summary>
+<br>
+
+![Status](https://img.shields.io/badge/status-private-lightgrey?style=flat-square)
+
+Private agent service for ocean data preprocessing, scientific task orchestration, and controlled execution environments.
+
+| Component | Description |
+|:---|:---|
+| SSE Service | Real-time scientific task streaming |
+| Preprocessing | Ocean dataset ingestion and transformation |
+| Orchestration | Multi-step controlled scientific execution |
+| Tool Control | Sandboxed tool invocation for reproducibility |
+
+- **Stack**: Python · SSE · Agent infrastructure
+
+</details>
+
+---
+
+## GitHub Stats
+
+*[数据统计]*
 
 <!-- stats:start -->
+<div align="center">
+
 <table>
   <tr>
     <td align="center"><strong>11</strong><br /><sub>Public Repos</sub></td>
     <td align="center"><strong>55</strong><br /><sub>Total Stars</sub></td>
     <td align="center"><strong>5</strong><br /><sub>Followers</sub></td>
     <td align="center"><strong>267</strong><br /><sub>Contributions (1y)</sub></td>
-  </tr>
-  <tr>
     <td align="center"><strong>191</strong><br /><sub>Commits (1y)</sub></td>
-    <td align="center"><strong>30</strong><br /><sub>Active Days (1y)</sub></td>
     <td align="center"><strong>1</strong><br /><sub>Current Streak</sub></td>
-    <td align="center"><strong>7</strong><br /><sub>Best Streak</sub></td>
   </tr>
 </table>
 
-<p align="center">
-  <sub>Most-starred public repo: <a href="https://github.com/lkun45598-lgtm/SST_Data_Imputation">SST_Data_Imputation</a> (8 stars) · Updated 2026-03-28 09:54 UTC. This section is refreshed automatically with GitHub Actions.</sub>
-</p>
+<sub>Most-starred: <a href="https://github.com/lkun45598-lgtm/SST_Data_Imputation">SST_Data_Imputation</a> (8 stars) · Auto-refreshed via GitHub Actions.</sub>
+
+</div>
 <!-- stats:end -->
-
----
-
-## Selected Projects
-
-Four projects that represent different parts of my current work in AI for Science.
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="./assets/card-infrastructure.svg" alt="Private Ocean Agent Infrastructure card" width="94%" />
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/lkun45598-lgtm/RL_for_Agent">
-        <img src="./assets/card-workflow.svg" alt="RL_for_Agent workflow card" width="94%" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <strong>Private Ocean Agent Infrastructure</strong>
-      <p>Private agent service for ocean preprocessing, orchestration, and controlled scientific execution.</p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/lkun45598-lgtm/RL_for_Agent"><strong>RL_for_Agent</strong></a>
-      <p>Public workflow system for reading papers, editing code, and iterating on experiments.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/lkun45598-lgtm/SST_FTM">
-        <img src="./assets/card-reconstruction.svg" alt="SST_FTM reconstruction card" width="94%" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">
-        <img src="./assets/card-forecasting.svg" alt="Ifactformer forecasting card" width="94%" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/lkun45598-lgtm/SST_FTM"><strong>SST_FTM</strong></a>
-      <p>Scientific ML for field reconstruction with ocean priors and operator-style modeling.</p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction"><strong>Ifactformer-Earthquake-Prediction</strong></a>
-      <p>Long-horizon wavefield forecasting with staged training and autoregressive rollout.</p>
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <sub>These are independent projects rather than one fixed pipeline.</sub>
-</p>
-
----
-
-## Focus
-
-- Scientific agent infrastructure with controlled tools, SSE services, and experiment automation
-- Reconstruction models for ocean and geophysical fields under sparse or corrupted observations
-- Forecasting models for long-horizon physical dynamics and spatiotemporal systems
 
 ---
 
 ## Open Repositories
 
-| Repository | Why start here |
-| --- | --- |
-| [RL_for_Agent](https://github.com/lkun45598-lgtm/RL_for_Agent) | The clearest public entry into my agent engineering: paper reading, code editing, tool use, and experimental iteration. |
-| [SST_FTM](https://github.com/lkun45598-lgtm/SST_FTM) | A reconstruction-focused scientific ML repository for SST fields, combining priors with operator-style learning. |
-| [Ifactformer-Earthquake-Prediction](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction) | A forecasting-focused repository for long-horizon seismic wavefield prediction and rollout stability. |
-| [The-homework-of-Numerical-Analysis](https://github.com/lkun45598-lgtm/The-homework-of-Numerical-Analysis) | The mathematical base behind how I think about approximation, stability, discretization, and physical modeling. |
+*[公开仓库]*
+
+| Repository | Description |
+|:---|:---|
+| [RL_for_Agent](https://github.com/lkun45598-lgtm/RL_for_Agent) | Agent workflow: paper reading, code editing, tool use, experimental iteration. |
+| [SST_FTM](https://github.com/lkun45598-lgtm/SST_FTM) | SST reconstruction combining ocean priors with operator-style learning. |
+| [Ifactformer-Earthquake-Prediction](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction) | Long-horizon seismic wavefield forecasting with autoregressive rollout. |
+| [The-homework-of-Numerical-Analysis](https://github.com/lkun45598-lgtm/The-homework-of-Numerical-Analysis) | Mathematical foundations: approximation, stability, discretization, physical modeling. |
+
+<details>
+<summary>Earlier projects</summary>
+
+<br>
+
+| Repository | Note |
+|:---|:---|
+| [High-Speed-Rail-Ticket-Booking-Management-System.](https://github.com/lkun45598-lgtm/High-Speed-Rail-Ticket-Booking-Management-System.) | C systems practice with linked lists, persistence, and order management. |
+| [PUBG-Weapon-Sound-Recognition-and-Inventory-System.](https://github.com/lkun45598-lgtm/PUBG-Weapon-Sound-Recognition-and-Inventory-System.) | ML project combining GUI, audio processing, and model training. |
+| [SST_Data_Imputation](https://github.com/lkun45598-lgtm/SST_Data_Imputation) | Earlier SST reconstruction work. |
+| [SST_Data_Imputation_2.0](https://github.com/lkun45598-lgtm/SST_Data_Imputation_2.0) | Follow-up iteration on SST reconstruction. |
+
+</details>
 
 ---
 
 ## Contact
 
-- Email: [lkun45598@gmail.com](mailto:lkun45598@gmail.com)
-- GitHub: [lkun45598-lgtm](https://github.com/lkun45598-lgtm)
-- Affiliation: South China Agricultural University
-- Open to research and engineering collaboration.
+*[联系方式]*
 
-<details>
-<summary>Earlier Projects</summary>
+<div align="center">
 
-<br />
+[![Email](https://img.shields.io/badge/lkun45598@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:lkun45598@gmail.com)
+[![GitHub](https://img.shields.io/badge/lkun45598--lgtm-333333?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm)
 
-| Repository | Note |
-| --- | --- |
-| [High-Speed-Rail-Ticket-Booking-Management-System.](https://github.com/lkun45598-lgtm/High-Speed-Rail-Ticket-Booking-Management-System.) | C systems practice with linked lists, persistence, and order management. |
-| [PUBG-Weapon-Sound-Recognition-and-Inventory-System.](https://github.com/lkun45598-lgtm/PUBG-Weapon-Sound-Recognition-and-Inventory-System.) | Application-style ML project combining GUI, audio processing, and model training. |
-| [SST_Data_Imputation](https://github.com/lkun45598-lgtm/SST_Data_Imputation) | Earlier SST reconstruction work. |
-| [SST_Data_Imputation_2.0](https://github.com/lkun45598-lgtm/SST_Data_Imputation_2.0) | A follow-up iteration on SST reconstruction and modeling. |
+Open to research and engineering collaboration.
 
-</details>
+</div>
+
+---
+
+<div align="center">
+
+> **"From agent infrastructure to scientific modeling — independent systems, coherent direction."**
+
+</div>
