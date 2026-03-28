@@ -10,8 +10,6 @@
 
 <p align="center">
   I work across numerical methods, practical software systems, scientific machine learning, and AI agent workflows.
-  <br />
-  我希望把扎实的数值分析基础、可落地的工程实现、面向物理问题的建模，以及能读论文、改代码、跑实验的 Agent 系统连接成一条完整链路。
 </p>
 
 <p align="center">
@@ -27,19 +25,18 @@
 
 ---
 
-## About Me / 关于我
+## About Me
 
 I am interested in building end-to-end research systems rather than isolated demos.
 
-对我来说，一个好的项目不只是“模型能跑”，还要同时回答这些问题：  
-它是否有清晰的问题背景、是否有合理的方法结构、是否真的能实现和复现、以及它能不能支撑下一轮迭代。
+A good project, for me, is not just a model that runs once. It should have a clear problem setting, a defensible method, an implementation that can actually be reproduced, and a structure that supports the next iteration.
 
 This profile is therefore not only about one direction.  
 It reflects a path that moves from `numerical analysis foundations`, to `systems implementation`, to `scientific ML for physical / spatiotemporal problems`, and further to `agentic workflows for research and code generation`.
 
 ---
 
-## Profile Map / 能力地图
+## Profile Map
 
 <table>
   <tr>
@@ -68,7 +65,7 @@ It reflects a path that moves from `numerical analysis foundations`, to `systems
 
 ---
 
-## Repository Map / 仓库地图
+## Repository Map
 
 | Track | Repository | What it represents |
 | --- | --- | --- |
@@ -81,7 +78,7 @@ It reflects a path that moves from `numerical analysis foundations`, to `systems
 
 ---
 
-## What Connects These Projects / 这些项目是怎么连起来的
+## What Connects These Projects
 
 1. `Numerical foundations` gave me the language to think about approximation, stability, optimization, and PDE-related problems instead of treating models as black boxes.
 2. `Systems projects` trained me to care about data structures, interfaces, permissions, persistence, and whether an idea can actually become a working piece of software.
@@ -93,7 +90,7 @@ It is about building a bridge from mathematical foundations and engineering prac
 
 ---
 
-## Current Interests / 当前重点
+## Current Interests
 
 - Building more reliable agent workflows for code editing and experiment execution
 - Turning paper understanding into executable implementation plans
@@ -103,7 +100,7 @@ It is about building a bridge from mathematical foundations and engineering prac
 
 ---
 
-## Working Style / 工程偏好
+## Working Style
 
 - I prefer projects with a clear problem statement, explicit structure, and a reproducible training or evaluation path.
 - I like systems that are modular enough to evolve: data preparation, modeling, inference, visualization, and deployment should not be mixed into one opaque script.
@@ -111,7 +108,7 @@ It is about building a bridge from mathematical foundations and engineering prac
 
 ---
 
-## Toolbox / 常用技术
+## Toolbox
 
 <p>
   <img src="https://img.shields.io/badge/Python-2563EB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />

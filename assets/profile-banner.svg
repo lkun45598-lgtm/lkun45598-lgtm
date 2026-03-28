@@ -54,17 +54,17 @@
     <rect x="72" y="62" width="560" height="296" rx="26" fill="#FFFCF8" fill-opacity="0.96"/>
     <rect x="72" y="62" width="560" height="296" rx="26" stroke="#D6DEE8"/>
 
-    <text x="108" y="104" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16" letter-spacing="2.4">FROM FOUNDATIONS TO RESEARCH SYSTEMS</text>
-    <text x="108" y="172" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="700">lkun</text>
-    <text x="108" y="218" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24">Numerical Analysis / Systems Engineering</text>
-    <text x="108" y="249" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="24">Scientific ML / Agent Workflows</text>
+    <text x="108" y="100" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="1.8">numerical analysis / systems / scientific ml / agents</text>
+    <text x="108" y="166" fill="#0F172A" fill-opacity="0.92" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="600">lkun</text>
+    <text x="108" y="212" fill="#475569" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21">Numerical Analysis / Systems Engineering</text>
+    <text x="108" y="241" fill="#475569" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="21">Scientific ML / Agent Workflows</text>
 
     <rect x="108" y="280" width="162" height="28" rx="14" fill="#DBEAFE"/>
     <rect x="282" y="280" width="126" height="28" rx="14" fill="#D1FAE5"/>
     <rect x="420" y="280" width="152" height="28" rx="14" fill="#FFEDD5"/>
-    <text x="125" y="299" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">mathematics</text>
-    <text x="302" y="299" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">implementation</text>
-    <text x="440" y="299" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13">iteration loop</text>
+    <text x="125" y="299" fill="#1D4ED8" fill-opacity="0.82" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">mathematics</text>
+    <text x="302" y="299" fill="#0F766E" fill-opacity="0.82" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">implementation</text>
+    <text x="440" y="299" fill="#C2410C" fill-opacity="0.82" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12">iteration loop</text>
 
     <path d="M108 329C166 296 214 286 262 289C319 292 359 326 425 327C497 329 545 277 615 267" stroke="url(#panelA)" stroke-width="5" stroke-linecap="round"/>
   </g>
