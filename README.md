@@ -36,13 +36,21 @@ What I care about most is turning papers into reproducible systems: something th
 
 ## GitHub Pulse
 
-<p align="center">
-  <img src="./assets/github-stats.svg" alt="Live GitHub statistics for lkun" width="100%" />
-</p>
+<!-- stats:start -->
+<table>
+  <tr>
+    <td align="center"><strong>12</strong><br /><sub>Public Repos</sub></td>
+    <td align="center"><strong>41</strong><br /><sub>Total Stars</sub></td>
+    <td align="center"><strong>18</strong><br /><sub>Followers</sub></td>
+    <td align="center"><strong>286</strong><br /><sub>Contributions (1y)</sub></td>
+    <td align="center"><strong>214</strong><br /><sub>Commits (1y)</sub></td>
+  </tr>
+</table>
 
 <p align="center">
-  <sub>Auto-updated with GitHub Actions.</sub>
+  <sub>Updated demo mode. This section is refreshed automatically with GitHub Actions.</sub>
 </p>
+<!-- stats:end -->
 
 ---
 
@@ -50,23 +58,35 @@ What I care about most is turning papers into reproducible systems: something th
 
 The projects below are the clearest entry points into how I work.
 
-<p align="center">
-  <a href="https://github.com/lkun45598-lgtm/RL_for_Agent">
-    <img src="./assets/feature-card-agent.svg" alt="RL_for_Agent featured project card" width="100%" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td>
+      <strong><a href="https://github.com/lkun45598-lgtm/RL_for_Agent">RL_for_Agent</a></strong> · Agent Systems<br />
+      Agent framework for paper reading, code editing, sandbox execution, and iterative experimentation.<br />
+      <sub>Built around explicit tool boundaries, REST and SSE services, and paper-to-code workflows.</sub>
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <a href="https://github.com/lkun45598-lgtm/SST_FTM">
-    <img src="./assets/feature-card-sst.svg" alt="SST_FTM featured project card" width="100%" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td>
+      <strong><a href="https://github.com/lkun45598-lgtm/SST_FTM">SST_FTM</a></strong> · Scientific ML<br />
+      Structured SST reconstruction that combines FTM priors, FNO residual learning, and attention-based refinement.<br />
+      <sub>Represents my work on scientific ML for spatiotemporal and geophysical data.</sub>
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">
-    <img src="./assets/feature-card-wavefield.svg" alt="Ifactformer-Earthquake-Prediction featured project card" width="100%" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td>
+      <strong><a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">Ifactformer-Earthquake-Prediction</a></strong> · Wavefield Forecasting<br />
+      Long-horizon seismic wavefield forecasting with staged training and multi-step autoregressive rollout.<br />
+      <sub>Focused on stability and long-range prediction in physical field modeling.</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 

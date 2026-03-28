@@ -8,6 +8,7 @@ import html
 import json
 import os
 import pathlib
+import re
 import sys
 import urllib.error
 import urllib.request
@@ -51,6 +52,11 @@ DEMO_STATS = {
     "commits_last_year": 214,
     "updated_at": "demo mode",
 }
+
+README_STATS_PATTERN = re.compile(
+    r"<!-- stats:start -->.*?<!-- stats:end -->",
+    flags=re.DOTALL,
+)
 
 
 def parse_args() -> argparse.Namespace:
@@ -129,16 +135,7 @@ def format_number(value: int) -> str:
     return f"{value:,}"
 
 
-def render_metric(x: int, label: str, value: str) -> str:
-    return f"""
-  <rect x="{x}" y="92" width="184" height="72" rx="16" fill="#FFFFFF" fill-opacity="0.72" stroke="#D9E2EC"/>
-  <text x="{x + 20}" y="119" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1.6">{html.escape(label.upper())}</text>
-  <text x="{x + 20}" y="150" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700">{html.escape(value)}</text>
-"""
-
-
-def render_svg(stats: dict[str, object]) -> str:
-    login = html.escape(str(stats["login"]))
+def render_stats_section(stats: dict[str, object]) -> str:
     updated_at = html.escape(str(stats["updated_at"]))
     metrics = [
         ("Public Repos", format_number(int(stats["public_repos"]))),
@@ -147,43 +144,30 @@ def render_svg(stats: dict[str, object]) -> str:
         ("Contributions (1y)", format_number(int(stats["contributions_last_year"]))),
         ("Commits (1y)", format_number(int(stats["commits_last_year"]))),
     ]
-    metric_blocks = "".join(render_metric(42 + 208 * index, label, value) for index, (label, value) in enumerate(metrics))
+    cells = "\n".join(
+        f'    <td align="center"><strong>{html.escape(value)}</strong><br /><sub>{html.escape(label)}</sub></td>'
+        for label, value in metrics
+    )
+    return f"""<!-- stats:start -->
+<table>
+  <tr>
+{cells}
+  </tr>
+</table>
 
-    return f"""<svg width="1120" height="208" viewBox="0 0 1120 208" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">GitHub stats for {login}</title>
-  <desc id="desc">Auto-updated GitHub statistics card.</desc>
+<p align="center">
+  <sub>Updated {updated_at}. This section is refreshed automatically with GitHub Actions.</sub>
+</p>
+<!-- stats:end -->"""
 
-  <defs>
-    <linearGradient id="bg" x1="18" y1="18" x2="1098" y2="190" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#FBF8F3"/>
-      <stop offset="0.5" stop-color="#F4FAF8"/>
-      <stop offset="1" stop-color="#F2F6FF"/>
-    </linearGradient>
-    <linearGradient id="stripe" x1="28" y1="26" x2="28" y2="182" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0F766E"/>
-      <stop offset="1" stop-color="#2563EB"/>
-    </linearGradient>
-    <filter id="shadow" x="-10" y="-10" width="1140" height="228" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.05"/>
-    </filter>
-  </defs>
 
-  <g filter="url(#shadow)">
-    <rect x="10" y="10" width="1100" height="188" rx="24" fill="url(#bg)"/>
-    <rect x="10" y="10" width="1100" height="188" rx="24" stroke="#D9E2EC"/>
-  </g>
-
-  <rect x="24" y="24" width="6" height="160" rx="3" fill="url(#stripe)"/>
-
-  <text x="44" y="46" fill="#0F766E" fill-opacity="0.92" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2.1">GITHUB PULSE</text>
-  <text x="44" y="78" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">Live GitHub Stats</text>
-  <text x="44" y="104" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15">Public GitHub activity for {login}, refreshed automatically through GitHub Actions.</text>
-
-{metric_blocks}
-
-  <text x="44" y="184" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">UPDATED {updated_at}</text>
-</svg>
-"""
+def update_readme(readme_path: pathlib.Path, stats: dict[str, object]) -> None:
+    content = readme_path.read_text(encoding="utf-8")
+    replacement = render_stats_section(stats)
+    if not README_STATS_PATTERN.search(content):
+        raise RuntimeError("Could not find stats markers in README.md.")
+    updated = README_STATS_PATTERN.sub(replacement, content, count=1)
+    readme_path.write_text(updated, encoding="utf-8")
 
 
 def main() -> int:
@@ -199,10 +183,10 @@ def main() -> int:
         stats = fetch_stats(args.login, args.token)
 
     json_path = output_dir / "github-stats.json"
-    svg_path = output_dir / "github-stats.svg"
+    readme_path = output_dir.parent / "README.md"
 
     json_path.write_text(json.dumps(stats, indent=2, sort_keys=True) + "\n", encoding="utf-8")
-    svg_path.write_text(render_svg(stats), encoding="utf-8")
+    update_readme(readme_path, stats)
     return 0
 
 

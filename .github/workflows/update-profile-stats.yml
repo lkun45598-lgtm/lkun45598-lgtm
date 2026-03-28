@@ -34,12 +34,12 @@ jobs:
 
       - name: Commit updated stats
         run: |
-          if git diff --quiet -- assets/github-stats.svg assets/github-stats.json; then
+          if git diff --quiet -- README.md assets/github-stats.json; then
             echo "No stats changes to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/github-stats.svg assets/github-stats.json
+          git add README.md assets/github-stats.json
           git commit -m "Update profile GitHub stats"
           git push
