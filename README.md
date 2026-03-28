@@ -128,18 +128,25 @@ It is about building a bridge from mathematical foundations and engineering prac
 
 ## GitHub Overview
 
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=lkun45598-lgtm&show_icons=true&hide_border=true&bg_color=00000000&title_color=0F766E&text_color=334155&icon_color=EA580C&ring_color=0F766E"
-    alt="GitHub stats"
-    height="170"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=lkun45598-lgtm&layout=compact&hide_border=true&bg_color=00000000&title_color=0F766E&text_color=334155"
-    alt="Top languages"
-    height="170"
-  />
-</p>
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h3>Explore</h3>
+      <p><a href="https://github.com/lkun45598-lgtm?tab=repositories">All repositories</a></p>
+      <p><a href="https://github.com/lkun45598-lgtm/lkun45598-lgtm">Profile repository</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>Main Tracks</h3>
+      <p><a href="https://github.com/lkun45598-lgtm/RL_for_Agent">Agent workflows</a></p>
+      <p><a href="https://github.com/lkun45598-lgtm/SST_FTM">Scientific ML</a></p>
+      <p><a href="https://github.com/lkun45598-lgtm/The-homework-of-Numerical-Analysis">Numerical foundations</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h3>What You Will Find</h3>
+      <p>Research-oriented code, practical system projects, scientific modeling experiments, and agent engineering workflows.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
