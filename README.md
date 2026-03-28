@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=32&duration=3500&pause=800&color=0891b2&center=true&vCenter=true&multiline=true&width=700&height=110&lines=lkun;Agent+%2B+Scientific+ML+for+Ocean+Science" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=32&duration=3500&pause=800&color=0891b2&center=true&vCenter=true&multiline=true&width=700&height=110&lines=lkun;AI+for+Ocean+Science" alt="Typing SVG" />
 
 [![Email](https://img.shields.io/badge/lkun45598@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:lkun45598@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-lkun45598--lgtm-333333?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm)
