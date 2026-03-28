@@ -29,12 +29,19 @@ query($login: String!, $cursor: String) {
       }
       nodes {
         name
+        url
         stargazerCount
       }
     }
     contributionsCollection {
       contributionCalendar {
         totalContributions
+        weeks {
+          contributionDays {
+            contributionCount
+            date
+          }
+        }
       }
       totalCommitContributions
     }
@@ -50,6 +57,12 @@ DEMO_STATS = {
     "stars": 41,
     "contributions_last_year": 286,
     "commits_last_year": 214,
+    "active_days_last_year": 104,
+    "current_streak_days": 13,
+    "longest_streak_days": 29,
+    "top_repo_name": "SST_FTM",
+    "top_repo_stars": 16,
+    "top_repo_url": "https://github.com/lkun45598-lgtm/SST_FTM",
     "updated_at": "demo mode",
 }
 
@@ -99,6 +112,12 @@ def fetch_stats(login: str, token: str) -> dict[str, object]:
     public_repos = 0
     contributions_last_year = 0
     commits_last_year = 0
+    active_days_last_year = 0
+    current_streak_days = 0
+    longest_streak_days = 0
+    top_repo_name = ""
+    top_repo_stars = 0
+    top_repo_url = ""
 
     while True:
         data = github_graphql(token, GRAPHQL_QUERY, {"login": login, "cursor": cursor})
@@ -111,9 +130,21 @@ def fetch_stats(login: str, token: str) -> dict[str, object]:
             public_repos = user["repositories"]["totalCount"]
             contributions_last_year = user["contributionsCollection"]["contributionCalendar"]["totalContributions"]
             commits_last_year = user["contributionsCollection"]["totalCommitContributions"]
+            days = []
+            for week in user["contributionsCollection"]["contributionCalendar"]["weeks"]:
+                days.extend(week["contributionDays"])
+
+            contribution_counts = [int(day["contributionCount"]) for day in days]
+            active_days_last_year = sum(1 for count in contribution_counts if count > 0)
+            current_streak_days, longest_streak_days = compute_streaks(contribution_counts)
 
         for repo in user["repositories"]["nodes"]:
-            total_stars += repo["stargazerCount"]
+            stars = int(repo["stargazerCount"])
+            total_stars += stars
+            if stars > top_repo_stars:
+                top_repo_name = repo["name"]
+                top_repo_stars = stars
+                top_repo_url = repo["url"]
 
         page_info = user["repositories"]["pageInfo"]
         if not page_info["hasNextPage"]:
@@ -127,6 +158,12 @@ def fetch_stats(login: str, token: str) -> dict[str, object]:
         "stars": total_stars,
         "contributions_last_year": contributions_last_year,
         "commits_last_year": commits_last_year,
+        "active_days_last_year": active_days_last_year,
+        "current_streak_days": current_streak_days,
+        "longest_streak_days": longest_streak_days,
+        "top_repo_name": top_repo_name,
+        "top_repo_stars": top_repo_stars,
+        "top_repo_url": top_repo_url,
         "updated_at": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
     }
 
@@ -135,28 +172,84 @@ def format_number(value: int) -> str:
     return f"{value:,}"
 
 
+def load_cached_stats(json_path: pathlib.Path) -> dict[str, object]:
+    if not json_path.exists():
+        raise RuntimeError("GITHUB_TOKEN is required unless --demo is used or cached stats already exist.")
+    return json.loads(json_path.read_text(encoding="utf-8"))
+
+
+def compute_streaks(contribution_counts: list[int]) -> tuple[int, int]:
+    longest = 0
+    current = 0
+    running = 0
+
+    for count in contribution_counts:
+        if count > 0:
+            running += 1
+            longest = max(longest, running)
+        else:
+            running = 0
+
+    for count in reversed(contribution_counts):
+        if count > 0:
+            current += 1
+        else:
+            break
+
+    return current, longest
+
+
 def render_stats_section(stats: dict[str, object]) -> str:
     updated_at = html.escape(str(stats["updated_at"]))
-    metrics = [
+    metrics: list[tuple[str, str]] = [
         ("Public Repos", format_number(int(stats["public_repos"]))),
         ("Total Stars", format_number(int(stats["stars"]))),
         ("Followers", format_number(int(stats["followers"]))),
         ("Contributions (1y)", format_number(int(stats["contributions_last_year"]))),
         ("Commits (1y)", format_number(int(stats["commits_last_year"]))),
     ]
-    cells = "\n".join(
-        f'    <td align="center"><strong>{html.escape(value)}</strong><br /><sub>{html.escape(label)}</sub></td>'
-        for label, value in metrics
-    )
+    optional_metrics = [
+        ("active_days_last_year", "Active Days (1y)"),
+        ("current_streak_days", "Current Streak"),
+        ("longest_streak_days", "Best Streak"),
+    ]
+    for key, label in optional_metrics:
+        if key in stats:
+            metrics.append((label, format_number(int(stats[key]))))
+
+    row_size = len(metrics) if len(metrics) <= 6 else 4
+    rows = []
+    for index in range(0, len(metrics), row_size):
+        chunk = metrics[index:index + row_size]
+        cells = "\n".join(
+            f'    <td align="center"><strong>{html.escape(value)}</strong><br /><sub>{html.escape(label)}</sub></td>'
+            for label, value in chunk
+        )
+        rows.append(f"  <tr>\n{cells}\n  </tr>")
+
+    top_repo_name = html.escape(str(stats.get("top_repo_name", "")))
+    top_repo_url = html.escape(str(stats.get("top_repo_url", "")))
+    top_repo_stars = format_number(int(stats.get("top_repo_stars", 0)))
+    if top_repo_name and top_repo_url:
+        summary = (
+            f'Most-starred public repo: <a href="{top_repo_url}">{top_repo_name}</a> '
+            f'({html.escape(top_repo_stars)} stars)'
+        )
+    elif top_repo_name:
+        summary = f"Most-starred public repo: {top_repo_name} ({html.escape(top_repo_stars)} stars)"
+    else:
+        summary = ""
+
+    if summary:
+        summary = f"{summary} · "
+
     return f"""<!-- stats:start -->
 <table>
-  <tr>
-{cells}
-  </tr>
+{chr(10).join(rows)}
 </table>
 
 <p align="center">
-  <sub>Updated {updated_at}. This section is refreshed automatically with GitHub Actions.</sub>
+  <sub>{summary}Updated {updated_at}. This section is refreshed automatically with GitHub Actions.</sub>
 </p>
 <!-- stats:end -->"""
 
@@ -174,15 +267,16 @@ def main() -> int:
     args = parse_args()
     output_dir = pathlib.Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
+    json_path = output_dir / "github-stats.json"
 
     if args.demo:
         stats = dict(DEMO_STATS)
     else:
-        if not args.token:
-            raise RuntimeError("GITHUB_TOKEN is required unless --demo is used.")
-        stats = fetch_stats(args.login, args.token)
+        if args.token:
+            stats = fetch_stats(args.login, args.token)
+        else:
+            stats = load_cached_stats(json_path)
 
-    json_path = output_dir / "github-stats.json"
     readme_path = output_dir.parent / "README.md"
 
     json_path.write_text(json.dumps(stats, indent=2, sort_keys=True) + "\n", encoding="utf-8")

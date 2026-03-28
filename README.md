@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  I work on the agent and modeling side of AI for Science: building systems that read papers, modify code, run experiments, and support scientific ML for reconstruction and forecasting in physical systems.
+  I build AI-for-Science systems across both workflow and modeling: agent infrastructure for scientific tasks, public paper-to-code experimentation systems, and scientific ML projects for reconstruction and forecasting in physical domains.
 </p>
 
 <p align="center">
@@ -28,11 +28,11 @@
 
 ## About
 
-I am an undergraduate in Artificial Intelligence working on AI for Science from two connected directions: agent workflows for paper-to-code experimentation, and scientific ML for modeling physical systems.
+I am an undergraduate in Artificial Intelligence building AI-for-Science systems from infrastructure to modeling.
 
-What I care about most is turning papers into reproducible systems: something that can be read, implemented, tested, and improved through real experimental loops.
+The main thread across this profile is turning scientific questions into reproducible engineering loops: inspect data, call tools, run controlled workflows, train models, and keep the process understandable.
 
-In my current work, agents are the workflow layer, while reconstruction and forecasting projects are the modeling layer. That is the main thread connecting this profile.
+My recent work spans private ocean-oriented agent infrastructure, public paper-to-code workflow systems, and public scientific ML repositories for reconstruction and forecasting. That is the core logic of this page.
 
 ---
 
@@ -56,16 +56,21 @@ In my current work, agents are the workflow layer, while reconstruction and fore
 
 ---
 
-## Featured Work
+## AI for Science Stack
 
-The projects below are the clearest entry points into that workflow-to-modeling pipeline.
+Read this profile from top to bottom as one connected stack: infrastructure, workflow, reconstruction, and forecasting.
 
 <table>
   <tr>
     <td>
-      <strong><a href="https://github.com/lkun45598-lgtm/RL_for_Agent">RL_for_Agent</a></strong> · Agent Systems<br />
-      Agent framework for paper reading, code editing, sandbox execution, and iterative experimentation.<br />
-      <sub>This is the workflow layer: explicit tool boundaries, REST and SSE services, and paper-to-code execution loops.</sub>
+      <strong>01</strong><br />
+      <sub>INFRASTRUCTURE</sub>
+    </td>
+    <td>
+      <strong>Private Ocean Agent Infrastructure</strong><br />
+      <sub><code>private work</code> <code>agent systems</code> <code>ocean workflows</code></sub><br /><br />
+      Multi-provider agent service for ocean data preprocessing, training orchestration, SSE event streaming, and workflow-safe tool execution around long-running scientific jobs.<br /><br />
+      <sub>Role in the stack: the infrastructure layer that turns scientific tasks into controllable, inspectable execution loops.</sub>
     </td>
   </tr>
 </table>
@@ -73,9 +78,14 @@ The projects below are the clearest entry points into that workflow-to-modeling 
 <table>
   <tr>
     <td>
-      <strong><a href="https://github.com/lkun45598-lgtm/SST_FTM">SST_FTM</a></strong> · Scientific ML<br />
-      Structured SST reconstruction that combines FTM priors, FNO residual learning, and attention-based refinement.<br />
-      <sub>This is the reconstruction track: recovering structured geophysical fields with hybrid scientific ML.</sub>
+      <strong>02</strong><br />
+      <sub>WORKFLOW</sub>
+    </td>
+    <td>
+      <strong><a href="https://github.com/lkun45598-lgtm/RL_for_Agent">RL_for_Agent</a></strong><br />
+      <sub><code>public repo</code> <code>paper-to-code</code> <code>experimentation</code></sub><br /><br />
+      Agent framework for paper reading, code editing, sandbox execution, and iterative experimentation with explicit tool boundaries.<br /><br />
+      <sub>Role in the stack: the public workflow layer for turning ideas from papers into runnable research loops.</sub>
     </td>
   </tr>
 </table>
@@ -83,9 +93,29 @@ The projects below are the clearest entry points into that workflow-to-modeling 
 <table>
   <tr>
     <td>
-      <strong><a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">Ifactformer-Earthquake-Prediction</a></strong> · Wavefield Forecasting<br />
-      Long-horizon seismic wavefield forecasting with staged training and multi-step autoregressive rollout.<br />
-      <sub>This is the forecasting track: long-range physical prediction with autoregressive stability in mind.</sub>
+      <strong>03</strong><br />
+      <sub>RECONSTRUCTION</sub>
+    </td>
+    <td>
+      <strong><a href="https://github.com/lkun45598-lgtm/SST_FTM">SST_FTM</a></strong><br />
+      <sub><code>public repo</code> <code>scientific ml</code> <code>ocean fields</code></sub><br /><br />
+      Structured SST reconstruction that combines FTM priors, FNO residual learning, and attention-based refinement for geophysical fields.<br /><br />
+      <sub>Role in the stack: the reconstruction layer for recovering sparse, corrupted, or partially observed physical fields.</sub>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>
+      <strong>04</strong><br />
+      <sub>FORECASTING</sub>
+    </td>
+    <td>
+      <strong><a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">Ifactformer-Earthquake-Prediction</a></strong><br />
+      <sub><code>public repo</code> <code>wavefield</code> <code>long-horizon prediction</code></sub><br /><br />
+      Long-horizon seismic wavefield forecasting with staged training and multi-step autoregressive rollout.<br /><br />
+      <sub>Role in the stack: the forecasting layer for stable long-range prediction in physical spatiotemporal systems.</sub>
     </td>
   </tr>
 </table>
@@ -94,20 +124,20 @@ The projects below are the clearest entry points into that workflow-to-modeling 
 
 ## Focus
 
-- Agent workflows for paper-to-code execution and experiment automation
-- Scientific ML for reconstruction of sparse or corrupted physical fields
-- Long-horizon forecasting for wavefield and spatiotemporal systems
+- Scientific agent infrastructure with controlled tools, SSE services, and experiment automation
+- Reconstruction models for ocean and geophysical fields under sparse or corrupted observations
+- Forecasting models for long-horizon physical dynamics and spatiotemporal systems
 
 ---
 
-## Selected Repositories
+## Open Repositories
 
-| Repository | Why it matters |
+| Repository | Why start here |
 | --- | --- |
-| [RL_for_Agent](https://github.com/lkun45598-lgtm/RL_for_Agent) | The workflow layer of my AI-for-Science work: tool use, code modification, planning, and experimental iteration. |
-| [SST_FTM](https://github.com/lkun45598-lgtm/SST_FTM) | The reconstruction layer: hybrid scientific ML for recovering SST fields with priors and operator learning. |
-| [Ifactformer-Earthquake-Prediction](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction) | The forecasting layer: long-horizon wavefield prediction with staged training and rollout stability. |
-| [The-homework-of-Numerical-Analysis](https://github.com/lkun45598-lgtm/The-homework-of-Numerical-Analysis) | The mathematical foundation behind how I think about approximation, stability, and physical modeling. |
+| [RL_for_Agent](https://github.com/lkun45598-lgtm/RL_for_Agent) | The clearest public entry into my agent engineering: paper reading, code editing, tool use, and experimental iteration. |
+| [SST_FTM](https://github.com/lkun45598-lgtm/SST_FTM) | A reconstruction-focused scientific ML repository for SST fields, combining priors with operator-style learning. |
+| [Ifactformer-Earthquake-Prediction](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction) | A forecasting-focused repository for long-horizon seismic wavefield prediction and rollout stability. |
+| [The-homework-of-Numerical-Analysis](https://github.com/lkun45598-lgtm/The-homework-of-Numerical-Analysis) | The mathematical base behind how I think about approximation, stability, discretization, and physical modeling. |
 
 ---
 

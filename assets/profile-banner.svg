@@ -1,6 +1,6 @@
 <svg width="1280" height="220" viewBox="0 0 1280 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">lkun profile banner</title>
-  <desc id="desc">A calm profile banner with minimal identity text and abstract scientific patterns.</desc>
+  <desc id="desc">A calm profile banner showing lkun and a subtle AI-for-Science pipeline from agents to modeling.</desc>
 
   <defs>
     <linearGradient id="bg" x1="24" y1="18" x2="1256" y2="202" gradientUnits="userSpaceOnUse">
@@ -12,7 +12,7 @@
       <stop stop-color="#0F766E"/>
       <stop offset="1" stop-color="#2563EB"/>
     </linearGradient>
-    <linearGradient id="accentB" x1="760" y1="118" x2="1138" y2="84" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accentB" x1="748" y1="100" x2="1134" y2="142" gradientUnits="userSpaceOnUse">
       <stop stop-color="#EA580C"/>
       <stop offset="0.5" stop-color="#2563EB"/>
       <stop offset="1" stop-color="#0F766E"/>
@@ -37,16 +37,16 @@
   <rect x="74" y="50" width="514" height="120" rx="24" stroke="#D8E2EC"/>
   <rect x="98" y="72" width="6" height="76" rx="3" fill="url(#accentA)"/>
 
-  <text x="122" y="78" fill="#0F766E" fill-opacity="0.9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2.1">AI FOR SCIENCE</text>
+  <text x="122" y="78" fill="#0F766E" fill-opacity="0.86" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" letter-spacing="1.9">AI FOR SCIENCE</text>
   <text x="122" y="114" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700">lkun</text>
-  <text x="122" y="139" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">Research engineer building AI agents for scientific ML.</text>
+  <text x="122" y="139" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15">Research engineer building AI agents for scientific ML.</text>
 
   <rect x="122" y="149" width="82" height="22" rx="11" fill="#E5F7F1"/>
   <rect x="214" y="149" width="108" height="22" rx="11" fill="#E7F0FF"/>
   <rect x="332" y="149" width="126" height="22" rx="11" fill="#FFF0E5"/>
   <text x="146" y="164" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">agents</text>
   <text x="239" y="164" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">scientific ml</text>
-  <text x="358" y="164" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">research systems</text>
+  <text x="353" y="164" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">research systems</text>
 
   <g opacity="0.2">
     <path d="M670 48H1210" stroke="#0F172A" stroke-width="1"/>
@@ -65,7 +65,22 @@
 
   <rect x="708" y="50" width="448" height="120" rx="24" fill="#FFFFFF" fill-opacity="0.54"/>
   <rect x="708" y="50" width="448" height="120" rx="24" stroke="#D8E2EC"/>
-  <path d="M746 124C790 98 832 84 874 86C922 89 956 123 1008 124C1056 126 1094 104 1142 76" stroke="url(#accentB)" stroke-width="4.5" stroke-linecap="round"/>
-  <path d="M746 144C790 118 832 104 874 106C922 109 956 143 1008 144C1056 146 1094 124 1142 96" stroke="#2563EB" stroke-opacity="0.16" stroke-width="3" stroke-linecap="round"/>
-  <text x="748" y="76" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">paper-to-code workflows / reconstruction / forecasting / physical systems</text>
+  <text x="748" y="76" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">scientific tasks connected to reproducible workflow and modeling</text>
+  <path d="M766 126C810 108 852 94 890 100C930 106 968 136 1006 134C1042 132 1078 112 1114 90" stroke="url(#accentB)" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M766 144C806 128 844 120 882 122C922 124 960 146 1002 146C1042 146 1080 132 1116 118" stroke="#2563EB" stroke-opacity="0.14" stroke-width="3" stroke-linecap="round"/>
+
+  <circle cx="772" cy="124" r="8" fill="#EA580C"/>
+  <circle cx="886" cy="100" r="8" fill="#2563EB"/>
+  <circle cx="1002" cy="134" r="8" fill="#0F766E"/>
+  <circle cx="1114" cy="90" r="8" fill="#0F766E"/>
+
+  <rect x="740" y="88" width="88" height="22" rx="11" fill="#FFF0E5"/>
+  <rect x="842" y="62" width="88" height="22" rx="11" fill="#E7F0FF"/>
+  <rect x="956" y="156" width="90" height="22" rx="11" fill="#E5F7F1"/>
+  <rect x="1068" y="56" width="76" height="22" rx="11" fill="#E5F7F1"/>
+
+  <text x="756" y="103" fill="#C2410C" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">scientific task</text>
+  <text x="860" y="77" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">agent layer</text>
+  <text x="976" y="171" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">reconstruct</text>
+  <text x="1085" y="71" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">forecast</text>
 </svg>
