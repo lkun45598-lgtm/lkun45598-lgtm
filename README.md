@@ -68,48 +68,44 @@ Four projects that represent different parts of my current work in AI for Scienc
 <table>
   <tr>
     <td width="50%" valign="top">
-      <p>
-        <img src="./assets/card-infrastructure.svg" alt="Private Ocean Agent Infrastructure card" width="96%" />
-      </p>
-      <p>
-        <strong>Private Ocean Agent Infrastructure</strong><br />
-        <sub>Private agent service for ocean preprocessing, orchestration, and controlled scientific execution.</sub>
-      </p>
+      <img src="./assets/card-infrastructure.svg" alt="Private Ocean Agent Infrastructure card" width="94%" />
     </td>
     <td width="50%" valign="top">
-      <p>
-        <a href="https://github.com/lkun45598-lgtm/RL_for_Agent">
-          <img src="./assets/card-workflow.svg" alt="RL_for_Agent workflow card" width="96%" />
-        </a>
-      </p>
-      <p>
-        <a href="https://github.com/lkun45598-lgtm/RL_for_Agent"><strong>RL_for_Agent</strong></a><br />
-        <sub>Public workflow system for reading papers, editing code, and iterating on experiments.</sub>
-      </p>
+      <a href="https://github.com/lkun45598-lgtm/RL_for_Agent">
+        <img src="./assets/card-workflow.svg" alt="RL_for_Agent workflow card" width="94%" />
+      </a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <p>
-        <a href="https://github.com/lkun45598-lgtm/SST_FTM">
-          <img src="./assets/card-reconstruction.svg" alt="SST_FTM reconstruction card" width="96%" />
-        </a>
-      </p>
-      <p>
-        <a href="https://github.com/lkun45598-lgtm/SST_FTM"><strong>SST_FTM</strong></a><br />
-        <sub>Scientific ML for field reconstruction with ocean priors and operator-style modeling.</sub>
-      </p>
+      <strong>Private Ocean Agent Infrastructure</strong><br />
+      <sub>Private agent service for ocean preprocessing, orchestration, and controlled scientific execution.</sub>
     </td>
     <td width="50%" valign="top">
-      <p>
-        <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">
-          <img src="./assets/card-forecasting.svg" alt="Ifactformer forecasting card" width="96%" />
-        </a>
-      </p>
-      <p>
-        <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction"><strong>Ifactformer-Earthquake-Prediction</strong></a><br />
-        <sub>Long-horizon wavefield forecasting with staged training and autoregressive rollout.</sub>
-      </p>
+      <a href="https://github.com/lkun45598-lgtm/RL_for_Agent"><strong>RL_for_Agent</strong></a><br />
+      <sub>Public workflow system for reading papers, editing code, and iterating on experiments.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lkun45598-lgtm/SST_FTM">
+        <img src="./assets/card-reconstruction.svg" alt="SST_FTM reconstruction card" width="94%" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">
+        <img src="./assets/card-forecasting.svg" alt="Ifactformer forecasting card" width="94%" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lkun45598-lgtm/SST_FTM"><strong>SST_FTM</strong></a><br />
+      <sub>Scientific ML for field reconstruction with ocean priors and operator-style modeling.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction"><strong>Ifactformer-Earthquake-Prediction</strong></a><br />
+      <sub>Long-horizon wavefield forecasting with staged training and autoregressive rollout.</sub>
     </td>
   </tr>
 </table>
