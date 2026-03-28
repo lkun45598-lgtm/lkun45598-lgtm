@@ -78,12 +78,12 @@ Four projects that represent different parts of my current work in AI for Scienc
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <strong>Private Ocean Agent Infrastructure</strong><br />
-      <sub>Private agent service for ocean preprocessing, orchestration, and controlled scientific execution.</sub>
+      <small><strong>Private Ocean Agent Infrastructure</strong></small><br />
+      Private agent service for ocean preprocessing, orchestration, and controlled scientific execution.
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/lkun45598-lgtm/RL_for_Agent"><strong>RL_for_Agent</strong></a><br />
-      <sub>Public workflow system for reading papers, editing code, and iterating on experiments.</sub>
+      <small><a href="https://github.com/lkun45598-lgtm/RL_for_Agent"><strong>RL_for_Agent</strong></a></small><br />
+      Public workflow system for reading papers, editing code, and iterating on experiments.
     </td>
   </tr>
   <tr>
@@ -100,12 +100,12 @@ Four projects that represent different parts of my current work in AI for Scienc
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/lkun45598-lgtm/SST_FTM"><strong>SST_FTM</strong></a><br />
-      <sub>Scientific ML for field reconstruction with ocean priors and operator-style modeling.</sub>
+      <small><a href="https://github.com/lkun45598-lgtm/SST_FTM"><strong>SST_FTM</strong></a></small><br />
+      Scientific ML for field reconstruction with ocean priors and operator-style modeling.
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction"><strong>Ifactformer-Earthquake-Prediction</strong></a><br />
-      <sub>Long-horizon wavefield forecasting with staged training and autoregressive rollout.</sub>
+      <small><a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction"><strong>Ifactformer-Earthquake-Prediction</strong></a></small><br />
+      Long-horizon wavefield forecasting with staged training and autoregressive rollout.
     </td>
   </tr>
 </table>
