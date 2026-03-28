@@ -1,13 +1,13 @@
 <svg width="560" height="190" viewBox="0 0 560 190" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">RL for Agent card</title>
-  <desc id="desc">A profile card describing the RL for Agent workflow layer.</desc>
+  <desc id="desc">A profile card describing the RL for Agent workflow project.</desc>
 
   <defs>
     <linearGradient id="bg" x1="16" y1="16" x2="544" y2="174" gradientUnits="userSpaceOnUse">
       <stop stop-color="#F4F8FF"/>
       <stop offset="1" stop-color="#F7FBFE"/>
     </linearGradient>
-    <linearGradient id="accent" x1="398" y1="126" x2="516" y2="78" gradientUnits="userSpaceOnUse">
+    <linearGradient id="accent" x1="404" y1="128" x2="514" y2="82" gradientUnits="userSpaceOnUse">
       <stop stop-color="#2563EB"/>
       <stop offset="1" stop-color="#0F766E"/>
     </linearGradient>
@@ -16,7 +16,7 @@
   <rect x="12" y="12" width="536" height="166" rx="28" fill="url(#bg)"/>
   <rect x="12" y="12" width="536" height="166" rx="28" stroke="#D8E2EC"/>
 
-  <rect x="28" y="28" width="124" height="134" rx="24" fill="#FFFFFF" fill-opacity="0.78"/>
+  <rect x="28" y="28" width="124" height="134" rx="24" fill="#FFFFFF" fill-opacity="0.8"/>
   <rect x="28" y="28" width="124" height="134" rx="24" stroke="#E2E8F0"/>
   <rect x="44" y="44" width="60" height="20" rx="10" fill="#E7F0FF"/>
   <text x="54" y="58" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">PROJECT</text>
@@ -24,25 +24,29 @@
   <text x="44" y="122" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">PAPER</text>
   <text x="44" y="137" fill="#475569" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">WORKFLOW</text>
 
-  <text x="178" y="68" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="27" font-weight="700">RL_for_Agent</text>
-  <text x="178" y="94" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">paper-to-code workflow system</text>
+  <text x="178" y="60" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700">RL_for_Agent</text>
+  <text x="178" y="86" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700">Workflow Project</text>
+  <text x="178" y="108" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">public agent system for paper-to-code loops</text>
 
-  <rect x="178" y="108" width="90" height="20" rx="10" fill="#E7F0FF"/>
-  <rect x="276" y="108" width="84" height="20" rx="10" fill="#EEF7F4"/>
-  <text x="193" y="121" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">paper to code</text>
-  <text x="300" y="121" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">tool use</text>
+  <rect x="178" y="120" width="90" height="20" rx="10" fill="#E7F0FF"/>
+  <rect x="276" y="120" width="76" height="20" rx="10" fill="#EEF7F4"/>
+  <text x="193" y="133" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">paper to code</text>
+  <text x="297" y="133" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">tool use</text>
 
-  <text x="178" y="146" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">Public agent workflow for reading papers, editing code, and iterating</text>
-  <text x="178" y="162" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">on experiments with explicit tool boundaries and sandbox loops.</text>
+  <text x="178" y="154" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">Public workflow for reading papers, editing code, and iterating</text>
+  <text x="178" y="170" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="12">on experiments with explicit tool boundaries and sandbox loops.</text>
 
-  <rect x="392" y="38" width="128" height="114" rx="22" fill="#FFFFFF" fill-opacity="0.72"/>
+  <rect x="392" y="38" width="128" height="114" rx="22" fill="#FFFFFF" fill-opacity="0.74"/>
   <rect x="392" y="38" width="128" height="114" rx="22" stroke="#D8E2EC"/>
-  <rect x="408" y="56" width="50" height="12" rx="6" fill="#DBEAFE"/>
-  <rect x="408" y="78" width="78" height="10" rx="5" fill="#E2E8F0"/>
-  <rect x="408" y="95" width="62" height="10" rx="5" fill="#E2E8F0"/>
-  <rect x="408" y="112" width="70" height="10" rx="5" fill="#E2E8F0"/>
-  <path d="M484 86H504" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
-  <path d="M486 101H506" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
-  <path d="M490 94C494 88 500 88 504 94C500 100 494 100 490 94Z" fill="url(#accent)"/>
-  <circle cx="516" cy="94" r="7" fill="#0F766E"/>
+  <rect x="406" y="50" width="68" height="18" rx="9" fill="#E7F0FF"/>
+  <text x="420" y="62" fill="#1D4ED8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8.5">tool loop</text>
+  <rect x="408" y="80" width="48" height="12" rx="6" fill="#DBEAFE"/>
+  <rect x="408" y="100" width="76" height="10" rx="5" fill="#E2E8F0"/>
+  <rect x="408" y="116" width="62" height="10" rx="5" fill="#E2E8F0"/>
+  <path d="M486 90H504" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
+  <path d="M486 106H504" stroke="#CBD5E1" stroke-width="2" stroke-linecap="round"/>
+  <path d="M490 98C494 92 500 92 504 98C500 104 494 104 490 98Z" fill="url(#accent)"/>
+  <circle cx="516" cy="98" r="7" fill="#0F766E"/>
+  <rect x="444" y="134" width="50" height="18" rx="9" fill="#EEF7F4"/>
+  <text x="458" y="146" fill="#0F766E" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8.5">tools</text>
 </svg>
