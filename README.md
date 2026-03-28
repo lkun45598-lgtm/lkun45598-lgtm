@@ -130,20 +130,22 @@ It is about building a bridge from mathematical foundations and engineering prac
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h3>Explore</h3>
-      <p><a href="https://github.com/lkun45598-lgtm?tab=repositories">All repositories</a></p>
-      <p><a href="https://github.com/lkun45598-lgtm/lkun45598-lgtm">Profile repository</a></p>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/lkun45598-lgtm/RL_for_Agent">
+        <img src="./assets/card-agent-workflow.svg" alt="Agent workflow overview card" width="100%" />
+      </a>
     </td>
-    <td width="33%" valign="top">
-      <h3>Main Tracks</h3>
-      <p><a href="https://github.com/lkun45598-lgtm/RL_for_Agent">Agent workflows</a></p>
-      <p><a href="https://github.com/lkun45598-lgtm/SST_FTM">Scientific ML</a></p>
-      <p><a href="https://github.com/lkun45598-lgtm/The-homework-of-Numerical-Analysis">Numerical foundations</a></p>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/lkun45598-lgtm/SST_FTM">
+        <img src="./assets/card-scientific-ml.svg" alt="Scientific machine learning overview card" width="100%" />
+      </a>
     </td>
-    <td width="33%" valign="top">
-      <h3>What You Will Find</h3>
-      <p>Research-oriented code, practical system projects, scientific modeling experiments, and agent engineering workflows.</p>
+  </tr>
+  <tr>
+    <td colspan="2" align="center" valign="top">
+      <a href="https://github.com/lkun45598-lgtm?tab=repositories">
+        <img src="./assets/card-profile-map.svg" alt="Profile map overview card" width="100%" />
+      </a>
     </td>
   </tr>
 </table>
