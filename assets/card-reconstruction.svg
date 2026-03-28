@@ -1,6 +1,6 @@
 <svg width="560" height="190" viewBox="0 0 560 190" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">SST FTM card</title>
-  <desc id="desc">A profile card describing the SST FTM reconstruction project.</desc>
+  <title id="title">SST FTM reconstruction card</title>
+  <desc id="desc">A minimal project card for SST FTM.</desc>
 
   <defs>
     <linearGradient id="bg" x1="16" y1="16" x2="544" y2="174" gradientUnits="userSpaceOnUse">
@@ -24,17 +24,13 @@
   <text x="44" y="122" fill="#526173" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">SCIENTIFIC</text>
   <text x="44" y="137" fill="#526173" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10">ML</text>
 
-  <text x="178" y="60" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700">SST_FTM</text>
-  <text x="178" y="85" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700">Reconstruction Project</text>
-  <text x="178" y="106" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10.5">reconstruction with priors and operators</text>
+  <text x="176" y="68" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700">SST_FTM</text>
+  <text x="176" y="94" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">field reconstruction project</text>
 
-  <rect x="178" y="118" width="88" height="20" rx="10" fill="#EEF6F3"/>
-  <rect x="274" y="118" width="92" height="20" rx="10" fill="#EDF2FB"/>
-  <text x="196" y="131" fill="#4D8378" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">ocean fields</text>
-  <text x="296" y="131" fill="#5776B7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">hybrid priors</text>
-
-  <text x="178" y="150" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5">Recovers sparse geophysical fields</text>
-  <text x="178" y="165" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5">with priors and operator learning.</text>
+  <rect x="176" y="112" width="82" height="20" rx="10" fill="#EEF6F3"/>
+  <rect x="266" y="112" width="86" height="20" rx="10" fill="#EDF2FB"/>
+  <text x="194" y="125" fill="#4D8378" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">ocean fields</text>
+  <text x="286" y="125" fill="#5776B7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="9">priors</text>
 
   <rect x="392" y="38" width="128" height="114" rx="22" fill="#FFFFFF" fill-opacity="0.66"/>
   <rect x="392" y="38" width="128" height="114" rx="22" stroke="#E2E8EE"/>
@@ -51,6 +47,4 @@
     <rect x="474" y="102" width="18" height="18" rx="5" fill="#EDF6F2"/>
   </g>
   <path d="M410 132C426 120 442 120 456 132C470 144 486 144 500 132" stroke="url(#accent)" stroke-width="3.5" stroke-linecap="round"/>
-  <rect x="444" y="134" width="50" height="18" rx="9" fill="#EDF2FB"/>
-  <text x="455" y="146" fill="#5776B7" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="8.5">fields</text>
 </svg>
