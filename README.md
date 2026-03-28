@@ -1,52 +1,79 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Abstract profile banner" width="100%" />
+  <img src="./assets/profile-banner.svg" alt="lkun profile banner" width="100%" />
 </p>
 
-<h1 align="center">Zheng Lei</h1>
+<h1 align="center">lkun</h1>
 
 <p align="center">
-  Research engineer building AI agents for scientific ML and reproducible code workflows.
-</p>
-
-<p align="center">
-  <a href="https://github.com/lkun45598-lgtm/RL_for_Agent"><strong>RL_for_Agent</strong></a> ·
-  <a href="https://github.com/lkun45598-lgtm/SST_FTM"><strong>SST_FTM</strong></a> ·
-  <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction"><strong>Ifactformer-Earthquake-Prediction</strong></a>
+  <strong>Research engineer building AI agents for scientific ML.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/lkun45598-lgtm">
-    <img src="https://img.shields.io/badge/GitHub-lkun45598--lgtm-111827?style=flat-square&logo=github&logoColor=white" alt="GitHub profile" />
-  </a>
-  <img src="https://img.shields.io/badge/Python-Primary-2563EB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/PyTorch-Scientific_ML-EA580C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <strong>AI for Science</strong> · Artificial Intelligence undergraduate at South China Agricultural University
+</p>
+
+<p align="center">
+  I work on tool-using agents for code and experiment automation, and on scientific ML for reconstruction and long-horizon forecasting in physical systems.
+</p>
+
+<p align="center">
+  <a href="mailto:lkun45598@gmail.com">lkun45598@gmail.com</a> ·
+  <a href="https://github.com/lkun45598-lgtm">GitHub</a> ·
+  <a href="https://github.com/lkun45598-lgtm/RL_for_Agent">RL_for_Agent</a> ·
+  <a href="https://github.com/lkun45598-lgtm/SST_FTM">SST_FTM</a> ·
+  <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">Ifactformer-Earthquake-Prediction</a>
+</p>
+
+---
+
+## About
+
+I am an undergraduate in Artificial Intelligence working on AI agents for code and experiment automation, and on scientific ML for reconstruction and long-horizon forecasting.
+
+What I care about most is turning papers into reproducible systems: something that can be read, implemented, tested, and improved through real experimental loops.
+
+---
+
+## GitHub Pulse
+
+<p align="center">
+  <img src="./assets/github-stats.svg" alt="Live GitHub statistics for lkun" width="100%" />
+</p>
+
+<p align="center">
+  <sub>Auto-updated with GitHub Actions.</sub>
 </p>
 
 ---
 
 ## Featured Work
 
-### [RL_for_Agent](https://github.com/lkun45598-lgtm/RL_for_Agent)
+The projects below are the clearest entry points into how I work.
 
-Agent framework for paper reading, code editing, sandbox execution, and iterative experimentation.  
-Built around explicit tool boundaries, REST and SSE services, and paper-to-code workflows.
+<p align="center">
+  <a href="https://github.com/lkun45598-lgtm/RL_for_Agent">
+    <img src="./assets/feature-card-agent.svg" alt="RL_for_Agent featured project card" width="100%" />
+  </a>
+</p>
 
-### [SST_FTM](https://github.com/lkun45598-lgtm/SST_FTM)
+<p align="center">
+  <a href="https://github.com/lkun45598-lgtm/SST_FTM">
+    <img src="./assets/feature-card-sst.svg" alt="SST_FTM featured project card" width="100%" />
+  </a>
+</p>
 
-Structured SST reconstruction that combines FTM priors, FNO residual learning, and attention-based refinement.  
-Represents my work on scientific ML for spatiotemporal and geophysical data.
-
-### [Ifactformer-Earthquake-Prediction](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction)
-
-Long-horizon seismic wavefield forecasting with staged training and multi-step autoregressive rollout.  
-Focused on stability and long-range prediction in physical field modeling.
+<p align="center">
+  <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction">
+    <img src="./assets/feature-card-wavefield.svg" alt="Ifactformer-Earthquake-Prediction featured project card" width="100%" />
+  </a>
+</p>
 
 ---
 
 ## Focus
 
-- AI agents for code editing and experiment automation
-- Scientific ML for reconstruction and forecasting
+- AI agents for code editing, tool use, and experiment automation
+- Scientific ML for reconstruction, forecasting, and physical field modeling
 - Reproducible research systems from mathematical foundations to implementation
 
 ---
@@ -56,17 +83,18 @@ Focused on stability and long-range prediction in physical field modeling.
 | Repository | Why it matters |
 | --- | --- |
 | [RL_for_Agent](https://github.com/lkun45598-lgtm/RL_for_Agent) | My main agent systems project for tool use, code modification, planning, and experimental iteration. |
-| [SST_FTM](https://github.com/lkun45598-lgtm/SST_FTM) | A hybrid scientific ML project for SST reconstruction with priors, operator learning, and attention. |
-| [Ifactformer-Earthquake-Prediction](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction) | A wavefield forecasting project for long-horizon physical prediction and autoregressive stability. |
-| [The-homework-of-Numerical-Analysis](https://github.com/lkun45598-lgtm/The-homework-of-Numerical-Analysis) | The numerical methods foundation behind how I think about approximation, stability, and PDE-related problems. |
+| [SST_FTM](https://github.com/lkun45598-lgtm/SST_FTM) | A hybrid scientific ML project for SST reconstruction that combines priors, operator learning, and attention. |
+| [Ifactformer-Earthquake-Prediction](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction) | A wavefield forecasting project centered on long-horizon prediction and autoregressive stability. |
+| [The-homework-of-Numerical-Analysis](https://github.com/lkun45598-lgtm/The-homework-of-Numerical-Analysis) | The mathematical foundation behind how I think about approximation, stability, and PDE-related modeling. |
 
 ---
 
 ## Contact
 
+- Email: [lkun45598@gmail.com](mailto:lkun45598@gmail.com)
 - GitHub: [lkun45598-lgtm](https://github.com/lkun45598-lgtm)
 - Affiliation: South China Agricultural University
-- Open to research and engineering collaboration through GitHub.
+- Open to research and engineering collaboration.
 
 <details>
 <summary>Earlier Projects</summary>

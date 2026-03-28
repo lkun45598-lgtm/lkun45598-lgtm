@@ -1,0 +1,42 @@
+<svg width="1120" height="172" viewBox="0 0 1120 172" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">RL_for_Agent featured card</title>
+  <desc id="desc">An editorial-style project card for RL_for_Agent.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="20" y1="18" x2="1098" y2="154" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF8F3"/>
+      <stop offset="0.5" stop-color="#F4FAF8"/>
+      <stop offset="1" stop-color="#F3F7FF"/>
+    </linearGradient>
+    <linearGradient id="stripe" x1="26" y1="22" x2="26" y2="150" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <filter id="shadow" x="-10" y="-10" width="1140" height="192" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.05"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="10" y="10" width="1100" height="152" rx="24" fill="url(#bg)"/>
+    <rect x="10" y="10" width="1100" height="152" rx="24" stroke="#D9E2EC"/>
+  </g>
+
+  <rect x="24" y="24" width="6" height="124" rx="3" fill="url(#stripe)"/>
+
+  <text x="52" y="46" fill="#0F766E" fill-opacity="0.92" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2.1">AGENT SYSTEMS</text>
+  <text x="52" y="80" fill="#0F172A" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">RL_for_Agent</text>
+  <text x="52" y="108" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">Agent framework for paper reading, code editing, sandbox execution, and iterative experimentation.</text>
+  <text x="52" y="132" fill="#334155" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="16">Built around explicit tool boundaries, REST and SSE services, and paper-to-code workflows.</text>
+
+  <rect x="730" y="28" width="334" height="116" rx="20" fill="#FFFFFF" fill-opacity="0.72"/>
+  <rect x="730" y="28" width="334" height="116" rx="20" stroke="#D9E2EC"/>
+  <path d="M764 66H1030" stroke="#E5EAF1"/>
+  <path d="M764 98H1030" stroke="#E5EAF1"/>
+  <text x="764" y="54" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">FOCUS</text>
+  <text x="852" y="54" fill="#0F172A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13">Agents for code and experiments</text>
+  <text x="764" y="86" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">STACK</text>
+  <text x="852" y="86" fill="#0F172A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13">KODE SDK · REST · SSE · sandbox</text>
+  <text x="764" y="118" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11">SIGNAL</text>
+  <text x="852" y="118" fill="#0F172A" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13">Paper-to-code execution loop</text>
+</svg>
