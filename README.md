@@ -49,15 +49,49 @@
 
 ## Tech Stack
 
-<table width="100%">
-<tr><th align="left" width="18%">Property</th><th align="left">Data</th></tr>
-<tr><td><b>Language / Framework</b></td><td><img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=white" alt="Python" /> <img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=PyTorch&logoColor=white" alt="PyTorch" /> <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript" /> <img src="https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js" /> <img src="https://img.shields.io/badge/-Express-000000?style=flat&logo=Express&logoColor=white" alt="Express" /> <img src="https://img.shields.io/badge/-Bash-4EAA25?style=flat&logo=GnuBash&logoColor=white" alt="Bash" /></td></tr>
-<tr><td><b>Scientific ML</b></td><td><img src="https://img.shields.io/badge/-FNO-0891b2?style=flat&logoColor=white" alt="FNO" /> <img src="https://img.shields.io/badge/-Transformer-0891b2?style=flat&logoColor=white" alt="Transformer" /> <img src="https://img.shields.io/badge/-Diffusion_Models-0891b2?style=flat&logoColor=white" alt="Diffusion" /> <img src="https://img.shields.io/badge/-CBAM-0891b2?style=flat&logoColor=white" alt="CBAM" /> <img src="https://img.shields.io/badge/-SIREN-0891b2?style=flat&logoColor=white" alt="SIREN" /> <img src="https://img.shields.io/badge/-SwinIR-0891b2?style=flat&logoColor=white" alt="SwinIR" /></td></tr>
-<tr><td><b>Agent / Infra</b></td><td><img src="https://img.shields.io/badge/-KODE_SDK-0891b2?style=flat&logoColor=white" alt="KODE SDK" /> <img src="https://img.shields.io/badge/-SSE-0891b2?style=flat&logoColor=white" alt="SSE" /> <img src="https://img.shields.io/badge/-Claude_API-191919?style=flat&logo=Anthropic&logoColor=white" alt="Claude API" /> <img src="https://img.shields.io/badge/-OpenAI_compat-412991?style=flat&logo=OpenAI&logoColor=white" alt="OpenAI" /> <img src="https://img.shields.io/badge/-8GPU_DDP-0891b2?style=flat&logoColor=white" alt="DDP" /></td></tr>
-<tr><td><b>Ocean Data</b></td><td><img src="https://img.shields.io/badge/-NetCDF-0891b2?style=flat&logoColor=white" alt="NetCDF" /> <img src="https://img.shields.io/badge/-HDF5-0891b2?style=flat&logoColor=white" alt="HDF5" /> <img src="https://img.shields.io/badge/-xarray-0891b2?style=flat&logoColor=white" alt="xarray" /> <img src="https://img.shields.io/badge/-NumPy-013243?style=flat&logo=NumPy&logoColor=white" alt="NumPy" /> <img src="https://img.shields.io/badge/-JAXA_L3-0891b2?style=flat&logoColor=white" alt="JAXA L3" /> <img src="https://img.shields.io/badge/-ERA5-0891b2?style=flat&logoColor=white" alt="ERA5" /> <img src="https://img.shields.io/badge/-OSTIA-0891b2?style=flat&logoColor=white" alt="OSTIA" /></td></tr>
-<tr><td><b>Tools / CI</b></td><td><img src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" /> <img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" /> <img src="https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=GitHubActions&logoColor=white" alt="GitHub Actions" /> <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" /> <img src="https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code" /> <img src="https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" alt="Jupyter" /></td></tr>
+<blockquote>
 
-</table>
+**`Language / Framework`** &ensp;
+<img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=PyTorch&logoColor=white" alt="PyTorch" />
+<img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/-Express-000000?style=flat&logo=Express&logoColor=white" alt="Express" />
+<img src="https://img.shields.io/badge/-Bash-4EAA25?style=flat&logo=GnuBash&logoColor=white" alt="Bash" />
+
+**`Scientific ML`** &ensp;
+<img src="https://img.shields.io/badge/-FNO-0891b2?style=flat&logoColor=white" alt="FNO" />
+<img src="https://img.shields.io/badge/-Transformer-0891b2?style=flat&logoColor=white" alt="Transformer" />
+<img src="https://img.shields.io/badge/-Diffusion_Models-0891b2?style=flat&logoColor=white" alt="Diffusion" />
+<img src="https://img.shields.io/badge/-CBAM-0891b2?style=flat&logoColor=white" alt="CBAM" />
+<img src="https://img.shields.io/badge/-SIREN-0891b2?style=flat&logoColor=white" alt="SIREN" />
+<img src="https://img.shields.io/badge/-SwinIR-0891b2?style=flat&logoColor=white" alt="SwinIR" />
+
+**`Agent / Infra`** &ensp;
+<img src="https://img.shields.io/badge/-KODE_SDK-0891b2?style=flat&logoColor=white" alt="KODE SDK" />
+<img src="https://img.shields.io/badge/-SSE-0891b2?style=flat&logoColor=white" alt="SSE" />
+<img src="https://img.shields.io/badge/-Claude_API-191919?style=flat&logo=Anthropic&logoColor=white" alt="Claude API" />
+<img src="https://img.shields.io/badge/-OpenAI_compat-412991?style=flat&logo=OpenAI&logoColor=white" alt="OpenAI" />
+<img src="https://img.shields.io/badge/-8GPU_DDP-0891b2?style=flat&logoColor=white" alt="DDP" />
+
+**`Ocean Data`** &ensp;
+<img src="https://img.shields.io/badge/-NetCDF-0891b2?style=flat&logoColor=white" alt="NetCDF" />
+<img src="https://img.shields.io/badge/-HDF5-0891b2?style=flat&logoColor=white" alt="HDF5" />
+<img src="https://img.shields.io/badge/-xarray-0891b2?style=flat&logoColor=white" alt="xarray" />
+<img src="https://img.shields.io/badge/-NumPy-013243?style=flat&logo=NumPy&logoColor=white" alt="NumPy" />
+<img src="https://img.shields.io/badge/-JAXA_L3-0891b2?style=flat&logoColor=white" alt="JAXA L3" />
+<img src="https://img.shields.io/badge/-ERA5-0891b2?style=flat&logoColor=white" alt="ERA5" />
+<img src="https://img.shields.io/badge/-OSTIA-0891b2?style=flat&logoColor=white" alt="OSTIA" />
+
+**`Tools / CI`** &ensp;
+<img src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=GitHubActions&logoColor=white" alt="GitHub Actions" />
+<img src="https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
+<img src="https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code" />
+<img src="https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" alt="Jupyter" />
+
+</blockquote>
 
 <!--   research architecture -->
 
