@@ -17,7 +17,7 @@
       font: 600 14px 'Inter', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #ffffff;
     }
     .stagger {
-      opacity: 0;
+      opacity: 1;
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
@@ -54,7 +54,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 124.11573383443775;
+        stroke-dashoffset: 124.09164381284036;
       }
     }
   
@@ -72,7 +72,7 @@
     }
     @keyframes fadeInAnimation {
       from {
-        opacity: 0;
+        opacity: 1;
       }
       to {
         opacity: 1;
@@ -162,7 +162,7 @@
         x="150" 
         y="12.5" 
         data-testid="commits"
-      >481</text>
+      >484</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
