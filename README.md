@@ -261,7 +261,7 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com?user=lkun45598-lgtm&theme=transparent&hide_border=true&ring=0891b2&fire=06b6d4&currStreakLabel=0891b2&sideLabels=0891b2&currStreakNum=ffffff&sideNums=ffffff&dates=64748b)
+![GitHub Streak](https://streak-stats.demolab.com?user=lkun45598-lgtm&theme=dark&hide_border=true&background=0d1117&ring=0891b2&fire=06b6d4&currStreakLabel=0891b2&sideLabels=0891b2&currStreakNum=ffffff&sideNums=ffffff&dates=64748b)
 
 </div>
 
