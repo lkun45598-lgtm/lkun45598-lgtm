@@ -61,45 +61,73 @@
 | **Tools / CI** | ![Git](https://img.shields.io/badge/-Git-004400?style=flat&logo=git) ![GitHub](https://img.shields.io/badge/-GitHub-444444?style=flat&logo=github) ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=GitHubActions&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) ![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white) ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white) |
 
 <!--   research architecture -->
+
 <div align="center">
 
-```mermaid
-%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#0891b2', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0e7490', 'lineColor': '#38bdf8', 'secondaryColor': '#1e3a8a', 'tertiaryColor': '#164e63', 'fontFamily': 'JetBrains Mono, monospace'}}}%%
-graph LR
-    A["🌊 AI for Ocean Science"] --> B["🤖 Agent Infrastructure"]
-    A --> C["🧠 Scientific ML"]
-    A --> D["📡 Data Processing"]
+<img src="https://img.shields.io/badge/🌊_AI_for_Ocean_Science-0891b2?style=for-the-badge&logoColor=white" />
 
-    B --> B1["KODE SDK"]
-    B --> B2["Loss Transfer"]
-    B --> B3["SSE Service"]
+<br><br>
 
-    C --> C1["FNO-CBAM"]
-    C --> C2["FTM Prior"]
-    C --> C3["IFactFormer"]
-    C --> C4["Diffusion SR"]
+<table>
+<tr>
+<td align="center" width="33%">
 
-    D --> D1["JAXA Satellite"]
-    D --> D2["OSTIA Global"]
-    D --> D3["ERA5 Reanalysis"]
-    D --> D4["ECCO LLC4320"]
+<img src="https://img.shields.io/badge/🤖_Agent_Infrastructure-1e3a8a?style=for-the-badge" />
 
-    style A fill:#0891b2,stroke:#06b6d4,stroke-width:3px,color:#fff
-    style B fill:#1e3a8a,stroke:#3b82f6,stroke-width:2px,color:#fff
-    style C fill:#1e3a8a,stroke:#3b82f6,stroke-width:2px,color:#fff
-    style D fill:#1e3a8a,stroke:#3b82f6,stroke-width:2px,color:#fff
-    style B1 fill:#164e63,stroke:#0e7490,color:#fff
-    style B2 fill:#164e63,stroke:#0e7490,color:#fff
-    style B3 fill:#164e63,stroke:#0e7490,color:#fff
-    style C1 fill:#164e63,stroke:#0e7490,color:#fff
-    style C2 fill:#164e63,stroke:#0e7490,color:#fff
-    style C3 fill:#164e63,stroke:#0e7490,color:#fff
-    style C4 fill:#164e63,stroke:#0e7490,color:#fff
-    style D1 fill:#164e63,stroke:#0e7490,color:#fff
-    style D2 fill:#164e63,stroke:#0e7490,color:#fff
-    style D3 fill:#164e63,stroke:#0e7490,color:#fff
-    style D4 fill:#164e63,stroke:#0e7490,color:#fff
+<br><br>
+
+<a href="https://github.com/lkun45598-lgtm/RL_for_Agent"><img src="https://img.shields.io/badge/KODE_SDK-164e63?style=flat-square" /></a>
+<img src="https://img.shields.io/badge/Loss_Transfer-164e63?style=flat-square" />
+<img src="https://img.shields.io/badge/SSE_Service-164e63?style=flat-square" />
+
+<br>
+
 ```
+Paper → Loss Formula → Code Injection
+  → 4-Stage Validation → Training Run
+```
+
+</td>
+<td align="center" width="33%">
+
+<img src="https://img.shields.io/badge/🧠_Scientific_ML-1e3a8a?style=for-the-badge" />
+
+<br><br>
+
+<a href="https://github.com/lkun45598-lgtm/SST_FTM"><img src="https://img.shields.io/badge/FNO--CBAM-164e63?style=flat-square" /></a>
+<img src="https://img.shields.io/badge/FTM_Prior-164e63?style=flat-square" />
+<a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction"><img src="https://img.shields.io/badge/IFactFormer-164e63?style=flat-square" /></a>
+<img src="https://img.shields.io/badge/Diffusion_SR-164e63?style=flat-square" />
+
+<br>
+
+```
+Sparse Obs → Physical Prior + Neural Op
+  → Reconstruction / Forecasting
+```
+
+</td>
+<td align="center" width="33%">
+
+<img src="https://img.shields.io/badge/📡_Data_Processing-1e3a8a?style=for-the-badge" />
+
+<br><br>
+
+<img src="https://img.shields.io/badge/JAXA_L3-164e63?style=flat-square" />
+<img src="https://img.shields.io/badge/OSTIA-164e63?style=flat-square" />
+<img src="https://img.shields.io/badge/ERA5-164e63?style=flat-square" />
+<img src="https://img.shields.io/badge/ECCO_LLC4320-164e63?style=flat-square" />
+
+<br>
+
+```
+Satellite / Reanalysis → NetCDF → NPY
+  → Validation → Training Pipeline
+```
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -297,14 +325,14 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 ---
 
-#### Thanks for visiting :heart:
+<div align="center">
 
-<p align="center">
-  <img src="https://profile-counter.glitch.me/lkun45598-lgtm/count.svg" />
-</p>
+### Thanks for visiting! ❤️
 
-<p align="center">
-  <i>If you liked my profile, you can Star ⭐ the repo and if you want to use this template you can Fork it.</i>
-</p>
+![](https://komarev.com/ghpvc/?username=lkun45598-lgtm&style=for-the-badge&color=0891b2)
+
+*If you liked my profile, you can Star ⭐ the repo!*
+
+</div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:0e7490,100:1e3a8a&height=120&section=footer" />
