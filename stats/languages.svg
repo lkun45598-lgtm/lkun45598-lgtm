@@ -9,11 +9,11 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #fe428e;
+            fill: #0891b2;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           
-    .lang-name { font: 400 11px 'Inter', Ubuntu, Sans-Serif; fill: #a9fef7 }
+    .lang-name { font: 400 11px 'Inter', Ubuntu, Sans-Serif; fill: #ffffff }
   
 
           
@@ -29,7 +29,7 @@
           height="99%"
           stroke="#E4E2E2"
           width="349"
-          fill="#141321"
+          fill="#00000000"
           stroke-opacity="0"
         />
 
@@ -65,7 +65,7 @@
             data-testid="lang-progress"
             x="0" 
             y="0"
-            width="249.16" 
+            width="249.21" 
             height="8"
             fill="#3572A5"
           />
@@ -73,9 +73,9 @@
           <rect
             mask="url(#rect-mask)" 
             data-testid="lang-progress"
-            x="249.16" 
+            x="249.21" 
             y="0"
-            width="35.40" 
+            width="35.36" 
             height="8"
             fill="#3178c6"
           />
@@ -83,9 +83,9 @@
           <rect
             mask="url(#rect-mask)" 
             data-testid="lang-progress"
-            x="284.56" 
+            x="284.57" 
             y="0"
-            width="13.81" 
+            width="13.79" 
             height="8"
             fill="#555555"
           />
@@ -93,9 +93,9 @@
           <rect
             mask="url(#rect-mask)" 
             data-testid="lang-progress"
-            x="298.37" 
+            x="298.36" 
             y="0"
-            width="11.64" 
+            width="11.629999999999999" 
             height="8"
             fill="#e34c26"
           />
@@ -104,14 +104,14 @@
     <g transform="translate(0, 25)">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python (83.05%)
+        Python (83.07%)
       </text>
     </g>
   
     <g transform="translate(150, 25)">
       <circle cx="5" cy="6" r="5" fill="#3178c6" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        TypeScript (11.80%)
+        TypeScript (11.79%)
       </text>
     </g>
   
@@ -125,7 +125,7 @@
     <g transform="translate(150, 50)">
       <circle cx="5" cy="6" r="5" fill="#e34c26" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        HTML (0.55%)
+        HTML (0.54%)
       </text>
     </g>
   

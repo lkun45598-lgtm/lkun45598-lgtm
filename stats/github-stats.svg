@@ -9,36 +9,36 @@
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #fe428e;
+            fill: #0891b2;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           
     .stat {
-      font: 600 14px 'Inter', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #a9fef7;
+      font: 600 14px 'Inter', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #ffffff;
     }
     .stagger {
       opacity: 0;
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Inter', Ubuntu, Sans-Serif; fill: #a9fef7; 
+      font: 800 24px 'Inter', Ubuntu, Sans-Serif; fill: #ffffff; 
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     
     .bold { font-weight: 700 }
     .icon {
-      fill: #f8d847;
+      fill: #06b6d4;
       display: block;
     }
     
     .rank-circle-rim {
-      stroke: #fe428e;
+      stroke: #0891b2;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #fe428e;
+      stroke: #0891b2;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -54,7 +54,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 124.4770941903798;
+        stroke-dashoffset: 124.28436643008763;
       }
     }
   
@@ -91,7 +91,7 @@
           height="99%"
           stroke="#E4E2E2"
           width="494"
-          fill="#141321"
+          fill="#00000000"
           stroke-opacity="0"
         />
 
@@ -162,7 +162,7 @@
         x="150" 
         y="12.5" 
         data-testid="commits"
-      >436</text>
+      >460</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
