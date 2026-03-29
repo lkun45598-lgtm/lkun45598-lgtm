@@ -211,6 +211,12 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 <!-- stats:start -->
 
+<div align="center">
+
+![Trophy](./stats/trophy.svg)
+
+</div>
+
 ![lkun's github activity graph](https://raw.githubusercontent.com/lkun45598-lgtm/lkun45598-lgtm/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 ![lkun's github activity graph](https://raw.githubusercontent.com/lkun45598-lgtm/lkun45598-lgtm/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
