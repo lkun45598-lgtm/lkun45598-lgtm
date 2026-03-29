@@ -51,7 +51,7 @@ jobs:
 
           # Activity Graph
           fetch stats/activity-graph.svg \
-            "https://github-readme-activity-graph.vercel.app/graph?username=${USERNAME}&theme=react-dark&hide_border=true&line=0891b2&point=06b6d4&color=0891b2" \
+            "https://github-readme-activity-graph.vercel.app/graph?username=${USERNAME}&bg_color=0d1117&color=0891b2&line=06b6d4&point=0891b2&area_color=0891b2&area=true&hide_border=true&custom_title=Contribution%20Graph" \
             || true
 
           # Trophy - self-generated, no external dependency
