@@ -65,4 +65,4 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add stats/
-          git diff --cached --quiet && echo "No changes" || (git commit -m "Update stats cards" && git push)
+          git diff --cached --quiet && echo "No changes" || (git commit -m "Update stats cards" && git pull --rebase && git push)
