@@ -212,7 +212,7 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 <div align="center">
 
 <p>
-<img src="https://github-profile-trophy.vercel.app/?username=lkun45598-lgtm&theme=radical&no-frame=true&column=6" alt="Trophy" />
+<img src="https://github-profile-trophy.vercel.app/?username=lkun45598-lgtm&theme=radical&no-frame=true&no-bg=true&column=6&margin-w=15" alt="Trophy" />
 </p>
 
 </div>
@@ -224,7 +224,7 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 | . | . |
 |---|---|
-| ![lkun's github stats](https://github-readme-stats.vercel.app/api?username=lkun45598-lgtm&show_icons=true&theme=radical&include_all_commits=true&hide_border=true) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=lkun45598-lgtm&theme=radical&layout=compact&hide_border=true&hide=jupyter%20notebook) |
+| ![lkun's github stats](https://github-readme-stats-lkun.vercel.app/api?username=lkun45598-lgtm&show_icons=true&theme=radical&include_all_commits=true&hide_border=true) | ![Top Languages](https://github-readme-stats-lkun.vercel.app/api/top-langs/?username=lkun45598-lgtm&theme=radical&layout=compact&hide_border=true&hide=jupyter%20notebook) |
 
 </div>
 
@@ -236,7 +236,7 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 <div align="center">
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=lkun45598-lgtm&theme=redical&hide_border=true)
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=lkun45598-lgtm&theme=radical&hide_border=true)
 
 </div>
 
