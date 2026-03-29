@@ -211,12 +211,32 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 <!-- stats:start -->
 
+<div align="center">
+
+![Achievements](./stats/achievements.svg)
+
+</div>
+
 ![lkun's github activity graph](https://raw.githubusercontent.com/lkun45598-lgtm/lkun45598-lgtm/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 ![lkun's github activity graph](https://raw.githubusercontent.com/lkun45598-lgtm/lkun45598-lgtm/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
 <div align="center">
 
+| . | . |
+|---|---|
+| ![GitHub Stats](./stats/github-stats.svg) | ![Languages](./stats/languages.svg) |
+
+</div>
+
+<div align="center">
+
 ![GitHub Streak](https://streak-stats.demolab.com?user=lkun45598-lgtm&theme=radical&hide_border=true)
+
+</div>
+
+<div align="center">
+
+![Contribution Calendar](./stats/isocalendar.svg)
 
 </div>
 
