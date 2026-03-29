@@ -279,43 +279,24 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 ## GitHub Stats
 
 <!-- stats:start -->
-
-<div align="center">
-
-![Trophy](./stats/trophy.svg)
-
-</div>
-
-![lkun's github activity graph](https://raw.githubusercontent.com/lkun45598-lgtm/lkun45598-lgtm/output/github-contribution-grid-snake.svg#gh-light-mode-only)
-![lkun's github activity graph](https://raw.githubusercontent.com/lkun45598-lgtm/lkun45598-lgtm/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-
-<div align="center">
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img src="./stats/github-stats.svg" width="100%" alt="GitHub Stats" />
-    </td>
-    <td width="50%" align="center">
-      <img src="./stats/languages.svg" width="100%" alt="Languages" />
-    </td>
+    <td align="center"><strong>11</strong><br /><sub>Public Repos</sub></td>
+    <td align="center"><strong>55</strong><br /><sub>Total Stars</sub></td>
+    <td align="center"><strong>5</strong><br /><sub>Followers</sub></td>
+    <td align="center"><strong>315</strong><br /><sub>Contributions (1y)</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>238</strong><br /><sub>Commits (1y)</sub></td>
+    <td align="center"><strong>31</strong><br /><sub>Active Days (1y)</sub></td>
+    <td align="center"><strong>2</strong><br /><sub>Current Streak</sub></td>
+    <td align="center"><strong>7</strong><br /><sub>Best Streak</sub></td>
   </tr>
 </table>
-</div>
 
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=lkun45598-lgtm&theme=transparent&hide_border=true&ring=0891b2&fire=06b6d4&currStreakLabel=0891b2&sideLabels=0891b2&currStreakNum=ffffff&sideNums=ffffff&dates=64748b)
-
-</div>
-
-<div align="center">
-
-![Activity Graph](./stats/activity-graph.svg)
-
-</div>
-
-![3D Contribution Graph](./profile-3d-contrib/profile-green-animate.svg)
-
+<p align="center">
+  <sub>Most-starred public repo: <a href="https://github.com/lkun45598-lgtm/SST_Data_Imputation">SST_Data_Imputation</a> (8 stars) · Updated 2026-03-29 09:02 UTC. This section is refreshed automatically with GitHub Actions.</sub>
+</p>
 <!-- stats:end -->
 
 ---
