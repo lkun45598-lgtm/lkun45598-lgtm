@@ -213,7 +213,7 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 <div align="center">
 
-![Achievements](./stats/achievements.svg)
+![Trophy](./stats/trophy.svg)
 
 </div>
 
@@ -236,7 +236,7 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 <div align="center">
 
-![Contribution Calendar](./stats/isocalendar.svg)
+![Activity Graph](./stats/activity-graph.svg)
 
 </div>
 
