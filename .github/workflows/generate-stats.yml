@@ -39,19 +39,19 @@ jobs:
 
           # GitHub Stats card
           fetch stats/github-stats.svg \
-            "https://github-readme-stats-eight-theta.vercel.app/api?username=${USERNAME}&show_icons=true&theme=radical&include_all_commits=true&hide_border=true" \
-            "https://github-readme-stats.vercel.app/api?username=${USERNAME}&show_icons=true&theme=radical&include_all_commits=true&hide_border=true" \
+            "https://github-readme-stats-eight-theta.vercel.app/api?username=${USERNAME}&show_icons=true&theme=transparent&include_all_commits=true&hide_border=true&title_color=0891b2&icon_color=06b6d4&text_color=ffffff&bg_color=00000000&ring_color=0891b2" \
+            "https://github-readme-stats.vercel.app/api?username=${USERNAME}&show_icons=true&theme=transparent&include_all_commits=true&hide_border=true&title_color=0891b2&icon_color=06b6d4&text_color=ffffff&bg_color=00000000&ring_color=0891b2" \
             || true
 
           # Top Languages card
           fetch stats/languages.svg \
-            "https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=${USERNAME}&theme=radical&layout=compact&hide_border=true&hide=jupyter%20notebook" \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&theme=radical&layout=compact&hide_border=true&hide=jupyter%20notebook" \
+            "https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=${USERNAME}&theme=transparent&layout=compact&hide_border=true&hide=jupyter%20notebook&title_color=0891b2&text_color=ffffff&bg_color=00000000" \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&theme=transparent&layout=compact&hide_border=true&hide=jupyter%20notebook&title_color=0891b2&text_color=ffffff&bg_color=00000000" \
             || true
 
           # Activity Graph
           fetch stats/activity-graph.svg \
-            "https://github-readme-activity-graph.vercel.app/graph?username=${USERNAME}&theme=radical&hide_border=true" \
+            "https://github-readme-activity-graph.vercel.app/graph?username=${USERNAME}&theme=react-dark&hide_border=true&line=0891b2&point=06b6d4&color=0891b2" \
             || true
 
           # Trophy - self-generated, no external dependency
