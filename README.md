@@ -2,11 +2,10 @@
 
 <!--   status badges -->
 <p align="center">
-    <a href="https://github.com/lkun45598-lgtm/lkun45598-lgtm"><img src="https://img.shields.io/badge/status-updating-brightgreen.svg"></a>
-    <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10-FF1493.svg"></a>
-    <a href="https://github.com/lkun45598-lgtm?tab=repositories"><img src="https://img.shields.io/github/stars/lkun45598-lgtm?affiliations=OWNER&style=flat&logo=github&label=Total%20Stars"></a>
-    <a href="https://github.com/lkun45598-lgtm?tab=followers"><img src="https://img.shields.io/github/followers/lkun45598-lgtm?style=flat&logo=github"></a>
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=lkun45598-lgtm.lkun45598-lgtm" alt="visitors"/>
+    <a href="https://github.com/lkun45598-lgtm/lkun45598-lgtm"><img src="https://img.shields.io/badge/status-updating-0891b2.svg"></a>
+    <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10-0e7490.svg"></a>
+    <a href="https://github.com/lkun45598-lgtm?tab=repositories"><img src="https://img.shields.io/github/stars/lkun45598-lgtm?affiliations=OWNER&style=flat&logo=github&label=Total%20Stars&color=0891b2"></a>
+    <a href="https://github.com/lkun45598-lgtm?tab=followers"><img src="https://img.shields.io/github/followers/lkun45598-lgtm?style=flat&logo=github&color=0e7490"></a>
 </p>
 
 <!--   typing SVG -->
@@ -16,9 +15,9 @@
 
 <!--   contact icons -->
 <p align="center">
-  <a href="mailto:lkun45598@gmail.com"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="28" /></a>&nbsp;
-  <a href="https://github.com/lkun45598-lgtm"><img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="28" /></a>&nbsp;
-  <a href="https://www.scau.edu.cn"><img align="center" src="https://img.shields.io/badge/SCAU-0891b2?style=for-the-badge" height="28" /></a>
+  <a href="mailto:lkun45598@gmail.com"><img align="center" src="https://img.shields.io/badge/Gmail-0891b2?style=for-the-badge&logo=gmail&logoColor=white" height="28" /></a>&nbsp;
+  <a href="https://github.com/lkun45598-lgtm"><img align="center" src="https://img.shields.io/badge/GitHub-0e7490?style=for-the-badge&logo=github&logoColor=white" height="28" /></a>&nbsp;
+  <a href="https://www.scau.edu.cn"><img align="center" src="https://img.shields.io/badge/SCAU-1e3a8a?style=for-the-badge" height="28" /></a>
 </p>
 
 <!--   navigation -->
@@ -27,7 +26,7 @@
   <a href="#tech-stack"><img src="https://img.shields.io/badge/Tech_Stack-0e7490?style=for-the-badge" /></a>
   <a href="#projects"><img src="https://img.shields.io/badge/Projects-155e75?style=for-the-badge" /></a>
   <a href="#github-stats"><img src="https://img.shields.io/badge/Stats-164e63?style=for-the-badge" /></a>
-  <a href="#contact"><img src="https://img.shields.io/badge/Contact-1e40af?style=for-the-badge" /></a>
+  <a href="#contact"><img src="https://img.shields.io/badge/Contact-1e3a8a?style=for-the-badge" /></a>
 </p>
 
 ---
@@ -50,15 +49,13 @@
 
 ## Tech Stack
 
-<!--   skills table (BEPb style: Property | Data) -->
-
 | Property | Data |
 |----------|------|
-| **Language / Framework** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=white) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=PyTorch&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/-Express-000000?style=flat&logo=Express&logoColor=white) ![Bash](https://img.shields.io/badge/-Bash-444444?style=flat&logo=GnuBash&logoColor=white) |
-| **Scientific ML** | ![FNO](https://img.shields.io/badge/-FNO-0891b2?style=flat&logoColor=white) ![Transformer](https://img.shields.io/badge/-Transformer-0891b2?style=flat&logoColor=white) ![Diffusion](https://img.shields.io/badge/-Diffusion_Models-0891b2?style=flat&logoColor=white) ![CBAM](https://img.shields.io/badge/-CBAM-0891b2?style=flat&logoColor=white) ![SIREN](https://img.shields.io/badge/-SIREN-0891b2?style=flat&logoColor=white) ![SwinIR](https://img.shields.io/badge/-SwinIR-0891b2?style=flat&logoColor=white) |
-| **Agent / Infra** | ![KODE SDK](https://img.shields.io/badge/-KODE_SDK-0891b2?style=flat&logoColor=white) ![SSE](https://img.shields.io/badge/-SSE-0891b2?style=flat&logoColor=white) ![Claude API](https://img.shields.io/badge/-Claude_API-191919?style=flat&logo=Anthropic&logoColor=white) ![OpenAI](https://img.shields.io/badge/-OpenAI_compat-412991?style=flat&logo=OpenAI&logoColor=white) ![DDP](https://img.shields.io/badge/-8GPU_DDP-0891b2?style=flat&logoColor=white) |
-| **Ocean Data** | ![NetCDF](https://img.shields.io/badge/-NetCDF-0891b2?style=flat&logoColor=white) ![HDF5](https://img.shields.io/badge/-HDF5-0891b2?style=flat&logoColor=white) ![xarray](https://img.shields.io/badge/-xarray-0891b2?style=flat&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=NumPy&logoColor=white) ![JAXA L3](https://img.shields.io/badge/-JAXA_L3-0891b2?style=flat&logoColor=white) ![ERA5](https://img.shields.io/badge/-ERA5-0891b2?style=flat&logoColor=white) ![OSTIA](https://img.shields.io/badge/-OSTIA-0891b2?style=flat&logoColor=white) |
-| **Tools / CI** | ![Git](https://img.shields.io/badge/-Git-004400?style=flat&logo=git) ![GitHub](https://img.shields.io/badge/-GitHub-444444?style=flat&logo=github) ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=GitHubActions&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) ![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white) ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white) |
+| **Language / Framework** | ![Python](https://img.shields.io/badge/-Python-0891b2?style=flat&logo=Python&logoColor=white) ![PyTorch](https://img.shields.io/badge/-PyTorch-0e7490?style=flat&logo=PyTorch&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-155e75?style=flat&logo=TypeScript&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-164e63?style=flat&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/-Express-1e3a8a?style=flat&logo=Express&logoColor=white) ![Bash](https://img.shields.io/badge/-Bash-164e63?style=flat&logo=GnuBash&logoColor=white) |
+| **Scientific ML** | ![FNO](https://img.shields.io/badge/-FNO-0891b2?style=flat&logoColor=white) ![Transformer](https://img.shields.io/badge/-Transformer-0e7490?style=flat&logoColor=white) ![Diffusion](https://img.shields.io/badge/-Diffusion_Models-155e75?style=flat&logoColor=white) ![CBAM](https://img.shields.io/badge/-CBAM-164e63?style=flat&logoColor=white) ![SIREN](https://img.shields.io/badge/-SIREN-1e3a8a?style=flat&logoColor=white) ![SwinIR](https://img.shields.io/badge/-SwinIR-0891b2?style=flat&logoColor=white) |
+| **Agent / Infra** | ![KODE SDK](https://img.shields.io/badge/-KODE_SDK-0891b2?style=flat&logoColor=white) ![SSE](https://img.shields.io/badge/-SSE-0e7490?style=flat&logoColor=white) ![Claude API](https://img.shields.io/badge/-Claude_API-155e75?style=flat&logo=Anthropic&logoColor=white) ![OpenAI](https://img.shields.io/badge/-OpenAI_compat-164e63?style=flat&logo=OpenAI&logoColor=white) ![DDP](https://img.shields.io/badge/-8GPU_DDP-1e3a8a?style=flat&logoColor=white) |
+| **Ocean Data** | ![NetCDF](https://img.shields.io/badge/-NetCDF-0891b2?style=flat&logoColor=white) ![HDF5](https://img.shields.io/badge/-HDF5-0e7490?style=flat&logoColor=white) ![xarray](https://img.shields.io/badge/-xarray-155e75?style=flat&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-164e63?style=flat&logo=NumPy&logoColor=white) ![JAXA L3](https://img.shields.io/badge/-JAXA_L3-0891b2?style=flat&logoColor=white) ![ERA5](https://img.shields.io/badge/-ERA5-0e7490?style=flat&logoColor=white) ![OSTIA](https://img.shields.io/badge/-OSTIA-155e75?style=flat&logoColor=white) |
+| **Tools / CI** | ![Git](https://img.shields.io/badge/-Git-0891b2?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-0e7490?style=flat&logo=github&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-155e75?style=flat&logo=GitHubActions&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-164e63?style=flat&logo=docker&logoColor=white) ![VS Code](https://img.shields.io/badge/-VS_Code-1e3a8a?style=flat&logo=visual-studio-code&logoColor=white) ![Jupyter](https://img.shields.io/badge/-Jupyter-0891b2?style=flat&logo=jupyter&logoColor=white) |
 
 <!--   research architecture -->
 
@@ -137,10 +134,10 @@ Satellite / Reanalysis → NetCDF → NPY
 
 <div align="center">
 
-[![Ocean Agent Infra](https://img.shields.io/badge/Ocean_Agent_Infra-lightgrey?style=flat-square&logo=lock&logoColor=white)](https://github.com/lkun45598-lgtm)
+[![Ocean Agent Infra](https://img.shields.io/badge/Ocean_Agent_Infra-164e63?style=flat-square&logo=lock&logoColor=white)](https://github.com/lkun45598-lgtm)
 [![RL_for_Agent](https://img.shields.io/badge/RL__for__Agent-0891b2?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/RL_for_Agent)
-[![SST_FTM](https://img.shields.io/badge/SST__FTM-0891b2?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/SST_FTM)
-[![Ifactformer](https://img.shields.io/badge/Ifactformer--Earthquake-0891b2?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction)
+[![SST_FTM](https://img.shields.io/badge/SST__FTM-0e7490?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/SST_FTM)
+[![Ifactformer](https://img.shields.io/badge/Ifactformer--Earthquake-155e75?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction)
 
 </div>
 
@@ -150,7 +147,7 @@ Satellite / Reanalysis → NetCDF → NPY
 <summary><b>Ocean Agent Infrastructure — Scientific Research Automation Service</b></summary>
 <br>
 
-![Status](https://img.shields.io/badge/status-private-lightgrey?style=flat-square)
+![Status](https://img.shields.io/badge/status-private-164e63?style=flat-square)
 
 A production Agent HTTP service for ocean science research automation, built on KODE SDK. Provides an SSE streaming API that orchestrates the full scientific workflow — from raw satellite data ingestion to model training and experiment iteration — as a single controllable service.
 
@@ -170,8 +167,8 @@ A production Agent HTTP service for ocean science research automation, built on 
 <summary><b>RL_for_Agent — Loss Transfer & Experiment Automation</b></summary>
 <br>
 
-![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
-![Stars](https://img.shields.io/github/stars/lkun45598-lgtm/RL_for_Agent?style=flat-square)
+![Status](https://img.shields.io/badge/status-active-0891b2?style=flat-square)
+![Stars](https://img.shields.io/github/stars/lkun45598-lgtm/RL_for_Agent?style=flat-square&color=0891b2)
 
 Public interface to the ocean research automation system. The core contribution is a **Loss Transfer pipeline** that reads a research paper, extracts the loss formulation, and automatically migrates it into the active training codebase with multi-stage validation.
 
@@ -191,8 +188,8 @@ Public interface to the ocean research automation system. The core contribution 
 <summary><b>SST_FTM — Sea Surface Temperature Reconstruction with Physical Priors</b></summary>
 <br>
 
-![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
-![Stars](https://img.shields.io/github/stars/lkun45598-lgtm/SST_FTM?style=flat-square)
+![Status](https://img.shields.io/badge/status-active-0891b2?style=flat-square)
+![Stars](https://img.shields.io/github/stars/lkun45598-lgtm/SST_FTM?style=flat-square&color=0891b2)
 
 Physics-informed deep learning framework for SST reconstruction from cloud-contaminated satellite observations. Combines a Functional Tucker Model (FTM) for physical low-rank structure with an FNO-CBAM residual network for high-frequency detail.
 
@@ -213,8 +210,8 @@ Physics-informed deep learning framework for SST reconstruction from cloud-conta
 <summary><b>Ifactformer-Earthquake-Prediction — Seismic Wavefield Forecasting</b></summary>
 <br>
 
-![Status](https://img.shields.io/badge/status-active-success?style=flat-square)
-![Stars](https://img.shields.io/github/stars/lkun45598-lgtm/Ifactformer-Earthquake-Prediction?style=flat-square)
+![Status](https://img.shields.io/badge/status-active-0891b2?style=flat-square)
+![Stars](https://img.shields.io/github/stars/lkun45598-lgtm/Ifactformer-Earthquake-Prediction?style=flat-square&color=0891b2)
 
 Adaptation of the IFactFormer factorized Transformer architecture for long-horizon seismic wavefield prediction. Built a custom training pipeline, mmap-based dataset loader, and evaluation suite on top of the original architecture, applied to the WaveCastNet seismic dataset.
 
@@ -249,8 +246,6 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 ## GitHub Stats
 
-📈 **GitHub Activity Graph:**
-
 <!-- stats:start -->
 
 <div align="center">
@@ -259,12 +254,9 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 </div>
 
-<!--   green snake -->
 ![lkun's github activity graph](https://raw.githubusercontent.com/lkun45598-lgtm/lkun45598-lgtm/output/github-contribution-grid-snake.svg#gh-light-mode-only)
-<!-- dark snake -->
 ![lkun's github activity graph](https://raw.githubusercontent.com/lkun45598-lgtm/lkun45598-lgtm/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
 
-<!--   stats + languages -->
 <div align="center">
 <table>
   <tr>
@@ -280,7 +272,7 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 <div align="center">
 
-![GitHub Streak](https://streak-stats.demolab.com?user=lkun45598-lgtm&theme=radical&hide_border=true)
+![GitHub Streak](https://streak-stats.demolab.com?user=lkun45598-lgtm&theme=transparent&hide_border=true&ring=0891b2&fire=06b6d4&currStreakLabel=0891b2&sideLabels=0891b2&currStreakNum=ffffff&sideNums=ffffff&dates=64748b)
 
 </div>
 
@@ -290,7 +282,6 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 </div>
 
-<!--   3D contrib -->
 ![3D Contribution Graph](./profile-3d-contrib/profile-green-animate.svg)
 
 <!-- stats:end -->
@@ -305,11 +296,9 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 ## Contact
 
-**📫 How to Reach me:**
-
 <p align="center">
-  <a href="mailto:lkun45598@gmail.com"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="30" /></a>&nbsp;
-  <a href="https://github.com/lkun45598-lgtm"><img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="30" /></a>
+  <a href="mailto:lkun45598@gmail.com"><img align="center" src="https://img.shields.io/badge/Gmail-0891b2?style=for-the-badge&logo=gmail&logoColor=white" height="30" /></a>&nbsp;
+  <a href="https://github.com/lkun45598-lgtm"><img align="center" src="https://img.shields.io/badge/GitHub-0e7490?style=for-the-badge&logo=github&logoColor=white" height="30" /></a>
 </p>
 
 <p align="center">
@@ -318,9 +307,8 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 ---
 
-<!--   flag counter -->
 <p align="center">
-  <a href="https://info.flagcounter.com/"><img src="https://s01.flagcounter.com/count2/abc/bg_161B22/txt_FFFFFF/border_0891B2/columns_6/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+  <a href="https://info.flagcounter.com/"><img src="https://s01.flagcounter.com/count2/abc/bg_0d1117/txt_0891b2/border_164e63/columns_6/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 </p>
 
 ---
