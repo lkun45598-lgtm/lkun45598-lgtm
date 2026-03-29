@@ -256,25 +256,44 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 *[数据统计]*
 
 <!-- stats:start -->
+<div align="center">
+
 <table>
   <tr>
     <td align="center"><strong>11</strong><br /><sub>Public Repos</sub></td>
     <td align="center"><strong>55</strong><br /><sub>Total Stars</sub></td>
     <td align="center"><strong>5</strong><br /><sub>Followers</sub></td>
     <td align="center"><strong>282</strong><br /><sub>Contributions (1y)</sub></td>
-  </tr>
-  <tr>
     <td align="center"><strong>205</strong><br /><sub>Commits (1y)</sub></td>
-    <td align="center"><strong>30</strong><br /><sub>Active Days (1y)</sub></td>
-    <td align="center"><strong>0</strong><br /><sub>Current Streak</sub></td>
-    <td align="center"><strong>7</strong><br /><sub>Best Streak</sub></td>
+    <td align="center"><strong>1</strong><br /><sub>Current Streak</sub></td>
   </tr>
 </table>
 
-<p align="center">
-  <sub>Most-starred public repo: <a href="https://github.com/lkun45598-lgtm/SST_Data_Imputation">SST_Data_Imputation</a> (8 stars) · Updated 2026-03-29 05:19 UTC. This section is refreshed automatically with GitHub Actions.</sub>
-</p>
+<sub>Most-starred: <a href="https://github.com/lkun45598-lgtm/SST_Data_Imputation">SST_Data_Imputation</a> (8 stars) · Auto-refreshed via GitHub Actions.</sub>
+
+</div>
 <!-- stats:end -->
+
+### 📈 GitHub Activity
+
+![lkun's github activity graph](https://raw.githubusercontent.com/lkun45598-lgtm/lkun45598-lgtm/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+![lkun's github activity graph](https://raw.githubusercontent.com/lkun45598-lgtm/lkun45598-lgtm/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+
+<div align="center">
+
+| . | . |
+|---|---|
+| ![lkun's github stats](https://github-readme-stats.vercel.app/api?username=lkun45598-lgtm&show_icons=true&theme=radical&include_all_commits=true&hide_border=true) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=lkun45598-lgtm&theme=radical&layout=compact&hide_border=true&hide=jupyter%20notebook) |
+
+</div>
+
+<div align="center">
+
+![GitHub Streak](https://streak-stats.demolab.com?user=lkun45598-lgtm&theme=radical&hide_border=true)
+
+</div>
+
+![3D Contribution Graph](./profile-3d-contrib/profile-green-animate.svg)
 
 ---
 
