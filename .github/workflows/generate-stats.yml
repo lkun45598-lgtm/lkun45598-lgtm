@@ -39,14 +39,14 @@ jobs:
 
           # GitHub Stats card (disable_animations to avoid opacity:0 issue on GitHub)
           fetch stats/github-stats.svg \
-            "https://github-readme-stats-eight-theta.vercel.app/api?username=${USERNAME}&show_icons=true&theme=transparent&include_all_commits=true&hide_border=true&title_color=0891b2&icon_color=06b6d4&text_color=ffffff&bg_color=00000000&ring_color=0891b2&disable_animations=true" \
-            "https://github-readme-stats.vercel.app/api?username=${USERNAME}&show_icons=true&theme=transparent&include_all_commits=true&hide_border=true&title_color=0891b2&icon_color=06b6d4&text_color=ffffff&bg_color=00000000&ring_color=0891b2&disable_animations=true" \
+            "https://github-readme-stats-eight-theta.vercel.app/api?username=${USERNAME}&show_icons=true&theme=dark&include_all_commits=true&hide_border=true&title_color=0891b2&icon_color=06b6d4&text_color=ffffff&bg_color=0d1117&ring_color=0891b2&disable_animations=true" \
+            "https://github-readme-stats.vercel.app/api?username=${USERNAME}&show_icons=true&theme=dark&include_all_commits=true&hide_border=true&title_color=0891b2&icon_color=06b6d4&text_color=ffffff&bg_color=0d1117&ring_color=0891b2&disable_animations=true" \
             || true
 
           # Top Languages card
           fetch stats/languages.svg \
-            "https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=${USERNAME}&theme=transparent&layout=compact&hide_border=true&hide=jupyter%20notebook&title_color=0891b2&text_color=ffffff&bg_color=00000000&disable_animations=true" \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&theme=transparent&layout=compact&hide_border=true&hide=jupyter%20notebook&title_color=0891b2&text_color=ffffff&bg_color=00000000&disable_animations=true" \
+            "https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=${USERNAME}&theme=dark&layout=compact&hide_border=true&hide=jupyter%20notebook&title_color=0891b2&text_color=ffffff&bg_color=0d1117&disable_animations=true" \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&theme=dark&layout=compact&hide_border=true&hide=jupyter%20notebook&title_color=0891b2&text_color=ffffff&bg_color=0d1117&disable_animations=true" \
             || true
 
           # Activity Graph
