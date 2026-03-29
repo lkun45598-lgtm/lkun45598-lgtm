@@ -9,10 +9,9 @@ permissions:
   contents: write
 
 jobs:
-  github-metrics:
+  stats:
     runs-on: ubuntu-latest
     steps:
-      # --- Stats card ---
       - name: GitHub Stats
         uses: lowlighter/metrics@latest
         with:
@@ -22,9 +21,7 @@ jobs:
           base: header, activity, community, repositories
           config_timezone: Asia/Shanghai
           filename: stats/github-stats.svg
-          config_display: large
 
-      # --- Languages card ---
       - name: Languages
         uses: lowlighter/metrics@latest
         with:
@@ -33,15 +30,10 @@ jobs:
           template: classic
           base: ""
           plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_analysis_timeout: 30
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           filename: stats/languages.svg
 
-      # --- Achievements / Trophy ---
       - name: Achievements
         uses: lowlighter/metrics@latest
         with:
@@ -51,10 +43,9 @@ jobs:
           base: ""
           plugin_achievements: yes
           plugin_achievements_display: compact
-          plugin_achievements_threshold: B
+          plugin_achievements_threshold: C
           filename: stats/achievements.svg
 
-      # --- Activity Graph ---
       - name: Contribution Calendar
         uses: lowlighter/metrics@latest
         with:
@@ -63,5 +54,5 @@ jobs:
           template: classic
           base: ""
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
           filename: stats/isocalendar.svg
