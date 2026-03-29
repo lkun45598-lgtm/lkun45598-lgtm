@@ -17,32 +17,56 @@ jobs:
       - name: Generate stats SVGs
         env:
           GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          USERNAME: lkun45598-lgtm
         run: |
           mkdir -p stats
 
+          # Helper: try multiple mirrors, keep first success
+          fetch() {
+            local output="$1"; shift
+            for url in "$@"; do
+              echo "Trying: $url"
+              if curl -sS --max-time 30 -o "$output" "$url"; then
+                # Check if it's a valid SVG (not an error page)
+                if head -5 "$output" | grep -q '<svg'; then
+                  echo "  -> OK"
+                  return 0
+                fi
+              fi
+              echo "  -> Failed, trying next..."
+            done
+            echo "  -> All mirrors failed for $output"
+            return 1
+          }
+
           # GitHub Stats card
-          curl -sf -o stats/github-stats.svg \
-            "https://github-readme-stats.vercel.app/api?username=lkun45598-lgtm&show_icons=true&theme=radical&include_all_commits=true&hide_border=true&count_private=true&PAT_1=${GH_TOKEN}"
+          fetch stats/github-stats.svg \
+            "https://github-readme-stats.vercel.app/api?username=${USERNAME}&show_icons=true&theme=radical&include_all_commits=true&hide_border=true" \
+            "https://github-readme-stats-eight-theta.vercel.app/api?username=${USERNAME}&show_icons=true&theme=radical&include_all_commits=true&hide_border=true" \
+            || true
 
           # Top Languages card
-          curl -sf -o stats/languages.svg \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=lkun45598-lgtm&theme=radical&layout=compact&hide_border=true&hide=jupyter%20notebook&PAT_1=${GH_TOKEN}"
+          fetch stats/languages.svg \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&theme=radical&layout=compact&hide_border=true&hide=jupyter%20notebook" \
+            "https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=${USERNAME}&theme=radical&layout=compact&hide_border=true&hide=jupyter%20notebook" \
+            || true
 
           # Trophy
-          curl -sf -o stats/trophy.svg \
-            "https://github-profile-trophy.vercel.app/?username=lkun45598-lgtm&theme=radical&no-frame=true&no-bg=true&column=6&margin-w=15"
+          fetch stats/trophy.svg \
+            "https://github-profile-trophy.vercel.app/?username=${USERNAME}&theme=radical&no-frame=true&no-bg=true&column=6&margin-w=15" \
+            || true
 
           # Activity Graph
-          curl -sf -o stats/activity-graph.svg \
-            "https://github-readme-activity-graph.vercel.app/graph?username=lkun45598-lgtm&theme=radical&hide_border=true"
+          fetch stats/activity-graph.svg \
+            "https://github-readme-activity-graph.vercel.app/graph?username=${USERNAME}&theme=radical&hide_border=true" \
+            || true
 
-          echo "Generated files:"
-          ls -la stats/
+          echo "=== Generated files ==="
+          ls -la stats/ || true
 
       - name: Commit & Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add stats/
-          git diff --cached --quiet || git commit -m "Update stats cards"
-          git push
+          git diff --cached --quiet && echo "No changes" || (git commit -m "Update stats cards" && git push)
