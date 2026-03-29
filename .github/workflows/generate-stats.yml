@@ -9,50 +9,40 @@ permissions:
   contents: write
 
 jobs:
-  stats:
+  generate:
     runs-on: ubuntu-latest
     steps:
-      - name: GitHub Stats
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: lkun45598-lgtm
-          template: classic
-          base: header, activity, community, repositories
-          config_timezone: Asia/Shanghai
-          filename: stats/github-stats.svg
+      - uses: actions/checkout@v4
 
-      - name: Languages
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: lkun45598-lgtm
-          template: classic
-          base: ""
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          filename: stats/languages.svg
+      - name: Generate stats SVGs
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: |
+          mkdir -p stats
 
-      - name: Achievements
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: lkun45598-lgtm
-          template: classic
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
-          filename: stats/achievements.svg
+          # GitHub Stats card
+          curl -sf -o stats/github-stats.svg \
+            "https://github-readme-stats.vercel.app/api?username=lkun45598-lgtm&show_icons=true&theme=radical&include_all_commits=true&hide_border=true&count_private=true&PAT_1=${GH_TOKEN}"
 
-      - name: Contribution Calendar
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: lkun45598-lgtm
-          template: classic
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-          filename: stats/isocalendar.svg
+          # Top Languages card
+          curl -sf -o stats/languages.svg \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=lkun45598-lgtm&theme=radical&layout=compact&hide_border=true&hide=jupyter%20notebook&PAT_1=${GH_TOKEN}"
+
+          # Trophy
+          curl -sf -o stats/trophy.svg \
+            "https://github-profile-trophy.vercel.app/?username=lkun45598-lgtm&theme=radical&no-frame=true&no-bg=true&column=6&margin-w=15"
+
+          # Activity Graph
+          curl -sf -o stats/activity-graph.svg \
+            "https://github-readme-activity-graph.vercel.app/graph?username=lkun45598-lgtm&theme=radical&hide_border=true"
+
+          echo "Generated files:"
+          ls -la stats/
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add stats/
+          git diff --cached --quiet || git commit -m "Update stats cards"
+          git push
