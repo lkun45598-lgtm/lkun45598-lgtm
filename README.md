@@ -266,13 +266,13 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
   <tr>
     <td align="center"><strong>205</strong><br /><sub>Commits (1y)</sub></td>
     <td align="center"><strong>30</strong><br /><sub>Active Days (1y)</sub></td>
-    <td align="center"><strong>1</strong><br /><sub>Current Streak</sub></td>
+    <td align="center"><strong>0</strong><br /><sub>Current Streak</sub></td>
     <td align="center"><strong>7</strong><br /><sub>Best Streak</sub></td>
   </tr>
 </table>
 
 <p align="center">
-  <sub>Most-starred public repo: <a href="https://github.com/lkun45598-lgtm/SST_Data_Imputation">SST_Data_Imputation</a> (8 stars) · Updated 2026-03-28 15:46 UTC. This section is refreshed automatically with GitHub Actions.</sub>
+  <sub>Most-starred public repo: <a href="https://github.com/lkun45598-lgtm/SST_Data_Imputation">SST_Data_Imputation</a> (8 stars) · Updated 2026-03-29 05:19 UTC. This section is refreshed automatically with GitHub Actions.</sub>
 </p>
 <!-- stats:end -->
 
