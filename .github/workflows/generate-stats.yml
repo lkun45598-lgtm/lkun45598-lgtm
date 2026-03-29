@@ -21,13 +21,11 @@ jobs:
         run: |
           mkdir -p stats
 
-          # Helper: try multiple mirrors, keep first success
           fetch() {
             local output="$1"; shift
             for url in "$@"; do
               echo "Trying: $url"
               if curl -sS --max-time 30 -o "$output" "$url"; then
-                # Check if it's a valid SVG (not an error page)
                 if head -5 "$output" | grep -q '<svg'; then
                   echo "  -> OK"
                   return 0
@@ -39,30 +37,22 @@ jobs:
             return 1
           }
 
-          # GitHub Stats card
           fetch stats/github-stats.svg \
-            "https://github-readme-stats.vercel.app/api?username=${USERNAME}&show_icons=true&theme=radical&include_all_commits=true&hide_border=true" \
             "https://github-readme-stats-eight-theta.vercel.app/api?username=${USERNAME}&show_icons=true&theme=radical&include_all_commits=true&hide_border=true" \
+            "https://github-readme-stats.vercel.app/api?username=${USERNAME}&show_icons=true&theme=radical&include_all_commits=true&hide_border=true" \
             || true
 
-          # Top Languages card
           fetch stats/languages.svg \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&theme=radical&layout=compact&hide_border=true&hide=jupyter%20notebook" \
             "https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=${USERNAME}&theme=radical&layout=compact&hide_border=true&hide=jupyter%20notebook" \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&theme=radical&layout=compact&hide_border=true&hide=jupyter%20notebook" \
             || true
 
-          # Trophy
-          fetch stats/trophy.svg \
-            "https://github-profile-trophy.vercel.app/?username=${USERNAME}&theme=radical&no-frame=true&no-bg=true&column=6&margin-w=15" \
-            || true
-
-          # Activity Graph
           fetch stats/activity-graph.svg \
             "https://github-readme-activity-graph.vercel.app/graph?username=${USERNAME}&theme=radical&hide_border=true" \
             || true
 
           echo "=== Generated files ==="
-          ls -la stats/ || true
+          ls -la stats/
 
       - name: Commit & Push
         run: |
