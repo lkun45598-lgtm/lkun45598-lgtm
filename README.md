@@ -49,49 +49,13 @@
 
 ## Tech Stack
 
-<blockquote>
-
-**`Language / Framework`** &ensp;
-<img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=PyTorch&logoColor=white" alt="PyTorch" />
-<img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white" alt="Node.js" />
-<img src="https://img.shields.io/badge/-Express-000000?style=flat&logo=Express&logoColor=white" alt="Express" />
-<img src="https://img.shields.io/badge/-Bash-4EAA25?style=flat&logo=GnuBash&logoColor=white" alt="Bash" />
-
-**`Scientific ML`** &ensp;
-<img src="https://img.shields.io/badge/-FNO-0891b2?style=flat&logoColor=white" alt="FNO" />
-<img src="https://img.shields.io/badge/-Transformer-0891b2?style=flat&logoColor=white" alt="Transformer" />
-<img src="https://img.shields.io/badge/-Diffusion_Models-0891b2?style=flat&logoColor=white" alt="Diffusion" />
-<img src="https://img.shields.io/badge/-CBAM-0891b2?style=flat&logoColor=white" alt="CBAM" />
-<img src="https://img.shields.io/badge/-SIREN-0891b2?style=flat&logoColor=white" alt="SIREN" />
-<img src="https://img.shields.io/badge/-SwinIR-0891b2?style=flat&logoColor=white" alt="SwinIR" />
-
-**`Agent / Infra`** &ensp;
-<img src="https://img.shields.io/badge/-KODE_SDK-0891b2?style=flat&logoColor=white" alt="KODE SDK" />
-<img src="https://img.shields.io/badge/-SSE-0891b2?style=flat&logoColor=white" alt="SSE" />
-<img src="https://img.shields.io/badge/-Claude_API-191919?style=flat&logo=Anthropic&logoColor=white" alt="Claude API" />
-<img src="https://img.shields.io/badge/-OpenAI_compat-412991?style=flat&logo=OpenAI&logoColor=white" alt="OpenAI" />
-<img src="https://img.shields.io/badge/-8GPU_DDP-0891b2?style=flat&logoColor=white" alt="DDP" />
-
-**`Ocean Data`** &ensp;
-<img src="https://img.shields.io/badge/-NetCDF-0891b2?style=flat&logoColor=white" alt="NetCDF" />
-<img src="https://img.shields.io/badge/-HDF5-0891b2?style=flat&logoColor=white" alt="HDF5" />
-<img src="https://img.shields.io/badge/-xarray-0891b2?style=flat&logoColor=white" alt="xarray" />
-<img src="https://img.shields.io/badge/-NumPy-013243?style=flat&logo=NumPy&logoColor=white" alt="NumPy" />
-<img src="https://img.shields.io/badge/-JAXA_L3-0891b2?style=flat&logoColor=white" alt="JAXA L3" />
-<img src="https://img.shields.io/badge/-ERA5-0891b2?style=flat&logoColor=white" alt="ERA5" />
-<img src="https://img.shields.io/badge/-OSTIA-0891b2?style=flat&logoColor=white" alt="OSTIA" />
-
-**`Tools / CI`** &ensp;
-<img src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" />
-<img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" />
-<img src="https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=GitHubActions&logoColor=white" alt="GitHub Actions" />
-<img src="https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker" />
-<img src="https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code" />
-<img src="https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white" alt="Jupyter" />
-
-</blockquote>
+| Property | Data |
+|----------|------|
+| **Language / Framework** | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=white) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat&logo=PyTorch&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white) ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/-Express-000000?style=flat&logo=Express&logoColor=white) ![Bash](https://img.shields.io/badge/-Bash-4EAA25?style=flat&logo=GnuBash&logoColor=white) |
+| **Scientific ML** | ![FNO](https://img.shields.io/badge/-FNO-0891b2?style=flat&logoColor=white) ![Transformer](https://img.shields.io/badge/-Transformer-0891b2?style=flat&logoColor=white) ![Diffusion](https://img.shields.io/badge/-Diffusion_Models-0891b2?style=flat&logoColor=white) ![CBAM](https://img.shields.io/badge/-CBAM-0891b2?style=flat&logoColor=white) ![SIREN](https://img.shields.io/badge/-SIREN-0891b2?style=flat&logoColor=white) ![SwinIR](https://img.shields.io/badge/-SwinIR-0891b2?style=flat&logoColor=white) |
+| **Agent / Infra** | ![KODE SDK](https://img.shields.io/badge/-KODE_SDK-0891b2?style=flat&logoColor=white) ![SSE](https://img.shields.io/badge/-SSE-0891b2?style=flat&logoColor=white) ![Claude API](https://img.shields.io/badge/-Claude_API-191919?style=flat&logo=Anthropic&logoColor=white) ![OpenAI](https://img.shields.io/badge/-OpenAI_compat-412991?style=flat&logo=OpenAI&logoColor=white) ![DDP](https://img.shields.io/badge/-8GPU_DDP-0891b2?style=flat&logoColor=white) |
+| **Ocean Data** | ![NetCDF](https://img.shields.io/badge/-NetCDF-0891b2?style=flat&logoColor=white) ![HDF5](https://img.shields.io/badge/-HDF5-0891b2?style=flat&logoColor=white) ![xarray](https://img.shields.io/badge/-xarray-0891b2?style=flat&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=NumPy&logoColor=white) ![JAXA L3](https://img.shields.io/badge/-JAXA_L3-0891b2?style=flat&logoColor=white) ![ERA5](https://img.shields.io/badge/-ERA5-0891b2?style=flat&logoColor=white) ![OSTIA](https://img.shields.io/badge/-OSTIA-0891b2?style=flat&logoColor=white) |
+| **Tools / CI** | ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=GitHubActions&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) ![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white) ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white) |
 
 <!--   research architecture -->
 
@@ -278,26 +242,36 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 ## GitHub Stats
 
-<!-- stats:start -->
-<table>
-  <tr>
-    <td align="center"><strong>11</strong><br /><sub>Public Repos</sub></td>
-    <td align="center"><strong>55</strong><br /><sub>Total Stars</sub></td>
-    <td align="center"><strong>5</strong><br /><sub>Followers</sub></td>
-    <td align="center"><strong>315</strong><br /><sub>Contributions (1y)</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>238</strong><br /><sub>Commits (1y)</sub></td>
-    <td align="center"><strong>31</strong><br /><sub>Active Days (1y)</sub></td>
-    <td align="center"><strong>2</strong><br /><sub>Current Streak</sub></td>
-    <td align="center"><strong>7</strong><br /><sub>Best Streak</sub></td>
-  </tr>
-</table>
+### GitHub Profile Trophy
 
-<p align="center">
-  <sub>Most-starred public repo: <a href="https://github.com/lkun45598-lgtm/SST_Data_Imputation">SST_Data_Imputation</a> (8 stars) · Updated 2026-03-29 09:02 UTC. This section is refreshed automatically with GitHub Actions.</sub>
-</p>
-<!-- stats:end -->
+<div align="center">
+
+![Trophy](./stats/trophy.svg)
+
+</div>
+
+### GitHub Activity Graph
+
+![lkun's github activity graph](https://raw.githubusercontent.com/lkun45598-lgtm/lkun45598-lgtm/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+![lkun's github activity graph](https://raw.githubusercontent.com/lkun45598-lgtm/lkun45598-lgtm/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
+
+| . | . |
+|---|---|
+| ![GitHub Stats](./stats/github-stats.svg) | ![Top Languages](./stats/languages.svg) |
+
+<div align="center">
+
+![GitHub Streak](https://streak-stats.demolab.com?user=lkun45598-lgtm&theme=transparent&hide_border=true&ring=0891b2&fire=06b6d4&currStreakLabel=0891b2&sideLabels=0891b2&currStreakNum=ffffff&sideNums=ffffff&dates=64748b)
+
+</div>
+
+<div align="center">
+
+![Activity Graph](./stats/activity-graph.svg)
+
+</div>
+
+![3D Contribution Graph](./profile-3d-contrib/profile-green-animate.svg)
 
 ---
 
@@ -337,4 +311,3 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:0e7490,100:1e3a8a&height=120&section=footer" />
-
