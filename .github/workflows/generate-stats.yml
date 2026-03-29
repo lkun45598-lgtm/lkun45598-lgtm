@@ -37,19 +37,25 @@ jobs:
             return 1
           }
 
+          # GitHub Stats card
           fetch stats/github-stats.svg \
             "https://github-readme-stats-eight-theta.vercel.app/api?username=${USERNAME}&show_icons=true&theme=radical&include_all_commits=true&hide_border=true" \
             "https://github-readme-stats.vercel.app/api?username=${USERNAME}&show_icons=true&theme=radical&include_all_commits=true&hide_border=true" \
             || true
 
+          # Top Languages card
           fetch stats/languages.svg \
             "https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=${USERNAME}&theme=radical&layout=compact&hide_border=true&hide=jupyter%20notebook" \
             "https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&theme=radical&layout=compact&hide_border=true&hide=jupyter%20notebook" \
             || true
 
+          # Activity Graph
           fetch stats/activity-graph.svg \
             "https://github-readme-activity-graph.vercel.app/graph?username=${USERNAME}&theme=radical&hide_border=true" \
             || true
+
+          # Trophy - self-generated, no external dependency
+          OUTPUT=stats/trophy.svg python3 scripts/generate_trophy.py
 
           echo "=== Generated files ==="
           ls -la stats/
