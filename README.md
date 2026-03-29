@@ -209,24 +209,10 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 ## GitHub Stats
 
-<div align="center">
-
-<p>
-<img src="https://github-profile-trophy.vercel.app/?username=lkun45598-lgtm&theme=radical&no-frame=true&no-bg=true&column=6&margin-w=15" alt="Trophy" />
-</p>
-
-</div>
+<!-- stats:start -->
 
 ![lkun's github activity graph](https://raw.githubusercontent.com/lkun45598-lgtm/lkun45598-lgtm/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 ![lkun's github activity graph](https://raw.githubusercontent.com/lkun45598-lgtm/lkun45598-lgtm/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
-
-<div align="center">
-
-| . | . |
-|---|---|
-| ![lkun's github stats](https://github-readme-stats-lkun.vercel.app/api?username=lkun45598-lgtm&show_icons=true&theme=radical&include_all_commits=true&hide_border=true) | ![Top Languages](https://github-readme-stats-lkun.vercel.app/api/top-langs/?username=lkun45598-lgtm&theme=radical&layout=compact&hide_border=true&hide=jupyter%20notebook) |
-
-</div>
 
 <div align="center">
 
@@ -234,13 +220,9 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 </div>
 
-<div align="center">
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=lkun45598-lgtm&theme=radical&hide_border=true)
-
-</div>
-
 ![3D Contribution Graph](./profile-3d-contrib/profile-green-animate.svg)
+
+<!-- stats:end -->
 
 ---
 
