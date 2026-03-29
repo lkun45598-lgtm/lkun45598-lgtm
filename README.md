@@ -1,96 +1,39 @@
-<div align="center">
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:0e7490,100:1e3a8a&height=220&section=header&text=lkun&fontSize=72&fontColor=ffffff&fontAlignY=35&desc=AI%20for%20Ocean%20Science%20%7C%20Agent%20%2B%20Scientific%20ML&descSize=18&descColor=ffffff&descAlignY=55&animation=fadeIn" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=32&duration=3500&pause=800&color=0891b2&center=true&vCenter=true&multiline=true&width=700&height=110&lines=lkun;AI+for+Ocean+Science" alt="Typing SVG" />
+<p align="center">
+  <a href="mailto:lkun45598@gmail.com"><img src="https://img.shields.io/badge/lkun45598@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/lkun45598-lgtm"><img src="https://img.shields.io/badge/GitHub-lkun45598--lgtm-333333?style=flat-square&logo=github&logoColor=white" /></a>
+  <a href="https://www.scau.edu.cn"><img src="https://img.shields.io/badge/SCAU-0891b2?style=flat-square" /></a>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=lkun45598-lgtm.lkun45598-lgtm" alt="visitors" />
+</p>
 
-[![Email](https://img.shields.io/badge/lkun45598@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:lkun45598@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-lkun45598--lgtm-333333?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm)
-[![SCAU](https://img.shields.io/badge/South_China_Agricultural_University-0891b2?style=flat-square)](https://www.scau.edu.cn)
-
-</div>
-
----
-
-<div align="center">
-
-## Quick Navigation
-
-</div>
-
-<div align="center">
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-<a href="#about">
-<img src="https://img.shields.io/badge/01_About-0891b2?style=for-the-badge" alt="About">
-</a>
-
-</td>
-<td width="33%" align="center">
-
-<a href="#tech-stack">
-<img src="https://img.shields.io/badge/02_Tech_Stack-0e7490?style=for-the-badge" alt="Tech Stack">
-</a>
-
-</td>
-<td width="33%" align="center">
-
-<a href="#projects">
-<img src="https://img.shields.io/badge/03_Projects-155e75?style=for-the-badge" alt="Projects">
-</a>
-
-</td>
-</tr>
-<tr>
-<td width="33%" align="center">
-
-<a href="#github-stats">
-<img src="https://img.shields.io/badge/04_GitHub_Stats-164e63?style=for-the-badge" alt="GitHub Stats">
-</a>
-
-</td>
-<td width="33%" align="center">
-
-<a href="#open-repositories">
-<img src="https://img.shields.io/badge/05_Open_Repos-1e3a8a?style=for-the-badge" alt="Open Repositories">
-</a>
-
-</td>
-<td width="33%" align="center">
-
-<a href="#contact">
-<img src="https://img.shields.io/badge/06_Contact-1e40af?style=for-the-badge" alt="Contact">
-</a>
-
-</td>
-</tr>
-</table>
-
-</div>
+<p align="center">
+  <a href="#about"><img src="https://img.shields.io/badge/About-0891b2?style=for-the-badge" /></a>
+  <a href="#tech-stack"><img src="https://img.shields.io/badge/Tech_Stack-0e7490?style=for-the-badge" /></a>
+  <a href="#projects"><img src="https://img.shields.io/badge/Projects-155e75?style=for-the-badge" /></a>
+  <a href="#github-stats"><img src="https://img.shields.io/badge/Stats-164e63?style=for-the-badge" /></a>
+  <a href="#contact"><img src="https://img.shields.io/badge/Contact-1e40af?style=for-the-badge" /></a>
+</p>
 
 ---
 
 ## About
 
-*[关于我]*
+- **AI undergraduate** at South China Agricultural University, focused on **Agent + scientific research automation** for ocean science
+- Building end-to-end agent services that orchestrate scientific workflows — from satellite data ingestion to model training
+- Current work: SST / Chl-a imputation from sparse satellite observations, ocean field super-resolution, automated loss transfer from papers to training pipelines
 
-I am an **Artificial Intelligence** undergraduate at South China Agricultural University. My primary focus is **Agent infrastructure for scientific research automation**, with applications in ocean science.
+---
 
-I build systems that connect the two ends of the research loop: agent services that orchestrate scientific workflows end-to-end, and ML models that solve reconstruction and forecasting problems in physical domains. Current work spans SST and chlorophyll-a imputation from sparse satellite observations, ocean field super-resolution, and an automated loss function transfer pipeline that migrates loss designs from research papers directly into training runs.
+## Currently Working On
 
-**Research directions**
-
-[![Agent Infrastructure](https://img.shields.io/badge/Agent_Infrastructure-0891b2?style=flat-square)](https://github.com/lkun45598-lgtm/RL_for_Agent)
-[![Field Reconstruction](https://img.shields.io/badge/Field_Reconstruction-0891b2?style=flat-square)](https://github.com/lkun45598-lgtm/SST_FTM)
-[![Physical Forecasting](https://img.shields.io/badge/Physical_Forecasting-0891b2?style=flat-square)](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction)
-[![Scientific Automation](https://img.shields.io/badge/Scientific_Automation-0891b2?style=flat-square)](https://github.com/lkun45598-lgtm)
+- **Loss Transfer System** — auto-extracting loss functions from research papers and migrating them into active training runs with 4-stage validation
+- **Chl-a Multi-source Fusion** — 152-channel input (SST + Chl-a + masks + coordinate encoding + physical feature engineering) for chlorophyll-a imputation
+- **Ocean Agent Service** — production SSE streaming API with 8 tool sets for end-to-end scientific ML orchestration
 
 ---
 
 ## Tech Stack
-
-*[技术栈]*
 
 <div align="center">
 
@@ -151,8 +94,6 @@ I build systems that connect the two ends of the research loop: agent services t
 ---
 
 ## Projects
-
-*[精选项目]*
 
 <div align="center">
 
@@ -249,32 +190,32 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 </details>
 
+<details>
+<summary>Other repositories</summary>
+
+<br>
+
+| Repository | Description |
+|:---|:---|
+| [The-homework-of-Numerical-Analysis](https://github.com/lkun45598-lgtm/The-homework-of-Numerical-Analysis) | Mathematical foundations: approximation, stability, discretization, physical modeling. |
+| [SST_Data_Imputation](https://github.com/lkun45598-lgtm/SST_Data_Imputation) | Earlier SST reconstruction work. |
+| [SST_Data_Imputation_2.0](https://github.com/lkun45598-lgtm/SST_Data_Imputation_2.0) | Follow-up iteration on SST reconstruction. |
+| [High-Speed-Rail-Ticket-Booking-Management-System.](https://github.com/lkun45598-lgtm/High-Speed-Rail-Ticket-Booking-Management-System.) | C systems practice with linked lists, persistence, and order management. |
+| [PUBG-Weapon-Sound-Recognition-and-Inventory-System.](https://github.com/lkun45598-lgtm/PUBG-Weapon-Sound-Recognition-and-Inventory-System.) | ML project combining GUI, audio processing, and model training. |
+
+</details>
+
 ---
 
 ## GitHub Stats
 
-*[数据统计]*
-
-<!-- stats:start -->
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center"><strong>11</strong><br /><sub>Public Repos</sub></td>
-    <td align="center"><strong>55</strong><br /><sub>Total Stars</sub></td>
-    <td align="center"><strong>5</strong><br /><sub>Followers</sub></td>
-    <td align="center"><strong>282</strong><br /><sub>Contributions (1y)</sub></td>
-    <td align="center"><strong>205</strong><br /><sub>Commits (1y)</sub></td>
-    <td align="center"><strong>1</strong><br /><sub>Current Streak</sub></td>
-  </tr>
-</table>
-
-<sub>Most-starred: <a href="https://github.com/lkun45598-lgtm/SST_Data_Imputation">SST_Data_Imputation</a> (8 stars) · Auto-refreshed via GitHub Actions.</sub>
+<p>
+<img src="https://github-profile-trophy.vercel.app/?username=lkun45598-lgtm&theme=radical&no-frame=true&column=6" alt="Trophy" />
+</p>
 
 </div>
-<!-- stats:end -->
-
-### 📈 GitHub Activity
 
 ![lkun's github activity graph](https://raw.githubusercontent.com/lkun45598-lgtm/lkun45598-lgtm/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 ![lkun's github activity graph](https://raw.githubusercontent.com/lkun45598-lgtm/lkun45598-lgtm/output/github-contribution-grid-snake-dark.svg#gh-dark-mode-only)
@@ -293,40 +234,17 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 </div>
 
+<div align="center">
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=lkun45598-lgtm&theme=redical&hide_border=true)
+
+</div>
+
 ![3D Contribution Graph](./profile-3d-contrib/profile-green-animate.svg)
 
 ---
 
-## Open Repositories
-
-*[公开仓库]*
-
-| Repository | Description |
-|:---|:---|
-| [RL_for_Agent](https://github.com/lkun45598-lgtm/RL_for_Agent) | Loss Transfer pipeline + ocean SR experiment automation. Agent service for end-to-end scientific ML workflows. |
-| [SST_FTM](https://github.com/lkun45598-lgtm/SST_FTM) | SST reconstruction: FTM physical priors + FNO-CBAM residual learning on 9 years of JAXA satellite data. |
-| [Ifactformer-Earthquake-Prediction](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction) | IFactFormer adaptation for 460-step seismic wavefield prediction on WaveCastNet (149 GB). |
-| [The-homework-of-Numerical-Analysis](https://github.com/lkun45598-lgtm/The-homework-of-Numerical-Analysis) | Mathematical foundations: approximation, stability, discretization, and physical modeling. |
-
-<details>
-<summary>Earlier projects</summary>
-
-<br>
-
-| Repository | Note |
-|:---|:---|
-| [High-Speed-Rail-Ticket-Booking-Management-System.](https://github.com/lkun45598-lgtm/High-Speed-Rail-Ticket-Booking-Management-System.) | C systems practice with linked lists, persistence, and order management. |
-| [PUBG-Weapon-Sound-Recognition-and-Inventory-System.](https://github.com/lkun45598-lgtm/PUBG-Weapon-Sound-Recognition-and-Inventory-System.) | ML project combining GUI, audio processing, and model training. |
-| [SST_Data_Imputation](https://github.com/lkun45598-lgtm/SST_Data_Imputation) | Earlier SST reconstruction work. |
-| [SST_Data_Imputation_2.0](https://github.com/lkun45598-lgtm/SST_Data_Imputation_2.0) | Follow-up iteration on SST reconstruction. |
-
-</details>
-
----
-
 ## Contact
-
-*[联系方式]*
 
 <div align="center">
 
@@ -339,8 +257,4 @@ Open to research collaboration in AI for ocean science and scientific research a
 
 ---
 
-<div align="center">
-
-> **"From agent infrastructure to scientific modeling — independent systems, coherent direction."**
-
-</div>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:0e7490,100:1e3a8a&height=120&section=footer" />
