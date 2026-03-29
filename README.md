@@ -60,25 +60,48 @@
 | **Ocean Data** | ![NetCDF](https://img.shields.io/badge/-NetCDF-0891b2?style=flat&logoColor=white) ![HDF5](https://img.shields.io/badge/-HDF5-0891b2?style=flat&logoColor=white) ![xarray](https://img.shields.io/badge/-xarray-0891b2?style=flat&logoColor=white) ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat&logo=NumPy&logoColor=white) ![JAXA L3](https://img.shields.io/badge/-JAXA_L3-0891b2?style=flat&logoColor=white) ![ERA5](https://img.shields.io/badge/-ERA5-0891b2?style=flat&logoColor=white) ![OSTIA](https://img.shields.io/badge/-OSTIA-0891b2?style=flat&logoColor=white) |
 | **Tools / CI** | ![Git](https://img.shields.io/badge/-Git-004400?style=flat&logo=git) ![GitHub](https://img.shields.io/badge/-GitHub-444444?style=flat&logo=github) ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=GitHubActions&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white) ![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white) ![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white) |
 
-<!--   mermaid knowledge graph -->
+<!--   research architecture -->
+<div align="center">
 
 ```mermaid
-graph TD;
-    AI-for-Ocean-Science-->Agent-Infrastructure;
-    AI-for-Ocean-Science-->Scientific-ML;
-    AI-for-Ocean-Science-->Data-Processing;
-    Agent-Infrastructure-->KODE-SDK;
-    Agent-Infrastructure-->Loss-Transfer;
-    Agent-Infrastructure-->SSE-Service;
-    Scientific-ML-->FNO-CBAM;
-    Scientific-ML-->FTM-Prior;
-    Scientific-ML-->IFactFormer;
-    Scientific-ML-->Diffusion-SR;
-    Data-Processing-->JAXA-Satellite;
-    Data-Processing-->OSTIA-Global;
-    Data-Processing-->ERA5-Reanalysis;
-    Data-Processing-->ECCO-LLC4320;
+%%{init: {'theme': 'dark', 'themeVariables': { 'primaryColor': '#0891b2', 'primaryTextColor': '#fff', 'primaryBorderColor': '#0e7490', 'lineColor': '#38bdf8', 'secondaryColor': '#1e3a8a', 'tertiaryColor': '#164e63', 'fontFamily': 'JetBrains Mono, monospace'}}}%%
+graph LR
+    A["🌊 AI for Ocean Science"] --> B["🤖 Agent Infrastructure"]
+    A --> C["🧠 Scientific ML"]
+    A --> D["📡 Data Processing"]
+
+    B --> B1["KODE SDK"]
+    B --> B2["Loss Transfer"]
+    B --> B3["SSE Service"]
+
+    C --> C1["FNO-CBAM"]
+    C --> C2["FTM Prior"]
+    C --> C3["IFactFormer"]
+    C --> C4["Diffusion SR"]
+
+    D --> D1["JAXA Satellite"]
+    D --> D2["OSTIA Global"]
+    D --> D3["ERA5 Reanalysis"]
+    D --> D4["ECCO LLC4320"]
+
+    style A fill:#0891b2,stroke:#06b6d4,stroke-width:3px,color:#fff
+    style B fill:#1e3a8a,stroke:#3b82f6,stroke-width:2px,color:#fff
+    style C fill:#1e3a8a,stroke:#3b82f6,stroke-width:2px,color:#fff
+    style D fill:#1e3a8a,stroke:#3b82f6,stroke-width:2px,color:#fff
+    style B1 fill:#164e63,stroke:#0e7490,color:#fff
+    style B2 fill:#164e63,stroke:#0e7490,color:#fff
+    style B3 fill:#164e63,stroke:#0e7490,color:#fff
+    style C1 fill:#164e63,stroke:#0e7490,color:#fff
+    style C2 fill:#164e63,stroke:#0e7490,color:#fff
+    style C3 fill:#164e63,stroke:#0e7490,color:#fff
+    style C4 fill:#164e63,stroke:#0e7490,color:#fff
+    style D1 fill:#164e63,stroke:#0e7490,color:#fff
+    style D2 fill:#164e63,stroke:#0e7490,color:#fff
+    style D3 fill:#164e63,stroke:#0e7490,color:#fff
+    style D4 fill:#164e63,stroke:#0e7490,color:#fff
 ```
+
+</div>
 
 ---
 
@@ -215,11 +238,16 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 <!--   stats + languages -->
 <div align="center">
-
-| . | . |
-|---|---|
-| ![GitHub Stats](./stats/github-stats.svg) | ![Languages](./stats/languages.svg) |
-
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="./stats/github-stats.svg" width="100%" alt="GitHub Stats" />
+    </td>
+    <td width="50%" align="center">
+      <img src="./stats/languages.svg" width="100%" alt="Languages" />
+    </td>
+  </tr>
+</table>
 </div>
 
 <div align="center">
