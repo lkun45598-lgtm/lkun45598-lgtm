@@ -60,73 +60,69 @@
 <!--   research architecture -->
 
 <div align="center">
-
-<img src="https://img.shields.io/badge/🌊_AI_for_Ocean_Science-0891b2?style=for-the-badge&logoColor=white" />
-
-<br><br>
+<h3>🌊 AI for Ocean Science</h3>
+</div>
 
 <table>
 <tr>
-<td align="center" width="33%">
-
-<img src="https://img.shields.io/badge/🤖_Agent_Infrastructure-1e3a8a?style=for-the-badge" />
-
-<br><br>
+<th align="center" width="33%">🤖 Agent Infra</th>
+<th align="center" width="33%">🧠 Scientific ML</th>
+<th align="center" width="33%">📡 Data Pipeline</th>
+</tr>
+<tr>
+<td align="center" valign="top">
 
 <a href="https://github.com/lkun45598-lgtm/RL_for_Agent"><img src="https://img.shields.io/badge/KODE_SDK-164e63?style=flat-square" /></a>
-<img src="https://img.shields.io/badge/Loss_Transfer-164e63?style=flat-square" />
+<img src="https://img.shields.io/badge/Loss_Transfer-164e63?style=flat-square" /><br>
 <img src="https://img.shields.io/badge/SSE_Service-164e63?style=flat-square" />
+<img src="https://img.shields.io/badge/8GPU_DDP-164e63?style=flat-square" />
 
 <br>
 
 ```
-Paper → Loss Formula → Code Injection
-  → 4-Stage Validation → Training Run
+Paper → Loss Formula
+→ Code Injection
+→ 4-Stage Validation
+→ Training Run
 ```
 
 </td>
-<td align="center" width="33%">
-
-<img src="https://img.shields.io/badge/🧠_Scientific_ML-1e3a8a?style=for-the-badge" />
-
-<br><br>
+<td align="center" valign="top">
 
 <a href="https://github.com/lkun45598-lgtm/SST_FTM"><img src="https://img.shields.io/badge/FNO--CBAM-164e63?style=flat-square" /></a>
-<img src="https://img.shields.io/badge/FTM_Prior-164e63?style=flat-square" />
+<img src="https://img.shields.io/badge/FTM_Prior-164e63?style=flat-square" /><br>
 <a href="https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction"><img src="https://img.shields.io/badge/IFactFormer-164e63?style=flat-square" /></a>
 <img src="https://img.shields.io/badge/Diffusion_SR-164e63?style=flat-square" />
 
 <br>
 
 ```
-Sparse Obs → Physical Prior + Neural Op
-  → Reconstruction / Forecasting
+Sparse Obs
+→ Physical Prior + Neural Op
+→ Reconstruction
+→ Forecasting
 ```
 
 </td>
-<td align="center" width="33%">
-
-<img src="https://img.shields.io/badge/📡_Data_Processing-1e3a8a?style=for-the-badge" />
-
-<br><br>
+<td align="center" valign="top">
 
 <img src="https://img.shields.io/badge/JAXA_L3-164e63?style=flat-square" />
-<img src="https://img.shields.io/badge/OSTIA-164e63?style=flat-square" />
+<img src="https://img.shields.io/badge/OSTIA-164e63?style=flat-square" /><br>
 <img src="https://img.shields.io/badge/ERA5-164e63?style=flat-square" />
 <img src="https://img.shields.io/badge/ECCO_LLC4320-164e63?style=flat-square" />
 
 <br>
 
 ```
-Satellite / Reanalysis → NetCDF → NPY
-  → Validation → Training Pipeline
+Satellite / Reanalysis
+→ NetCDF → NPY
+→ Validation
+→ Training Pipeline
 ```
 
 </td>
 </tr>
 </table>
-
-</div>
 
 ---
 
