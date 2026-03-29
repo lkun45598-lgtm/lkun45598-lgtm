@@ -57,6 +57,14 @@ jobs:
           # Trophy - self-generated, no external dependency
           OUTPUT=stats/trophy.svg python3 scripts/generate_trophy.py
 
+          # Post-process: remove CSS animations that cause opacity:0 on GitHub
+          for svg in stats/github-stats.svg stats/languages.svg; do
+            if [ -f "$svg" ]; then
+              sed -i 's/opacity: 0;/opacity: 1;/g' "$svg"
+              echo "Fixed opacity in $svg"
+            fi
+          done
+
           echo "=== Generated files ==="
           ls -la stats/
 
