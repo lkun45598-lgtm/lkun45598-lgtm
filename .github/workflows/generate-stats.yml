@@ -25,7 +25,7 @@ jobs:
             local output="$1"; shift
             for url in "$@"; do
               echo "Trying: $url"
-              if curl -sS --max-time 30 -o "$output" "$url"; then
+              if curl -sSL --max-time 30 -o "$output" "$url"; then
                 if head -5 "$output" | grep -q '<svg'; then
                   echo "  -> OK"
                   return 0
