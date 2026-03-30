@@ -65,6 +65,11 @@ jobs:
             fi
           done
 
+          # Star History chart
+          fetch stats/star-history.svg \
+            "https://api.star-history.com/svg?repos=lkun45598-lgtm/RL_for_Agent,lkun45598-lgtm/SST_FTM,lkun45598-lgtm/Ifactformer-Earthquake-Prediction&type=Date&theme=dark" \
+            || true
+
           echo "=== Generated files ==="
           ls -la stats/
 
