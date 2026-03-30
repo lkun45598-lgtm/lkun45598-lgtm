@@ -286,7 +286,11 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=lkun45598-lgtm/RL_for_Agent,lkun45598-lgtm/SST_FTM,lkun45598-lgtm/Ifactformer-Earthquake-Prediction&type=Date)](https://star-history.com/#lkun45598-lgtm/RL_for_Agent&lkun45598-lgtm/SST_FTM&lkun45598-lgtm/Ifactformer-Earthquake-Prediction&Date)
+<div align="center">
+
+[![Star History Chart](./stats/star-history.svg)](https://star-history.com/#lkun45598-lgtm/RL_for_Agent&lkun45598-lgtm/SST_FTM&lkun45598-lgtm/Ifactformer-Earthquake-Prediction&Date)
+
+</div>
 
 ---
 
