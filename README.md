@@ -269,6 +269,19 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 </div>
 
 <div align="center">
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="./stats/lang-donut.svg" width="100%" alt="Language Distribution" />
+    </td>
+    <td width="50%" align="center">
+      <img src="./stats/skills-radar.svg" width="100%" alt="Skills Radar" />
+    </td>
+  </tr>
+</table>
+</div>
+
+<div align="center">
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=lkun45598-lgtm&theme=dark&hide_border=true&background=0d1117&ring=0891b2&fire=06b6d4&currStreakLabel=0891b2&sideLabels=0891b2&currStreakNum=ffffff&sideNums=ffffff&dates=64748b)
 
@@ -324,4 +337,5 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:0e7490,100:1e3a8a&height=120&section=footer" />
+
 
