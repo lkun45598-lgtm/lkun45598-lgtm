@@ -157,7 +157,7 @@ def make_legend(langs):
     return "".join(items)
 
 # === Generate radar polygon ===
-def make_radar(radar_vals, max_r=117):
+def make_radar(radar_vals, max_r=156):
     """radar_vals: list of (label, 0-1 normalized value)"""
     n = len(radar_vals)
     points_start = []
