@@ -177,8 +177,8 @@ def make_radar(radar_vals, max_r=156):
     end_str = " ".join(points_end)
     
     return (f'<polygon style="stroke-width: 4px; stroke: #47a042; fill: #47a042; fill-opacity: 0.5;" '
-            f'points="{start_str}">'
-            f'<animate attributeName="points" values="{start_str};{end_str}" dur="3s" repeatCount="1"></animate>'
+            f'points="{end_str}">'
+            f'<animate attributeName="points" values="{start_str};{end_str}" dur="3s" repeatCount="1" fill="freeze"></animate>'
             f'</polygon>')
 
 # === Process SVG files ===
