@@ -1,137 +1,27 @@
-
-      <svg
-        width="350"
-        height="140"
-        viewBox="0 0 350 140"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <style>
-          .header {
-            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #0891b2;
-            animation: fadeInAnimation 0.8s ease-in-out forwards;
-          }
-          
-    .lang-name { font: 400 11px 'Inter', Ubuntu, Sans-Serif; fill: #ffffff }
-  
-
-          
-        </style>
-
-        undefined
-
-        <rect
-          data-testid="card-bg"
-          x="0.5"
-          y="0.5"
-          rx="4.5"
-          height="99%"
-          stroke="#E4E2E2"
-          width="349"
-          fill="#0d1117"
-          stroke-opacity="0"
-        />
-
-        
-      <g
-        data-testid="card-title"
-        transform="translate(25, 35)"
-      >
-        <g transform="translate(0, 0)">
-      <text
-        x="0"
-        y="0"
-        class="header"
-        data-testid="header"
-      >My Programming Languages</text>
-    </g>
-      </g>
-    
-
-        <g
-          data-testid="main-card-body"
-          transform="translate(0, 55)"
-        >
-          
-    <svg data-testid="lang-items" x="25">
-      
-      <mask id="rect-mask">
-        <rect x="0" y="0" width="300" height="8" fill="white" rx="5" />
-      </mask>
-      
-          <rect
-            mask="url(#rect-mask)" 
-            data-testid="lang-progress"
-            x="0" 
-            y="0"
-            width="253.57" 
-            height="8"
-            fill="#3572A5"
-          />
-        
-          <rect
-            mask="url(#rect-mask)" 
-            data-testid="lang-progress"
-            x="253.57" 
-            y="0"
-            width="38.87" 
-            height="8"
-            fill="#555555"
-          />
-        
-          <rect
-            mask="url(#rect-mask)" 
-            data-testid="lang-progress"
-            x="292.44" 
-            y="0"
-            width="14.61" 
-            height="8"
-            fill="#e34c26"
-          />
-        
-          <rect
-            mask="url(#rect-mask)" 
-            data-testid="lang-progress"
-            x="297.05" 
-            y="0"
-            width="12.96" 
-            height="8"
-            fill="#663399"
-          />
-        
-      
-    <g transform="translate(0, 25)">
-      <circle cx="5" cy="6" r="5" fill="#3572A5" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python (84.52%)
-      </text>
-    </g>
-  
-    <g transform="translate(150, 25)">
-      <circle cx="5" cy="6" r="5" fill="#555555" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C (12.96%)
-      </text>
-    </g>
-  
-    <g transform="translate(0, 50)">
-      <circle cx="5" cy="6" r="5" fill="#e34c26" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        HTML (1.54%)
-      </text>
-    </g>
-  
-    <g transform="translate(150, 50)">
-      <circle cx="5" cy="6" r="5" fill="#663399" />
-      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        CSS (0.99%)
-      </text>
-    </g>
-  
-    
-    </svg>
-  
-        </g>
-      </svg>
-    
+<svg width="350" height="195" viewBox="0 0 350 195" xmlns="http://www.w3.org/2000/svg">
+<rect width="350" height="195" rx="4.5" fill="#0d1117" />
+<text x="25" y="35" fill="#0891b2" font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="600" font-size="18">Most Used Languages</text>
+<rect x="25" y="50" width="300" height="8" rx="4" fill="#161b22" />
+<rect x="25.0" y="50" width="269.4" height="8" fill="#3572A5" />
+<rect x="294.4" y="50" width="27.4" height="8" fill="#3178c6" />
+<rect x="321.8" y="50" width="2.1" height="8" fill="#555555" />
+<rect x="323.9" y="50" width="0.7" height="8" fill="#89e051" />
+<rect x="324.6" y="50" width="0.2" height="8" fill="#e34c26" />
+<rect x="324.8" y="50" width="0.2" height="8" fill="#663399" />
+<rect x="325.0" y="50" width="0.0" height="8" fill="#C1F12E" />
+<rect x="25" y="50" width="300" height="8" rx="4" fill="none" stroke="#0d1117" stroke-width="0.5" />
+<circle cx="25" cy="76" r="5" fill="#3572A5" />
+<text x="37" y="80" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">Python <tspan fill="#64748b">89.8%</tspan></text>
+<circle cx="25" cy="101" r="5" fill="#3178c6" />
+<text x="37" y="105" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">TypeScript <tspan fill="#64748b">9.1%</tspan></text>
+<circle cx="25" cy="126" r="5" fill="#555555" />
+<text x="37" y="130" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">C <tspan fill="#64748b">0.7%</tspan></text>
+<circle cx="25" cy="151" r="5" fill="#89e051" />
+<text x="37" y="155" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">Shell <tspan fill="#64748b">0.2%</tspan></text>
+<circle cx="180" cy="76" r="5" fill="#e34c26" />
+<text x="192" y="80" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">HTML <tspan fill="#64748b">0.1%</tspan></text>
+<circle cx="180" cy="101" r="5" fill="#663399" />
+<text x="192" y="105" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">CSS <tspan fill="#64748b">0.1%</tspan></text>
+<circle cx="180" cy="126" r="5" fill="#C1F12E" />
+<text x="192" y="130" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">Batchfile <tspan fill="#64748b">0.0%</tspan></text>
+</svg>
