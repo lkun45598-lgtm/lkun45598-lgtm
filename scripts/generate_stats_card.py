@@ -17,6 +17,9 @@ QUERY = """
 query($login: String!) {
   user(login: $login) {
     followers { totalCount }
+    pullRequests { totalCount }
+    issues { totalCount }
+    repositoriesContributedTo(contributionTypes: [COMMIT, PULL_REQUEST, ISSUE, REPOSITORY]) { totalCount }
     repositories(first: 100, ownerAffiliations: [OWNER, COLLABORATOR, ORGANIZATION_MEMBER], isFork: false) {
       totalCount
       nodes {
@@ -28,11 +31,8 @@ query($login: String!) {
     }
     contributionsCollection {
       totalCommitContributions
-      totalPullRequestContributions
-      totalIssueContributions
       totalRepositoriesWithContributedCommits
       restrictedContributionsCount
-      contributionCalendar { totalContributions }
     }
   }
 }
@@ -45,9 +45,9 @@ cc = user["contributionsCollection"]
 # Stats
 total_stars = sum(r["stargazerCount"] for r in user["repositories"]["nodes"])
 total_commits = cc["totalCommitContributions"] + cc["restrictedContributionsCount"]
-total_prs = cc["totalPullRequestContributions"]
-total_issues = cc["totalIssueContributions"]
-total_contribs = cc["totalRepositoriesWithContributedCommits"]
+total_prs = user["pullRequests"]["totalCount"]
+total_issues = user["issues"]["totalCount"]
+total_contribs = user["repositoriesContributedTo"]["totalCount"]
 followers = user["followers"]["totalCount"]
 
 # Rank calculation (same as github-readme-stats)
@@ -120,8 +120,8 @@ with open(STATS_OUTPUT, "w") as f:
     f.write(svg)
 print(f"Generated {STATS_OUTPUT}: stars={total_stars} commits={total_commits} prs={total_prs} rank={rank}")
 
-# === Generate Languages SVG ===
-LW, LH = 350, 195
+# === Generate Languages SVG (same width as stats for equal height in table) ===
+LW, LH = 495, 195
 bar_h = 8
 lsvg = f'''<svg width="{LW}" height="{LH}" viewBox="0 0 {LW} {LH}" xmlns="http://www.w3.org/2000/svg">
 <rect width="{LW}" height="{LH}" rx="4.5" fill="#0d1117" />
@@ -129,7 +129,7 @@ lsvg = f'''<svg width="{LW}" height="{LH}" viewBox="0 0 {LW} {LH}" xmlns="http:/
 '''
 
 # Progress bar
-bar_x, bar_y, bar_w = 25, 50, LW - 50
+bar_x, bar_y, bar_w = 25, 50, LW - 60
 lsvg += f'<rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="4" fill="#161b22" />\n'
 offset_x = bar_x
 for name, info in langs_sorted:
@@ -147,7 +147,7 @@ per_col = (len(langs_sorted) + 1) // 2
 for i, (name, info) in enumerate(langs_sorted):
     col = i // per_col
     row = i % per_col
-    x = 25 + col * 155
+    x = 25 + col * 220
     y = 80 + row * 25
     pct = info["size"] / total_size * 100
     lsvg += f'<circle cx="{x}" cy="{y - 4}" r="5" fill="{info["color"]}" />\n'
