@@ -207,8 +207,8 @@ for svg_path in svg_files:
         new_radar = make_radar(radar_data)
         svg = svg[:radar_match.start()] + new_radar + svg[radar_match.end():]
     
-    # 4. Replace stars count at bottom
-    stars_pattern = r'(font-weight: bold;" x="650" y="830" text-anchor="start" fill="#cdd9e5">)\d+(<title>)\d+(</title>)'
+    # 4. Replace stars count at bottom (color may be #00000f or #cdd9e5)
+    stars_pattern = r'(font-weight: bold;" x="650" y="830" text-anchor="start" fill="#[0-9a-fA-F]+">)\d+(<title>)\d+(</title>)'
     svg = re.sub(stars_pattern, rf'\g<1>{total_stars}\g<2>{total_stars}\g<3>', svg)
     
     if len(svg) != original_len or svg != open(svg_path).read():
