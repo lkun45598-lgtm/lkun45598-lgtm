@@ -67,16 +67,20 @@ lang_info = ", ".join(f"{n}={v['size']}" for n, v in top_langs)
 print(f"Data: commits={total_commits} stars={total_stars} repos={total_repos}")
 print(f"Langs: {lang_info}")
 
-# === Radar data: normalize to max radius ===
-def norm(val, cap):
-    return min(val / cap, 1.0)
+# === Radar data: use log scale for better visual distribution ===
+import math as _math
+def norm_log(val, base_cap):
+    """Log-scale normalization: makes small values visible, caps at 1.0"""
+    if val <= 0:
+        return 0.05  # minimum visible size
+    return min(_math.log(1 + val) / _math.log(1 + base_cap), 1.0)
 
 radar_data = [
-    ("Commit", norm(total_commits, 2000)),
-    ("PullReq", norm(total_prs, 100)),
-    ("Issue", norm(total_prs, 50)),  # using PR as proxy if issues low
-    ("Fork", norm(total_forks, 30)),
-    ("Repo", norm(total_repos, 50)),
+    ("Commit", norm_log(total_commits, 1000)),
+    ("PullReq", norm_log(total_prs, 50)),
+    ("Issue", norm_log(user["issues"]["totalCount"], 30)),
+    ("Fork", norm_log(total_forks, 20)),
+    ("Repo", norm_log(total_repos, 30)),
 ]
 
 # === Generate new pie chart arcs ===
