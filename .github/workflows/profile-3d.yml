@@ -19,6 +19,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           USERNAME: lkun45598-lgtm
 
+      - name: Fix 3D SVG text colors and data
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          USERNAME: lkun45598-lgtm
+          SVG_DIR: profile-3d-contrib
+        run: python3 scripts/fix_3d_svg.py
+
       - name: Commit & Push
         run: |
           git config user.name github-actions
