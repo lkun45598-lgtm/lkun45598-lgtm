@@ -13,11 +13,11 @@
   <text x="60" y="100" text-anchor="middle" class="label">Stars</text>
 </g>
 <g transform="translate(128, 0)">
-  <rect x="0" y="0" width="120" height="120" rx="8" fill="#161b22" stroke="#164e63" stroke-width="1.5" />
-  <rect x="88" y="4" width="28" height="18" rx="4" fill="#164e63" />
-  <text x="102" y="16" text-anchor="middle" class="rank" style="font-size:11px; fill:#fff;">A</text>
+  <rect x="0" y="0" width="120" height="120" rx="8" fill="#161b22" stroke="#155e75" stroke-width="1.5" />
+  <rect x="88" y="4" width="28" height="18" rx="4" fill="#155e75" />
+  <text x="102" y="16" text-anchor="middle" class="rank" style="font-size:11px; fill:#fff;">S</text>
   <text x="60" y="50" text-anchor="middle" style="font-size:26px;">🏆</text>
-  <text x="60" y="78" text-anchor="middle" class="value">840</text>
+  <text x="60" y="78" text-anchor="middle" class="value">1006</text>
   <text x="60" y="100" text-anchor="middle" class="label">Commits</text>
 </g>
 <g transform="translate(256, 0)">

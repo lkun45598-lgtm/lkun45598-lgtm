@@ -4,7 +4,7 @@
 <text x="25" y="65" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="600">⭐ Total Stars Earned:</text>
 <text x="240" y="65" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">57</text>
 <text x="25" y="90" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="600">📝 Total Commits:</text>
-<text x="240" y="90" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">840</text>
+<text x="240" y="90" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">1006</text>
 <text x="25" y="115" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="600">🔀 Total PRs:</text>
 <text x="240" y="115" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">30</text>
 <text x="25" y="140" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="600">❗ Total Issues:</text>
@@ -13,6 +13,6 @@
 <text x="240" y="165" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="14" font-weight="700">3</text>
 
 <circle cx="400" cy="110" r="40" fill="none" stroke="#0891b2" stroke-width="6" opacity="0.2" />
-<circle cx="400" cy="110" r="40" fill="none" stroke="#0891b2" stroke-width="6" stroke-dasharray="251.3" stroke-dashoffset="0.1" stroke-linecap="round" transform="rotate(-90 400 110)" opacity="0.8" />
+<circle cx="400" cy="110" r="40" fill="none" stroke="#0891b2" stroke-width="6" stroke-dasharray="251.3" stroke-dashoffset="0.0" stroke-linecap="round" transform="rotate(-90 400 110)" opacity="0.8" />
 <text x="400" y="118" text-anchor="middle" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-weight="800" font-size="24">S+</text>
 </svg>
