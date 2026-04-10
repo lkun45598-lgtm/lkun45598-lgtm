@@ -280,21 +280,7 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 </div>
 
-<div align="center">
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <img src="./stats/lang-donut.svg" width="100%" alt="Language Distribution" />
-    </td>
-    <td width="34%" align="center">
-      <img src="./profile-3d-contrib/profile-green-animate.svg" width="100%" alt="3D Contribution Graph" />
-    </td>
-    <td width="33%" align="center">
-      <img src="./stats/skills-radar.svg" width="100%" alt="Skills Radar" />
-    </td>
-  </tr>
-</table>
-</div>
+![3D Contribution Graph](./profile-3d-contrib/profile-green-animate.svg)
 
 ---
 
@@ -338,6 +324,7 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0891b2,50:0e7490,100:1e3a8a&height=120&section=footer" />
+
 
 
 
