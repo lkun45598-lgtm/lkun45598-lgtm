@@ -2,18 +2,18 @@
 <rect width="495" height="195" rx="4.5" fill="#0d1117" />
 <text x="25" y="35" fill="#0891b2" font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="600" font-size="18">Most Used Languages</text>
 <rect x="25" y="50" width="435" height="8" rx="4" fill="#161b22" />
-<rect x="25.0" y="50" width="391.6" height="8" fill="#3572A5" />
-<rect x="416.6" y="50" width="38.9" height="8" fill="#3178c6" />
-<rect x="455.4" y="50" width="3.0" height="8" fill="#555555" />
+<rect x="25.0" y="50" width="392.0" height="8" fill="#3572A5" />
+<rect x="417.0" y="50" width="38.4" height="8" fill="#3178c6" />
+<rect x="455.5" y="50" width="2.9" height="8" fill="#555555" />
 <rect x="458.4" y="50" width="1.0" height="8" fill="#89e051" />
-<rect x="459.4" y="50" width="0.4" height="8" fill="#e34c26" />
+<rect x="459.4" y="50" width="0.3" height="8" fill="#e34c26" />
 <rect x="459.7" y="50" width="0.2" height="8" fill="#663399" />
 <rect x="460.0" y="50" width="0.0" height="8" fill="#C1F12E" />
 <rect x="25" y="50" width="435" height="8" rx="4" fill="none" stroke="#0d1117" stroke-width="0.5" />
 <circle cx="25" cy="76" r="5" fill="#3572A5" />
-<text x="37" y="80" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">Python <tspan fill="#64748b">90.0%</tspan></text>
+<text x="37" y="80" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">Python <tspan fill="#64748b">90.1%</tspan></text>
 <circle cx="25" cy="101" r="5" fill="#3178c6" />
-<text x="37" y="105" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">TypeScript <tspan fill="#64748b">8.9%</tspan></text>
+<text x="37" y="105" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">TypeScript <tspan fill="#64748b">8.8%</tspan></text>
 <circle cx="25" cy="126" r="5" fill="#555555" />
 <text x="37" y="130" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">C <tspan fill="#64748b">0.7%</tspan></text>
 <circle cx="25" cy="151" r="5" fill="#89e051" />
