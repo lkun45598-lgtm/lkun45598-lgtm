@@ -11,10 +11,10 @@
 <line x1="200" y1="190" x2="200.0" y2="310.0" stroke="#1e293b" stroke-width="1" />
 <line x1="200" y1="190" x2="96.1" y2="250.0" stroke="#1e293b" stroke-width="1" />
 <line x1="200" y1="190" x2="96.1" y2="130.0" stroke="#1e293b" stroke-width="1" />
-<polygon points="200.0,123.3 230.1,172.6 232.2,208.6 200.0,240.4 193.8,193.6 184.4,181.0" fill="#0891b2" fill-opacity="0.25" stroke="#06b6d4" stroke-width="2.5" />
-<circle cx="200.0" cy="123.3" r="4" fill="#06b6d4" stroke="#0d1117" stroke-width="2" />
+<polygon points="200.0,121.8 230.1,172.6 232.2,208.6 200.0,240.4 193.8,193.6 184.4,181.0" fill="#0891b2" fill-opacity="0.25" stroke="#06b6d4" stroke-width="2.5" />
+<circle cx="200.0" cy="121.8" r="4" fill="#06b6d4" stroke="#0d1117" stroke-width="2" />
 <text x="200.0" y="45.0" text-anchor="middle" fill="#cdd9e5" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Commits</text>
-<text x="200.0" y="59.0" text-anchor="middle" fill="#64748b" font-family="'Segoe UI', sans-serif" font-size="10">55%</text>
+<text x="200.0" y="59.0" text-anchor="middle" fill="#64748b" font-family="'Segoe UI', sans-serif" font-size="10">56%</text>
 <circle cx="230.1" cy="172.6" r="4" fill="#06b6d4" stroke="#0d1117" stroke-width="2" />
 <text x="325.6" y="117.5" text-anchor="start" fill="#cdd9e5" font-family="'Segoe UI', sans-serif" font-size="13" font-weight="600">Stars</text>
 <text x="325.6" y="131.5" text-anchor="start" fill="#64748b" font-family="'Segoe UI', sans-serif" font-size="10">28%</text>
