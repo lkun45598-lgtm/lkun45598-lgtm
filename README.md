@@ -72,7 +72,7 @@
 <tr>
 <td align="center" valign="top">
 
-<a href="https://github.com/lkun45598-lgtm/RL_for_Agent"><img src="https://img.shields.io/badge/KODE_SDK-164e63?style=flat-square" /></a>
+<img src="https://img.shields.io/badge/KODE_SDK-164e63?style=flat-square" />
 <img src="https://img.shields.io/badge/Loss_Transfer-164e63?style=flat-square" /><br>
 <img src="https://img.shields.io/badge/SSE_Service-164e63?style=flat-square" />
 <img src="https://img.shields.io/badge/8GPU_DDP-164e63?style=flat-square" />
@@ -131,9 +131,10 @@ Satellite / Reanalysis
 <div align="center">
 
 [![Ocean Agent Infra](https://img.shields.io/badge/Ocean_Agent_Infra-164e63?style=flat-square&logo=lock&logoColor=white)](https://github.com/lkun45598-lgtm)
-[![RL_for_Agent](https://img.shields.io/badge/RL__for__Agent-0891b2?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/RL_for_Agent)
+[![RL_for_Agent](https://img.shields.io/badge/RL__for__Agent-164e63?style=flat-square&logo=lock&logoColor=white)](https://github.com/lkun45598-lgtm)
 [![SST_FTM](https://img.shields.io/badge/SST__FTM-0e7490?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/SST_FTM)
 [![Ifactformer](https://img.shields.io/badge/Ifactformer--Earthquake-155e75?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction)
+[![Wave_movie](https://img.shields.io/badge/Wave__movie-0891b2?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/Wave_movie)
 
 </div>
 
@@ -163,10 +164,9 @@ A production Agent HTTP service for ocean science research automation, built on 
 <summary><b>RL_for_Agent — Loss Transfer & Experiment Automation</b></summary>
 <br>
 
-![Status](https://img.shields.io/badge/status-active-0891b2?style=flat-square)
-![Stars](https://img.shields.io/github/stars/lkun45598-lgtm/RL_for_Agent?style=flat-square&color=0891b2)
+![Status](https://img.shields.io/badge/status-private-164e63?style=flat-square)
 
-Public interface to the ocean research automation system. The core contribution is a **Loss Transfer pipeline** that reads a research paper, extracts the loss formulation, and automatically migrates it into the active training codebase with multi-stage validation.
+Research automation system behind the ocean Agent infrastructure. The core contribution is a **Loss Transfer pipeline** that reads a research paper, extracts the loss formulation, and automatically migrates it into the active training codebase with multi-stage validation.
 
 | Component | Description |
 |:---|:---|
@@ -176,7 +176,7 @@ Public interface to the ocean research automation system. The core contribution 
 | Experiment Log | 50+ tracked experiments (`sandbox/results.tsv`) |
 
 - **Stack**: Node.js · TypeScript · KODE SDK · Python · PyTorch
-- **[View Repository →](https://github.com/lkun45598-lgtm/RL_for_Agent)**
+- **Status**: Private repository
 
 </details>
 
@@ -224,15 +224,43 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 </details>
 
 <details>
+<summary><b>Wave_movie — Bohai Sea Wavefield Super-Resolution & Visualization</b></summary>
+<br>
+
+![Status](https://img.shields.io/badge/status-active-0891b2?style=flat-square)
+![Stars](https://img.shields.io/github/stars/lkun45598-lgtm/Wave_movie?style=flat-square&color=0891b2)
+
+Sparse-observation super-resolution for Bohai Sea wavefields, paired with a visualization toolkit that turns AVS wavefield snapshots into PNG / GIF movies. Reconstructs the full velocity field from a small set of observed grid points using a temporal 3D U-Net with observation-consistency constraints.
+
+| Component | Description |
+|:---|:---|
+| SR Task | `Vz` component sparse-mask 2× reconstruction · 25% observed / 75% missing on a 200×150 grid |
+| Inputs | Per-frame `Vz_sparse` · `Vz_interp` · `mask_observed`, over a 5-frame temporal window (t-2 … t+2) |
+| Models | Temporal3DUNet — direct, explicit-residual, and mask-aware variants · active-missing loss + observation-consistency loss + inference-time observation hard constraint |
+| Visualization | `analyze_wave_dataset.py` dataset scanner · `save_wave_movie.py` exports single-frame PNG or time-series GIF from AVS movie data |
+
+- **Data**: Bohai Sea wavefield snapshots · sparse-mask 2× processed dataset
+- **Stack**: Python · PyTorch · Temporal 3D U-Net
+- **[View Repository →](https://github.com/lkun45598-lgtm/Wave_movie)**
+
+</details>
+
+<details>
 <summary>Other repositories</summary>
 
 <br>
 
 | Repository | Description |
 |:---|:---|
-| [The-homework-of-Numerical-Analysis](https://github.com/lkun45598-lgtm/The-homework-of-Numerical-Analysis) | Mathematical foundations: approximation, stability, discretization, physical modeling. |
-| [SST_Data_Imputation](https://github.com/lkun45598-lgtm/SST_Data_Imputation) | Earlier SST reconstruction work. |
+| [literature](https://github.com/lkun45598-lgtm/literature) | Team paper knowledge base — a structured, peer-reviewed literature evaluation system for scientific reading. |
 | [SST_Data_Imputation_2.0](https://github.com/lkun45598-lgtm/SST_Data_Imputation_2.0) | Follow-up iteration on SST reconstruction. |
+| [SST_Data_Imputation](https://github.com/lkun45598-lgtm/SST_Data_Imputation) | Earlier SST reconstruction work. |
+| [The-homework-of-Numerical-Analysis](https://github.com/lkun45598-lgtm/The-homework-of-Numerical-Analysis) | Mathematical foundations: approximation, stability, discretization, physical modeling. |
+| [Machine-Learning](https://github.com/lkun45598-lgtm/Machine-Learning) | Machine learning course work and from-scratch implementations. |
+| [ML_Practice](https://github.com/lkun45598-lgtm/ML_Practice) | Hands-on machine learning practice and exercises. |
+| [Statistical-Modeling](https://github.com/lkun45598-lgtm/Statistical-Modeling) | Statistical modeling course work and experiments. |
+| [Algorithm_Programming](https://github.com/lkun45598-lgtm/Algorithm_Programming) | Algorithm and programming practice. |
+| [Machine-Version](https://github.com/lkun45598-lgtm/Machine-Version) | Machine vision course practice and experiments. |
 | [High-Speed-Rail-Ticket-Booking-Management-System.](https://github.com/lkun45598-lgtm/High-Speed-Rail-Ticket-Booking-Management-System.) | C systems practice with linked lists, persistence, and order management. |
 | [PUBG-Weapon-Sound-Recognition-and-Inventory-System.](https://github.com/lkun45598-lgtm/PUBG-Weapon-Sound-Recognition-and-Inventory-System.) | ML project combining GUI, audio processing, and model training. |
 
@@ -288,7 +316,7 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 
 <div align="center">
 
-[![Star History Chart](./stats/star-history.svg)](https://star-history.com/#lkun45598-lgtm/RL_for_Agent&lkun45598-lgtm/SST_FTM&lkun45598-lgtm/Ifactformer-Earthquake-Prediction&Date)
+[![Star History Chart](./stats/star-history.svg)](https://star-history.com/#lkun45598-lgtm/SST_FTM&lkun45598-lgtm/SST_Data_Imputation_2.0&lkun45598-lgtm/Ifactformer-Earthquake-Prediction&Date)
 
 </div>
 
