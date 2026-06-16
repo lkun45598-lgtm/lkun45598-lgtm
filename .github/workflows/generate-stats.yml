@@ -59,10 +59,18 @@ jobs:
             fi
           done
 
-          # Star History chart (white/default theme)
+          # Star History chart (public repos only; RL_for_Agent is private)
           fetch stats/star-history.svg \
-            "https://api.star-history.com/svg?repos=lkun45598-lgtm/RL_for_Agent,lkun45598-lgtm/SST_FTM,lkun45598-lgtm/Ifactformer-Earthquake-Prediction&type=Date" \
+            "https://api.star-history.com/svg?repos=lkun45598-lgtm/SST_FTM,lkun45598-lgtm/SST_Data_Imputation_2.0,lkun45598-lgtm/Ifactformer-Earthquake-Prediction&type=Date" \
             || true
+
+          # Post-process: star-history embeds an xkcd handwriting font that GitHub
+          # does not load when an SVG is rendered as an image, producing garbled text.
+          # Swap it for a web-safe stack so the chart renders correctly.
+          if [ -f stats/star-history.svg ]; then
+            sed -i 's/font-family:xkcd/font-family:-apple-system,Segoe UI,Helvetica,Arial,sans-serif/g' stats/star-history.svg
+            echo "Sanitized font in stats/star-history.svg"
+          fi
 
           echo "=== Generated files ==="
           ls -la stats/
