@@ -41,9 +41,9 @@
 
 ## Currently Working On
 
-- **Loss Transfer System** — auto-extracting loss functions from research papers and migrating them into active training runs with 4-stage validation
-- **Chl-a Multi-source Fusion** — 152-channel input (SST + Chl-a + masks + coordinate encoding + physical feature engineering) for chlorophyll-a imputation
-- **Ocean Agent Service** — production SSE streaming API with 8 tool sets for end-to-end scientific ML orchestration
+- **NZ Wavefield Super-Resolution** ([Wave_movie](https://github.com/lkun45598-lgtm/Wave_movie)) — 4× spatial super-resolution of New Zealand seismic wavefields (`50×37×3` → `200×148×3`); proposed **Wavelet-ResShift** model benchmarked against EDM / FNO / U-Net — PSNR **35.40 dB**, correlation **0.90** on 500 decoded test fields
+- **Hourly SST Imputation** ([SST_Data_Imputation](https://github.com/lkun45598-lgtm/SST_Data_Imputation)) — FNO-CBAM reconstruction of cloud-occluded JAXA SST over the northern South China Sea (`451×351`); 24 per-hour models (h00–h23), OSTIA→JAXA two-stage transfer, observation-faithful output composition — *manuscript in progress*
+- **Ocean Agent Platform** — FastAPI + LangGraph autoresearch service: three-layer graph orchestration (main → research → repo / migration executors) with staged gating, Human-in-the-Loop, and a self-learning experience system
 
 ---
 
@@ -130,53 +130,57 @@ Satellite / Reanalysis
 
 <div align="center">
 
-[![Ocean Agent Infra](https://img.shields.io/badge/Ocean_Agent_Infra-164e63?style=flat-square&logo=lock&logoColor=white)](https://github.com/lkun45598-lgtm)
-[![RL_for_Agent](https://img.shields.io/badge/RL__for__Agent-164e63?style=flat-square&logo=lock&logoColor=white)](https://github.com/lkun45598-lgtm)
-[![SST_FTM](https://img.shields.io/badge/SST__FTM-0e7490?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/SST_FTM)
-[![Ifactformer](https://img.shields.io/badge/Ifactformer--Earthquake-155e75?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction)
 [![Wave_movie](https://img.shields.io/badge/Wave__movie-0891b2?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/Wave_movie)
+[![SST_Data_Imputation](https://img.shields.io/badge/SST__Data__Imputation-0e7490?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/SST_Data_Imputation)
+[![SST_FTM](https://img.shields.io/badge/SST__FTM-155e75?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/SST_FTM)
+[![Ifactformer](https://img.shields.io/badge/Ifactformer--Earthquake-164e63?style=flat-square&logo=github&logoColor=white)](https://github.com/lkun45598-lgtm/Ifactformer-Earthquake-Prediction)
+[![Ocean Agent Platform](https://img.shields.io/badge/Ocean_Agent_Platform-164e63?style=flat-square&logo=lock&logoColor=white)](https://github.com/lkun45598-lgtm)
 
 </div>
 
 <br>
 
 <details>
-<summary><b>Ocean Agent Infrastructure — Scientific Research Automation Service</b></summary>
+<summary><b>Wave_movie — Wavelet-ResShift for Seismic Wavefield Super-Resolution</b></summary>
 <br>
 
-![Status](https://img.shields.io/badge/status-private-164e63?style=flat-square)
+![Status](https://img.shields.io/badge/status-active-0891b2?style=flat-square)
+![Stars](https://img.shields.io/github/stars/lkun45598-lgtm/Wave_movie?style=flat-square&color=0891b2)
 
-A production Agent HTTP service for ocean science research automation, built on KODE SDK. Provides an SSE streaming API that orchestrates the full scientific workflow — from raw satellite data ingestion to model training and experiment iteration — as a single controllable service.
+Fourfold spatial super-resolution of New Zealand seismic wavefields. Proposes **Wavelet-ResShift**, a Swin-UNet residual-shift diffusion model operating in the wavelet domain, benchmarked against Bicubic, EDM, FNO, and U-Net baselines under a unified paper-style evaluation protocol.
 
 | Component | Description |
 |:---|:---|
-| Agent Service | SSE streaming API · multi-model support (Claude / OpenAI-compat / Gemini) · session persistence |
-| 8 Tool Sets | General filesystem · ocean SR preprocessing · SR training management · SST time-series preprocessing · time-series training |
-| Data Validation | 3-layer declarative validation: shape contracts · land mask invariance · manifest audit |
-| Training Management | Spawns and monitors 8-GPU DDP jobs for SwinIR / EDSR / FNO2d / UNet2d |
-| Loss Transfer | Auto-extracts loss functions from research papers · 4-layer validation (static → smoke → single-epoch → full) |
+| SR Task | Same-time spatial reconstruction (not forecasting): `50×37×3` → `200×148×3`, 4× per axis, on `Vx` / `Vy` / `Vz` velocity channels |
+| Proposed Model | Wavelet-ResShift v5 (`UNetModelSwinWaveletV5`) — residual-shift diffusion in wavelet space |
+| Baselines | Bicubic · EDM (diffusion) · FNO (neural operator) · U-Net — all evaluated in decoded physical space with fixed global amplitude stats |
+| Best Results | PSNR **35.40 dB** · correlation **0.90** · RMSE 6.67×10⁻⁴ over 500 decoded full-field test samples; full-test table over 1,265 held-out samples |
 
-- **Stack**: Node.js · TypeScript · KODE SDK · SSE · Python · 8-GPU DDP
+- **Data**: New Zealand seismic wavefield · 3-channel velocity field · held-out event split
+- **Stack**: Python · PyTorch · Swin-UNet · Wavelet Diffusion · FNO
+- **[View Repository →](https://github.com/lkun45598-lgtm/Wave_movie)**
 
 </details>
 
 <details>
-<summary><b>RL_for_Agent — Loss Transfer & Experiment Automation</b></summary>
+<summary><b>SST_Data_Imputation — Hourly SST Reconstruction with FNO-CBAM</b></summary>
 <br>
 
-![Status](https://img.shields.io/badge/status-private-164e63?style=flat-square)
+![Status](https://img.shields.io/badge/status-active-0891b2?style=flat-square)
+![Stars](https://img.shields.io/github/stars/lkun45598-lgtm/SST_Data_Imputation?style=flat-square&color=0891b2)
 
-Research automation system behind the ocean Agent infrastructure. The core contribution is a **Loss Transfer pipeline** that reads a research paper, extracts the loss formulation, and automatically migrates it into the active training codebase with multi-stage validation.
+Deep learning system for reconstructing cloud-occluded hourly sea surface temperature over the **northern South China Sea**, combining a Fourier Neural Operator with CBAM attention and an observation-faithful output-composition scheme. Manuscript in progress.
 
 | Component | Description |
 |:---|:---|
-| Loss Transfer | Paper → `loss_formula.json` → code injection → 4-stage validation → training run |
-| Ocean SR Experiments | SwinIR / EDSR / FNO2d / UNet2d on 4× ocean field super-resolution |
-| Best Result | SwinIR val\_ssim **0.6645** · multi-scale relative L2 + gradient + residual FFT loss |
-| Experiment Log | 50+ tracked experiments (`sandbox/results.tsv`) |
+| Task | Hourly JAXA SST gap-filling on a `451×351` grid; 30-day same-hour SST + mask sequence (60 channels) per sample |
+| Preprocessing | 3-stage pipeline: time-weighted fill → σ=1.5 low-pass (fill pixels only) → 3D causal progressive KNN (k=20) |
+| Per-hour Models | 24 independently fine-tuned models (h00–h23); OSTIA pretrain → hourly JAXA fine-tune two-stage transfer |
+| Output Composition | Real observed pixels kept verbatim; model reconstructs only cloud-occluded pixels; σ=1.0 Gaussian applied to reconstructed pixels only → seamless, observation-preserving SST field |
 
-- **Stack**: Node.js · TypeScript · KODE SDK · Python · PyTorch
-- **Status**: Private repository
+- **Data**: JAXA hourly L3 SST (northern South China Sea) · OSTIA global SST
+- **Stack**: Python · PyTorch · FNO · CBAM · 8-GPU DDP · LaTeX (manuscript)
+- **[View Repository →](https://github.com/lkun45598-lgtm/SST_Data_Imputation)**
 
 </details>
 
@@ -224,24 +228,24 @@ Adaptation of the IFactFormer factorized Transformer architecture for long-horiz
 </details>
 
 <details>
-<summary><b>Wave_movie — Bohai Sea Wavefield Super-Resolution & Visualization</b></summary>
+<summary><b>Ocean Agent Platform — LangGraph Scientific Research Automation Service</b></summary>
 <br>
 
-![Status](https://img.shields.io/badge/status-active-0891b2?style=flat-square)
-![Stars](https://img.shields.io/github/stars/lkun45598-lgtm/Wave_movie?style=flat-square&color=0891b2)
+![Status](https://img.shields.io/badge/status-private-164e63?style=flat-square)
 
-Sparse-observation super-resolution for Bohai Sea wavefields, paired with a visualization toolkit that turns AVS wavefield snapshots into PNG / GIF movies. Reconstructs the full velocity field from a small set of observed grid points using a temporal 3D U-Net with observation-consistency constraints.
+A production Agent service for ocean science research automation, built on **FastAPI + LangGraph**. Exposes an SSE streaming API that drives the full research loop — conversational data preprocessing, model training, external-repo bring-up, paper-mechanism migration, and autonomous research orchestration — with Human-in-the-Loop control and a self-learning experience system.
 
 | Component | Description |
 |:---|:---|
-| SR Task | `Vz` component sparse-mask 2× reconstruction · 25% observed / 75% missing on a 200×150 grid |
-| Inputs | Per-frame `Vz_sparse` · `Vz_interp` · `mask_observed`, over a 5-frame temporal window (t-2 … t+2) |
-| Models | Temporal3DUNet — direct, explicit-residual, and mask-aware variants · active-missing loss + observation-consistency loss + inference-time observation hard constraint |
-| Visualization | `analyze_wave_dataset.py` dataset scanner · `save_wave_movie.py` exports single-frame PNG or time-series GIF from AVS movie data |
+| Autoresearch Core | Three-layer graph: `main_graph` → `research_graph` → executors; unified `PreparedContext` / `ExecutionDecision` / `ExecutionEvidence` contracts |
+| Staged Gating | `quick_bringup` → `full_baseline` → `integration_experiment`, each gated on verified prior-stage evidence (no silent downgrade) |
+| Repo Graph | External or internal repos → smoke + bounded train-probe → formal baseline with structured execution evidence |
+| Migration Graph | Paper mechanism extraction → kernel mapping → candidate generation → alignment validation → single integration experiment |
+| Universal Preprocessing | Auto-detection across **13 ocean data formats** (NetCDF / GRIB / HDF5 / …) → quality check → NPY conversion |
+| Self-learning | Phase-3 diagnostic system: LLM code repair (≤3 tries) → 2-epoch validation → experience library learning + reuse |
 
-- **Data**: Bohai Sea wavefield snapshots · sparse-mask 2× processed dataset
-- **Stack**: Python · PyTorch · Temporal 3D U-Net
-- **[View Repository →](https://github.com/lkun45598-lgtm/Wave_movie)**
+- **Stack**: Python · FastAPI · LangGraph · SSE · PyTorch · MCP
+- **Lineage**: KODE SDK (TS) → Claude Code Python SDK → LangGraph — three generations of the platform
 
 </details>
 
@@ -253,8 +257,8 @@ Sparse-observation super-resolution for Bohai Sea wavefields, paired with a visu
 | Repository | Description |
 |:---|:---|
 | [literature](https://github.com/lkun45598-lgtm/literature) | Team paper knowledge base — a structured, peer-reviewed literature evaluation system for scientific reading. |
-| [SST_Data_Imputation_2.0](https://github.com/lkun45598-lgtm/SST_Data_Imputation_2.0) | Follow-up iteration on SST reconstruction. |
-| [SST_Data_Imputation](https://github.com/lkun45598-lgtm/SST_Data_Imputation) | Earlier SST reconstruction work. |
+| RL_for_Agent | *(private)* Loss-transfer pipeline: paper → `loss_formula.json` → code injection → 4-stage validation → training run; SwinIR val_ssim **0.6645** on 4× ocean SR. |
+| [SST_Data_Imputation_2.0](https://github.com/lkun45598-lgtm/SST_Data_Imputation_2.0) | Earlier FNO-CBAM SST reconstruction iteration (single JAXA fine-tune, pre-hourly). |
 | [The-homework-of-Numerical-Analysis](https://github.com/lkun45598-lgtm/The-homework-of-Numerical-Analysis) | Mathematical foundations: approximation, stability, discretization, physical modeling. |
 | [Machine-Learning](https://github.com/lkun45598-lgtm/Machine-Learning) | Machine learning course work and from-scratch implementations. |
 | [ML_Practice](https://github.com/lkun45598-lgtm/ML_Practice) | Hands-on machine learning practice and exercises. |
@@ -316,7 +320,7 @@ Sparse-observation super-resolution for Bohai Sea wavefields, paired with a visu
 
 <div align="center">
 
-[![Star History Chart](./stats/star-history.svg)](https://star-history.com/#lkun45598-lgtm/SST_FTM&lkun45598-lgtm/SST_Data_Imputation_2.0&lkun45598-lgtm/Ifactformer-Earthquake-Prediction&Date)
+[![Star History Chart](./stats/star-history.svg)](https://star-history.com/#lkun45598-lgtm/SST_Data_Imputation&lkun45598-lgtm/SST_FTM&lkun45598-lgtm/SST_Data_Imputation_2.0&lkun45598-lgtm/Ifactformer-Earthquake-Prediction&Date)
 
 </div>
 

@@ -59,9 +59,9 @@ jobs:
             fi
           done
 
-          # Star History chart (public repos only; RL_for_Agent is private)
+          # Star History chart (public repos only; Ocean-Agent series is private)
           fetch stats/star-history.svg \
-            "https://api.star-history.com/svg?repos=lkun45598-lgtm/SST_FTM,lkun45598-lgtm/SST_Data_Imputation_2.0,lkun45598-lgtm/Ifactformer-Earthquake-Prediction&type=Date" \
+            "https://api.star-history.com/svg?repos=lkun45598-lgtm/SST_Data_Imputation,lkun45598-lgtm/SST_FTM,lkun45598-lgtm/SST_Data_Imputation_2.0,lkun45598-lgtm/Ifactformer-Earthquake-Prediction&type=Date" \
             || true
 
           # Post-process: star-history embeds an xkcd handwriting font that GitHub
