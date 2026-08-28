@@ -2,19 +2,19 @@
 <rect width="495" height="195" rx="4.5" fill="#0d1117" />
 <text x="25" y="35" fill="#0891b2" font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="600" font-size="18">Most Used Languages</text>
 <rect x="25" y="50" width="435" height="8" rx="4" fill="#161b22" />
-<rect x="25.0" y="50" width="390.6" height="8" fill="#3572A5" />
-<rect x="415.6" y="50" width="35.4" height="8" fill="#3178c6" />
-<rect x="451.0" y="50" width="3.2" height="8" fill="#3D6117" />
-<rect x="454.2" y="50" width="2.7" height="8" fill="#555555" />
-<rect x="456.9" y="50" width="1.3" height="8" fill="#89e051" />
+<rect x="25.0" y="50" width="391.9" height="8" fill="#3572A5" />
+<rect x="416.9" y="50" width="34.4" height="8" fill="#3178c6" />
+<rect x="451.2" y="50" width="3.2" height="8" fill="#3D6117" />
+<rect x="454.4" y="50" width="2.6" height="8" fill="#555555" />
+<rect x="457.0" y="50" width="1.2" height="8" fill="#89e051" />
 <rect x="458.2" y="50" width="0.8" height="8" fill="#239dad" />
-<rect x="459.0" y="50" width="0.7" height="8" fill="#f34b7d" />
+<rect x="459.0" y="50" width="0.6" height="8" fill="#f34b7d" />
 <rect x="459.7" y="50" width="0.3" height="8" fill="#e34c26" />
 <rect x="25" y="50" width="435" height="8" rx="4" fill="none" stroke="#0d1117" stroke-width="0.5" />
 <circle cx="25" cy="76" r="5" fill="#3572A5" />
-<text x="37" y="80" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">Python <tspan fill="#64748b">89.8%</tspan></text>
+<text x="37" y="80" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">Python <tspan fill="#64748b">90.1%</tspan></text>
 <circle cx="25" cy="101" r="5" fill="#3178c6" />
-<text x="37" y="105" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">TypeScript <tspan fill="#64748b">8.1%</tspan></text>
+<text x="37" y="105" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">TypeScript <tspan fill="#64748b">7.9%</tspan></text>
 <circle cx="25" cy="126" r="5" fill="#3D6117" />
 <text x="37" y="130" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">TeX <tspan fill="#64748b">0.7%</tspan></text>
 <circle cx="25" cy="151" r="5" fill="#555555" />
@@ -24,7 +24,7 @@
 <circle cx="245" cy="101" r="5" fill="#239dad" />
 <text x="257" y="105" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">Typst <tspan fill="#64748b">0.2%</tspan></text>
 <circle cx="245" cy="126" r="5" fill="#f34b7d" />
-<text x="257" y="130" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">C++ <tspan fill="#64748b">0.2%</tspan></text>
+<text x="257" y="130" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">C++ <tspan fill="#64748b">0.1%</tspan></text>
 <circle cx="245" cy="151" r="5" fill="#e34c26" />
 <text x="257" y="155" fill="#ffffff" font-family="'Segoe UI', sans-serif" font-size="12">HTML <tspan fill="#64748b">0.1%</tspan></text>
 </svg>
