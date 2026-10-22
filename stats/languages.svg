@@ -2,8 +2,8 @@
 <rect width="495" height="195" rx="4.5" fill="#0d1117" />
 <text x="25" y="35" fill="#0891b2" font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="600" font-size="18">Most Used Languages</text>
 <rect x="25" y="50" width="435" height="8" rx="4" fill="#161b22" />
-<rect x="25.0" y="50" width="396.7" height="8" fill="#3572A5" />
-<rect x="421.7" y="50" width="28.2" height="8" fill="#3178c6" />
+<rect x="25.0" y="50" width="396.8" height="8" fill="#3572A5" />
+<rect x="421.8" y="50" width="28.2" height="8" fill="#3178c6" />
 <rect x="450.0" y="50" width="3.2" height="8" fill="#3D6117" />
 <rect x="453.2" y="50" width="3.2" height="8" fill="#89e051" />
 <rect x="456.4" y="50" width="2.2" height="8" fill="#555555" />
