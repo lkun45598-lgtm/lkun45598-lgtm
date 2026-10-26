@@ -1,8 +1,8 @@
 <svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
 <rect width="400" height="300" rx="4.5" fill="#0d1117" />
 <text x="200" y="30" text-anchor="middle" fill="#0891b2" font-family="'Segoe UI', Ubuntu, sans-serif" font-weight="600" font-size="16">Language Distribution</text>
-<path d="M 140.0 50.0 A 100 100 0 1 1 88.6 64.2 L 111.7 102.8 A 55 55 0 1 0 140.0 95.0 Z" fill="#3572A5" stroke="#0d1117" stroke-width="2" />
-<path d="M 88.6 64.2 A 100 100 0 0 1 126.7 50.9 L 132.7 95.5 A 55 55 0 0 0 111.7 102.8 Z" fill="#3178c6" stroke="#0d1117" stroke-width="2" />
+<path d="M 140.0 50.0 A 100 100 0 1 1 88.7 64.2 L 111.8 102.8 A 55 55 0 1 0 140.0 95.0 Z" fill="#3572A5" stroke="#0d1117" stroke-width="2" />
+<path d="M 88.7 64.2 A 100 100 0 0 1 126.7 50.9 L 132.7 95.5 A 55 55 0 0 0 111.8 102.8 Z" fill="#3178c6" stroke="#0d1117" stroke-width="2" />
 <path d="M 126.7 50.9 A 100 100 0 0 1 131.3 50.4 L 135.2 95.2 A 55 55 0 0 0 132.7 95.5 Z" fill="#3D6117" stroke="#0d1117" stroke-width="2" />
 <path d="M 131.3 50.4 A 100 100 0 0 1 136.0 50.1 L 137.8 95.0 A 55 55 0 0 0 135.2 95.2 Z" fill="#89e051" stroke="#0d1117" stroke-width="2" />
 <path d="M 136.0 50.1 A 100 100 0 0 1 139.1 50.0 L 139.5 95.0 A 55 55 0 0 0 137.8 95.0 Z" fill="#555555" stroke="#0d1117" stroke-width="2" />
